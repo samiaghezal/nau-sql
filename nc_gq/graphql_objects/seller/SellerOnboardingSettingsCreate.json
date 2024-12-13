@@ -1,0 +1,8 @@
+{
+  "name": "SellerOnboardingSettingsCreate",
+  "implements": [],
+  "fields": {
+    "shop": "Shop",
+    "shopErrors": "[ShopError!"
+  }
+}

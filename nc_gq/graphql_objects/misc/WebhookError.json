@@ -1,0 +1,9 @@
+{
+  "name": "WebhookError",
+  "implements": [],
+  "fields": {
+    "field": "String",
+    "message": "String!",
+    "code": "WebhookErrorCode!"
+  }
+}

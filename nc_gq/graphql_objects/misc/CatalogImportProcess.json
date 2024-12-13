@@ -1,0 +1,25 @@
+{
+  "name": "CatalogImportProcess",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "status": "CatalogImportProcessStatus!",
+    "message": "String",
+    "createdAt": "DateTime!",
+    "updatedAt": "DateTime!",
+    "taskId": "String",
+    "externalSource": "String!",
+    "finishedAt": "DateTime",
+    "createdBy": "User",
+    "seller": "Seller",
+    "internalNotes": "String",
+    "id": "ID!",
+    "filter": "CatalogImportProcessLogRecordFilterInput",
+    "sortBy": "CatalogImportProcessLogRecordSortInput",
+    "before": "String",
+    "after": "String",
+    "first": "Int",
+    "last": "Int"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "PriceBook",
+  "implements": [
+    "Node",
+    "ObjectWithMetadata"
+  ],
+  "fields": {
+    "description": "String!",
+    "descriptionHtml": "String!",
+    "id": "ID!",
+    "privateMetadata": "[MetadataItem!",
+    "metadata": "[MetadataItem!",
+    "name": "String!",
+    "deleted": "Boolean!",
+    "priceBookVariants": "[PriceBookVariant!",
+    "priceBookProducts": "[PriceBookProduct!",
+    "priceBookProductTypes": "[PriceBookProductType!",
+    "numberOfProducts": "Int!",
+    "numberOfProductTypes": "Int!",
+    "numberOfVariants": "Int!"
+  }
+}

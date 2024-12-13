@@ -1,0 +1,8 @@
+{
+  "name": "DraftOrderUpdate",
+  "implements": [],
+  "fields": {
+    "orderErrors": "[OrderError!",
+    "order": "Order"
+  }
+}

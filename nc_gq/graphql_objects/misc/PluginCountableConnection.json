@@ -1,0 +1,9 @@
+{
+  "name": "PluginCountableConnection",
+  "implements": [],
+  "fields": {
+    "pageInfo": "PageInfo!",
+    "edges": "[PluginCountableEdge!",
+    "totalCount": "Int"
+  }
+}

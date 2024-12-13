@@ -1,0 +1,16 @@
+{
+  "name": "AppInstallation",
+  "implements": [
+    "Node",
+    "Job"
+  ],
+  "fields": {
+    "appName": "String!",
+    "manifestUrl": "String!",
+    "id": "ID!",
+    "status": "JobStatusEnum!",
+    "createdAt": "DateTime!",
+    "updatedAt": "DateTime!",
+    "message": "String"
+  }
+}

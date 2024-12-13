@@ -1,0 +1,13 @@
+{
+  "name": "Group",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "id": "ID!",
+    "name": "String!",
+    "permissions": "[Permission!",
+    "users": "[User!",
+    "userCanManage": "Boolean!"
+  }
+}

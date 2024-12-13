@@ -1,0 +1,15 @@
+class WebhookJob(models.Model):
+    id = models.ID()
+    status = models.JobStatusEnum()
+    message = models.String()
+    createdAt = models.DateTime()
+    updatedAt = models.DateTime()
+    tenant = models.Tenant()
+    body = models.JSONString()
+    requestMeta = models.JSONString()
+    source = models.String()
+    type = models.GenericWebhookTransactionType()
+    vendorEntityLink = models.String()
+    marketplaceEntityLink = models.String()
+    seller = models.Seller()
+

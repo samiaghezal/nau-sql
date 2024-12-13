@@ -1,0 +1,16 @@
+{
+  "name": "AgreementCommission",
+  "implements": [
+    "Node",
+    "ObjectWithMetadata"
+  ],
+  "fields": {
+    "id": "ID!",
+    "tenant": "Tenant!",
+    "commission": "Decimal!",
+    "agreement": "Agreement!",
+    "privateMetadata": "[MetadataItem!",
+    "metadata": "[MetadataItem!",
+    "instance": "Category"
+  }
+}

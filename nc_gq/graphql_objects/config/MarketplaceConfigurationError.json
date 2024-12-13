@@ -1,0 +1,9 @@
+{
+  "name": "MarketplaceConfigurationError",
+  "implements": [],
+  "fields": {
+    "field": "String",
+    "message": "String!",
+    "code": "MarketplaceConfigurationErrorCode!"
+  }
+}

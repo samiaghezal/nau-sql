@@ -1,0 +1,11 @@
+{
+  "name": "MultiSellerShippingMethod",
+  "implements": [],
+  "fields": {
+    "seller": "Int",
+    "reason": "\"Use",
+    "sellerId": "ID!",
+    "sellerName": "String!",
+    "value": "[ShippingMethod!"
+  }
+}

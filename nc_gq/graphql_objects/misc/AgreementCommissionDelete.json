@@ -1,0 +1,8 @@
+{
+  "name": "AgreementCommissionDelete",
+  "implements": [],
+  "fields": {
+    "agreementErrors": "[AgreementError!",
+    "agreementCommission": "AgreementCommission"
+  }
+}

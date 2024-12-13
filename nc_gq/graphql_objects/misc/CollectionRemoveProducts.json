@@ -1,0 +1,8 @@
+{
+  "name": "CollectionRemoveProducts",
+  "implements": [],
+  "fields": {
+    "collection": "Collection",
+    "productErrors": "[ProductError!"
+  }
+}

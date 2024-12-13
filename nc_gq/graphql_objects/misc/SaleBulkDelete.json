@@ -1,0 +1,8 @@
+{
+  "name": "SaleBulkDelete",
+  "implements": [],
+  "fields": {
+    "count": "Int!",
+    "discountErrors": "[DiscountError!"
+  }
+}

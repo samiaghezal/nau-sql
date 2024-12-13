@@ -1,0 +1,8 @@
+{
+  "name": "GatewayConfigLine",
+  "implements": [],
+  "fields": {
+    "field": "String!",
+    "value": "String"
+  }
+}

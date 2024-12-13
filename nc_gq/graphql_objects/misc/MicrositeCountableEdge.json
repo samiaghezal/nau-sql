@@ -1,0 +1,8 @@
+{
+  "name": "MicrositeCountableEdge",
+  "implements": [],
+  "fields": {
+    "node": "Microsite!",
+    "cursor": "String!"
+  }
+}

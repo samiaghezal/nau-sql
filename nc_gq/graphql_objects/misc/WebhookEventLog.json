@@ -1,0 +1,20 @@
+{
+  "name": "WebhookEventLog",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "id": "ID!",
+    "tenant": "Tenant!",
+    "date": "DateTime!",
+    "targetUrl": "String",
+    "eventType": "String!",
+    "webhookId": "String",
+    "transactionId": "String",
+    "appId": "String",
+    "pluginId": "String",
+    "payload": "JSONString!",
+    "error": "String",
+    "direction": "WebhookDirectionEnum"
+  }
+}

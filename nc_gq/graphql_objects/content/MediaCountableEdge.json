@@ -1,0 +1,8 @@
+{
+  "name": "MediaCountableEdge",
+  "implements": [],
+  "fields": {
+    "node": "Media!",
+    "cursor": "String!"
+  }
+}

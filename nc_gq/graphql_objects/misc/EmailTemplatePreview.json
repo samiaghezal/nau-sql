@@ -1,0 +1,8 @@
+{
+  "name": "EmailTemplatePreview",
+  "implements": [],
+  "fields": {
+    "id": "ID",
+    "renderedContent": "String"
+  }
+}

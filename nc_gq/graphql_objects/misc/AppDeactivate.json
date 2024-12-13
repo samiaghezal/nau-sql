@@ -1,0 +1,8 @@
+{
+  "name": "AppDeactivate",
+  "implements": [],
+  "fields": {
+    "appErrors": "[AppError!",
+    "app": "App"
+  }
+}

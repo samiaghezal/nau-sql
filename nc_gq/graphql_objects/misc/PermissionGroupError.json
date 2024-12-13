@@ -1,0 +1,11 @@
+{
+  "name": "PermissionGroupError",
+  "implements": [],
+  "fields": {
+    "field": "String",
+    "message": "String!",
+    "code": "PermissionGroupErrorCode!",
+    "permissions": "[PermissionEnum!",
+    "users": "[ID!"
+  }
+}

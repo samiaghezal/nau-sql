@@ -1,0 +1,8 @@
+{
+  "name": "ProductTypeCreate",
+  "implements": [],
+  "fields": {
+    "productErrors": "[ProductError!",
+    "productType": "ProductType"
+  }
+}

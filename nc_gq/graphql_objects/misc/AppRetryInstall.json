@@ -1,0 +1,8 @@
+{
+  "name": "AppRetryInstall",
+  "implements": [],
+  "fields": {
+    "appErrors": "[AppError!",
+    "appInstallation": "AppInstallation"
+  }
+}

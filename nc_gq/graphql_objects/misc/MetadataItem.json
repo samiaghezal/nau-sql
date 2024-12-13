@@ -1,0 +1,8 @@
+{
+  "name": "MetadataItem",
+  "implements": [],
+  "fields": {
+    "key": "String!",
+    "value": "String!"
+  }
+}

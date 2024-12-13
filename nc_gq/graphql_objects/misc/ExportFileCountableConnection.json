@@ -1,0 +1,9 @@
+{
+  "name": "ExportFileCountableConnection",
+  "implements": [],
+  "fields": {
+    "pageInfo": "PageInfo!",
+    "edges": "[ExportFileCountableEdge!",
+    "totalCount": "Int"
+  }
+}

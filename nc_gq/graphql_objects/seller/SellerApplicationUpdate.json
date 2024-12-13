@@ -1,0 +1,8 @@
+{
+  "name": "SellerApplicationUpdate",
+  "implements": [],
+  "fields": {
+    "seller": "Seller",
+    "sellerErrors": "[SellerError!"
+  }
+}

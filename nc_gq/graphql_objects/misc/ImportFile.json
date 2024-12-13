@@ -1,0 +1,18 @@
+{
+  "name": "ImportFile",
+  "implements": [
+    "Node",
+    "Job"
+  ],
+  "fields": {
+    "id": "ID!",
+    "user": "User",
+    "app": "App",
+    "status": "JobStatusEnum!",
+    "createdAt": "DateTime!",
+    "updatedAt": "DateTime!",
+    "message": "String",
+    "url": "String",
+    "events": "[ImportEvent!"
+  }
+}

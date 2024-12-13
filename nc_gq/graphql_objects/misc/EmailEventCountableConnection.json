@@ -1,0 +1,9 @@
+{
+  "name": "EmailEventCountableConnection",
+  "implements": [],
+  "fields": {
+    "pageInfo": "PageInfo!",
+    "edges": "[EmailEventCountableEdge!",
+    "totalCount": "Int"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "CollectionBulkDelete",
+  "implements": [],
+  "fields": {
+    "count": "Int!",
+    "productErrors": "[ProductError!"
+  }
+}

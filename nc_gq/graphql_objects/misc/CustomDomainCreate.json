@@ -1,0 +1,8 @@
+{
+  "name": "CustomDomainCreate",
+  "implements": [],
+  "fields": {
+    "domain": "CustomDomain",
+    "shopErrors": "[ShopError!"
+  }
+}

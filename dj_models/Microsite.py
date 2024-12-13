@@ -1,0 +1,18 @@
+class Microsite(models.Model):
+    id = models.ID()
+    publicationDate = models.Date()
+    description = models.String()
+    descriptionHtml = models.String()
+    seoTitle = models.String()
+    seoDescription = models.String()
+    name = models.String()
+    slug = models.String()
+    footerText = models.String()
+    seller = models.Seller()
+    privateMetadata = models.MetadataItem()
+    metadata = models.MetadataItem()
+    products = models.ProductCountableConnection()
+    bannerImage = models.Image()
+    logoImage = models.Image()
+    isPublished = models.Boolean()
+

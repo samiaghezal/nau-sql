@@ -1,0 +1,8 @@
+{
+  "name": "WebhookEventLogCountableEdge",
+  "implements": [],
+  "fields": {
+    "node": "WebhookEventLog!",
+    "cursor": "String!"
+  }
+}

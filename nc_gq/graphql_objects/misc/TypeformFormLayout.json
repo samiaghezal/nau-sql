@@ -1,0 +1,9 @@
+{
+  "name": "TypeformFormLayout",
+  "implements": [],
+  "fields": {
+    "type": "String",
+    "placement": "String",
+    "attachment": "TypeformFormAttachment"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Flow",
+  "implements": [],
+  "fields": {
+    "id": "ID!",
+    "tenant": "Tenant!",
+    "identifier": "String!",
+    "seller": "Seller",
+    "process": "FlowProcess!",
+    "mapping": "JSONString!",
+    "formId": "String!"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "ProductType",
+  "implements": [
+    "Node",
+    "ObjectWithMetadata"
+  ],
+  "fields": {
+    "id": "ID!",
+    "externalId": "String",
+    "externalSource": "String",
+    "name": "String!",
+    "slug": "String!",
+    "isShippingRequired": "Boolean!",
+    "isDigital": "Boolean!",
+    "weight": "Weight",
+    "isPriceOverrideAllowed": "Boolean!",
+    "createdBy": "Seller",
+    "privateMetadata": "[MetadataItem!",
+    "metadata": "[MetadataItem!",
+    "before": "String",
+    "after": "String",
+    "first": "Int",
+    "last": "Int",
+    "taxType": "TaxType",
+    "variantAttributes": "[Attribute!",
+    "hasVariants": "Boolean",
+    "productAttributes": "[Attribute!",
+    "filter": "AttributeFilterInput",
+    "productFeatures": "[ProductTypeProductFeature!",
+    "reason": "\"Features",
+    "variantFeatures": "[ProductTypeVariantFeature!",
+    "model": "String"
+  }
+}

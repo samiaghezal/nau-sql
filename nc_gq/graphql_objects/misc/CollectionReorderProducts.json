@@ -1,0 +1,8 @@
+{
+  "name": "CollectionReorderProducts",
+  "implements": [],
+  "fields": {
+    "collection": "Collection",
+    "productErrors": "[ProductError!"
+  }
+}

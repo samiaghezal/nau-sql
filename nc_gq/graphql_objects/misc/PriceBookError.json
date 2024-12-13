@@ -1,0 +1,9 @@
+{
+  "name": "PriceBookError",
+  "implements": [],
+  "fields": {
+    "field": "String",
+    "message": "String!",
+    "code": "PriceBookErrorCode!"
+  }
+}

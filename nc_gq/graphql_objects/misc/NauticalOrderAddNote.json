@@ -1,0 +1,9 @@
+{
+  "name": "NauticalOrderAddNote",
+  "implements": [],
+  "fields": {
+    "order": "NauticalOrder",
+    "event": "NauticalOrderEvent",
+    "orderErrors": "[OrderError!"
+  }
+}

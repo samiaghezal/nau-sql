@@ -1,0 +1,9 @@
+{
+  "name": "ProductImageDelete",
+  "implements": [],
+  "fields": {
+    "product": "Product",
+    "image": "ProductImage",
+    "productErrors": "[ProductError!"
+  }
+}

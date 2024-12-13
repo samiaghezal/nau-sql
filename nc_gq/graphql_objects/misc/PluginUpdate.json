@@ -1,0 +1,8 @@
+{
+  "name": "PluginUpdate",
+  "implements": [],
+  "fields": {
+    "plugin": "Plugin",
+    "pluginsErrors": "[PluginError!"
+  }
+}

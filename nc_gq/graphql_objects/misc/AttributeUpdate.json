@@ -1,0 +1,8 @@
+{
+  "name": "AttributeUpdate",
+  "implements": [],
+  "fields": {
+    "attribute": "Attribute",
+    "productErrors": "[ProductError!"
+  }
+}

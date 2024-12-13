@@ -1,0 +1,8 @@
+{
+  "name": "JournalEntryCountableEdge",
+  "implements": [],
+  "fields": {
+    "node": "JournalEntry!",
+    "cursor": "String!"
+  }
+}

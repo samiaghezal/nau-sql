@@ -1,0 +1,8 @@
+{
+  "name": "WebhookDelete",
+  "implements": [],
+  "fields": {
+    "webhookErrors": "[WebhookError!",
+    "webhook": "Webhook"
+  }
+}

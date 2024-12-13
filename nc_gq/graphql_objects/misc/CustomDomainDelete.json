@@ -1,0 +1,8 @@
+{
+  "name": "CustomDomainDelete",
+  "implements": [],
+  "fields": {
+    "shopErrors": "[ShopError!",
+    "domain": "CustomDomain"
+  }
+}

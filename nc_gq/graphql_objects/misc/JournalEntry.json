@@ -1,0 +1,25 @@
+{
+  "name": "JournalEntry",
+  "implements": [
+    "Node",
+    "ObjectWithMetadata"
+  ],
+  "fields": {
+    "createdAt": "DateTime!",
+    "updatedAt": "DateTime!",
+    "id": "ID!",
+    "description": "String!",
+    "fulfillmentLine": "FulfillmentLine",
+    "nauticalOrder": "NauticalOrder",
+    "order": "Order",
+    "orderLine": "OrderLine",
+    "payment": "Payment",
+    "refund": "Refund",
+    "refundLine": "RefundLine",
+    "vendorPayout": "VendorPayout",
+    "type": "JournalEntryTypeEnum!",
+    "privateMetadata": "[MetadataItem!",
+    "metadata": "[MetadataItem!",
+    "ledgerEntries": "[LedgerEntry!"
+  }
+}

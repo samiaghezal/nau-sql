@@ -1,0 +1,25 @@
+{
+  "name": "Warehouse",
+  "implements": [
+    "Node",
+    "ObjectWithMetadata"
+  ],
+  "fields": {
+    "externalId": "String",
+    "externalSource": "String",
+    "id": "ID!",
+    "name": "String!",
+    "slug": "String!",
+    "companyName": "String!",
+    "offset": "Int",
+    "before": "String",
+    "after": "String",
+    "first": "Int",
+    "last": "Int",
+    "address": "Address!",
+    "email": "String!",
+    "seller": "Seller!",
+    "privateMetadata": "[MetadataItem!",
+    "metadata": "[MetadataItem!"
+  }
+}

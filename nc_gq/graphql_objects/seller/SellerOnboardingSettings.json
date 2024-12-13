@@ -1,0 +1,16 @@
+{
+  "name": "SellerOnboardingSettings",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "id": "ID!",
+    "isAcceptingNewSellers": "Boolean",
+    "summary": "String",
+    "welcomeMessage": "String",
+    "fulfillmentModel": "String",
+    "requiredDocuments": "String",
+    "notAcceptingSellersMessage": "String",
+    "isProductImportAllowed": "Boolean"
+  }
+}

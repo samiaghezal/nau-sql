@@ -1,0 +1,9 @@
+{
+  "name": "PriceBookVariantCountableConnection",
+  "implements": [],
+  "fields": {
+    "pageInfo": "PageInfo!",
+    "edges": "[PriceBookVariantCountableEdge!",
+    "totalCount": "Int"
+  }
+}

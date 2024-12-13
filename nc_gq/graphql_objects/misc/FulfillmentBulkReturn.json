@@ -1,0 +1,8 @@
+{
+  "name": "FulfillmentBulkReturn",
+  "implements": [],
+  "fields": {
+    "fulfillments": "[Fulfillment!",
+    "orderErrors": "[OrderError!"
+  }
+}

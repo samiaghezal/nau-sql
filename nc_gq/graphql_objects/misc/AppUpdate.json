@@ -1,0 +1,8 @@
+{
+  "name": "AppUpdate",
+  "implements": [],
+  "fields": {
+    "appErrors": "[AppError!",
+    "app": "App"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "ImportEvent",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "id": "ID!",
+    "date": "DateTime!",
+    "type": "ImportEventsEnum!",
+    "user": "User",
+    "app": "App",
+    "message": "String!"
+  }
+}

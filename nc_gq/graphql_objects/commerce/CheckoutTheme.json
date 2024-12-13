@@ -1,0 +1,10 @@
+{
+  "name": "CheckoutTheme",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "id": "ID!",
+    "confirmationUrl": "String!"
+  }
+}

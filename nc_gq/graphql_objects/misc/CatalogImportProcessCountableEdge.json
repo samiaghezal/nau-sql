@@ -1,0 +1,8 @@
+{
+  "name": "CatalogImportProcessCountableEdge",
+  "implements": [],
+  "fields": {
+    "node": "CatalogImportProcess!",
+    "cursor": "String!"
+  }
+}

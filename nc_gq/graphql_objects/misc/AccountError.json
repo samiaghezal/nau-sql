@@ -1,0 +1,9 @@
+{
+  "name": "AccountError",
+  "implements": [],
+  "fields": {
+    "field": "String",
+    "message": "String!",
+    "code": "AccountErrorCode!"
+  }
+}

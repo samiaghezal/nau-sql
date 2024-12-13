@@ -1,0 +1,8 @@
+{
+  "name": "CheckoutThemeUpdate",
+  "implements": [],
+  "fields": {
+    "shop": "Shop",
+    "shopErrors": "[ShopError!"
+  }
+}

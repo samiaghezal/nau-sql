@@ -1,0 +1,10 @@
+{
+  "name": "InvoiceRefresh",
+  "implements": [],
+  "fields": {
+    "order": "Order",
+    "nauticalOrder": "NauticalOrder",
+    "invoiceErrors": "[InvoiceError!",
+    "invoice": "Invoice"
+  }
+}

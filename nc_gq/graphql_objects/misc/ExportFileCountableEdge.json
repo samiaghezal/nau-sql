@@ -1,0 +1,8 @@
+{
+  "name": "ExportFileCountableEdge",
+  "implements": [],
+  "fields": {
+    "node": "ExportFile!",
+    "cursor": "String!"
+  }
+}

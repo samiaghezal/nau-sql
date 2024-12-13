@@ -1,0 +1,9 @@
+{
+  "name": "FontCountableConnection",
+  "implements": [],
+  "fields": {
+    "pageInfo": "PageInfo!",
+    "edges": "[FontCountableEdge!",
+    "totalCount": "Int"
+  }
+}

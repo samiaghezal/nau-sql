@@ -1,0 +1,17 @@
+{
+  "name": "Webhook",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "name": "String!",
+    "targetUrl": "String!",
+    "isActive": "Boolean!",
+    "secretKey": "String",
+    "connectionString": "String",
+    "queueName": "String",
+    "id": "ID!",
+    "events": "[WebhookEvent!",
+    "app": "App!"
+  }
+}

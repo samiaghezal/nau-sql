@@ -1,0 +1,9 @@
+{
+  "name": "OrderFulfill",
+  "implements": [],
+  "fields": {
+    "fulfillments": "[Fulfillment!",
+    "order": "Order",
+    "orderErrors": "[OrderError!"
+  }
+}

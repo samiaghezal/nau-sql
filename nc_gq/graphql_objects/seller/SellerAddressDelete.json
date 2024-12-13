@@ -1,0 +1,9 @@
+{
+  "name": "SellerAddressDelete",
+  "implements": [],
+  "fields": {
+    "seller": "Seller",
+    "sellerErrors": "[SellerError!",
+    "address": "Address"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "CheckoutLineDelete",
+  "implements": [],
+  "fields": {
+    "checkout": "Checkout",
+    "checkoutErrors": "[CheckoutError!"
+  }
+}

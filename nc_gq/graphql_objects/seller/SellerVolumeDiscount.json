@@ -1,0 +1,8 @@
+{
+  "name": "SellerVolumeDiscount",
+  "implements": [],
+  "fields": {
+    "seller": "Int",
+    "volumeDiscount": "Money"
+  }
+}

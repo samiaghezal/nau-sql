@@ -1,0 +1,9 @@
+{
+  "name": "EmailTemplateCountableConnection",
+  "implements": [],
+  "fields": {
+    "pageInfo": "PageInfo!",
+    "edges": "[EmailTemplateCountableEdge!",
+    "totalCount": "Int"
+  }
+}

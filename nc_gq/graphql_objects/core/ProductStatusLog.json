@@ -1,0 +1,16 @@
+{
+  "name": "ProductStatusLog",
+  "implements": [
+    "Node",
+    "ObjectWithMetadata"
+  ],
+  "fields": {
+    "user": "User",
+    "subStatus": "ProductSubStatusEnum",
+    "subStatusReason": "String",
+    "createdAt": "DateTime",
+    "id": "ID!",
+    "privateMetadata": "[MetadataItem!",
+    "metadata": "[MetadataItem!"
+  }
+}

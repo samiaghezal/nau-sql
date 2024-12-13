@@ -1,0 +1,8 @@
+{
+  "name": "AddressSetDefault",
+  "implements": [],
+  "fields": {
+    "user": "User",
+    "accountErrors": "[AccountError!"
+  }
+}

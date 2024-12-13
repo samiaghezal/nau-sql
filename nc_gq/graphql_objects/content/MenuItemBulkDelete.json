@@ -1,0 +1,8 @@
+{
+  "name": "MenuItemBulkDelete",
+  "implements": [],
+  "fields": {
+    "count": "Int!",
+    "menuErrors": "[MenuError!"
+  }
+}

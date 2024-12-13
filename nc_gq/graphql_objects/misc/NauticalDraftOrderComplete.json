@@ -1,0 +1,9 @@
+{
+  "name": "NauticalDraftOrderComplete",
+  "implements": [],
+  "fields": {
+    "order": "NauticalOrder",
+    "sellerOrders": "[Order!",
+    "orderErrors": "[OrderError!"
+  }
+}

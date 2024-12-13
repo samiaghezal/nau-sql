@@ -1,0 +1,9 @@
+{
+  "name": "ExportError",
+  "implements": [],
+  "fields": {
+    "field": "String",
+    "message": "String!",
+    "code": "ExportErrorCode!"
+  }
+}

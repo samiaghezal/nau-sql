@@ -1,0 +1,18 @@
+{
+  "name": "MenuItem",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "id": "ID!",
+    "menu": "Menu!",
+    "name": "String!",
+    "parent": "MenuItem",
+    "category": "Category",
+    "collection": "Collection",
+    "page": "Page",
+    "level": "Int!",
+    "children": "[MenuItem!",
+    "url": "String"
+  }
+}

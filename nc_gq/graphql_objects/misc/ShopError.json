@@ -1,0 +1,9 @@
+{
+  "name": "ShopError",
+  "implements": [],
+  "fields": {
+    "field": "String",
+    "message": "String!",
+    "code": "ShopErrorCode!"
+  }
+}

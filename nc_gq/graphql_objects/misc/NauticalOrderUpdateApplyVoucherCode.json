@@ -1,0 +1,8 @@
+{
+  "name": "NauticalOrderUpdateApplyVoucherCode",
+  "implements": [],
+  "fields": {
+    "nauticalOrder": "NauticalOrder",
+    "orderErrors": "[OrderError!"
+  }
+}

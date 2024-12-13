@@ -1,0 +1,8 @@
+{
+  "name": "FeatureUpdate",
+  "implements": [],
+  "fields": {
+    "feature": "Feature",
+    "productErrors": "[ProductError!"
+  }
+}

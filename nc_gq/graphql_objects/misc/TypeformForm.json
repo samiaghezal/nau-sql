@@ -1,0 +1,11 @@
+{
+  "name": "TypeformForm",
+  "implements": [],
+  "fields": {
+    "id": "String",
+    "title": "String",
+    "language": "String",
+    "fields": "[TypeformFormFields!",
+    "hidden": "[String!"
+  }
+}

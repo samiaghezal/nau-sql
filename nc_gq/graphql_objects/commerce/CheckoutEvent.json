@@ -1,0 +1,13 @@
+{
+  "name": "CheckoutEvent",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "tenant": "Tenant!",
+    "id": "ID!",
+    "createdAt": "DateTime!",
+    "type": "CheckoutEventType!",
+    "checkoutId": "String!"
+  }
+}

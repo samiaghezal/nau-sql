@@ -1,0 +1,11 @@
+{
+  "name": "InvoiceRequest",
+  "implements": [],
+  "fields": {
+    "order": "Order",
+    "nauticalOrder": "NauticalOrder",
+    "refund": "Refund",
+    "invoiceErrors": "[InvoiceError!",
+    "invoice": "Invoice"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "SaleUpdate",
+  "implements": [],
+  "fields": {
+    "discountErrors": "[DiscountError!",
+    "sale": "Sale"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "CatalogImportProcessLogRecord",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "id": "ID!",
+    "createdAt": "DateTime!",
+    "taskId": "String",
+    "objectId": "String",
+    "operation": "CatalogImportProcessLogRecordOperation!",
+    "relatedObjectName": "String"
+  }
+}

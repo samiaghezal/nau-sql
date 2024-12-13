@@ -1,0 +1,23 @@
+{
+  "name": "SingleVendorSummaryType",
+  "implements": [],
+  "fields": {
+    "gross": "Float",
+    "orders": "Int",
+    "net": "Float",
+    "shipping": "Float",
+    "average": "Float",
+    "taxes": "Float",
+    "discounts": "Float",
+    "volumeDiscounts": "Float",
+    "reason": "\"This",
+    "revenue": "Float",
+    "totals": "Int",
+    "commission": "Float",
+    "payout": "Float",
+    "adjustments": "Decimal",
+    "penalties": "Decimal",
+    "refunds": "Decimal",
+    "fees": "Decimal"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "ShippingZoneDelete",
+  "implements": [],
+  "fields": {
+    "shippingErrors": "[ShippingError!",
+    "shippingZone": "ShippingZone"
+  }
+}

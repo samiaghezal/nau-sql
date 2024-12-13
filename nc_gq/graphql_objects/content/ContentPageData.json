@@ -1,0 +1,11 @@
+{
+  "name": "ContentPageData",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "seoTitle": "String",
+    "seoDescription": "String",
+    "id": "ID!"
+  }
+}

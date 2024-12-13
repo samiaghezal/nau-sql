@@ -1,0 +1,10 @@
+{
+  "name": "NauticalConfiguration",
+  "implements": [],
+  "fields": {
+    "configurationName": "String",
+    "configurationValue": "Boolean",
+    "configurationValueDatetime": "DateTime",
+    "configurationValueString": "String"
+  }
+}

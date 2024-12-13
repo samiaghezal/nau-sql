@@ -1,0 +1,8 @@
+{
+  "name": "PermissionGroupCreate",
+  "implements": [],
+  "fields": {
+    "permissionGroupErrors": "[PermissionGroupError!",
+    "group": "Group"
+  }
+}

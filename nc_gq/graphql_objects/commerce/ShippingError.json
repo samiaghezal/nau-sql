@@ -1,0 +1,10 @@
+{
+  "name": "ShippingError",
+  "implements": [],
+  "fields": {
+    "field": "String",
+    "message": "String!",
+    "code": "ShippingErrorCode!",
+    "warehouses": "[ID!"
+  }
+}

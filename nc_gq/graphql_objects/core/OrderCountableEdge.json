@@ -1,0 +1,8 @@
+{
+  "name": "OrderCountableEdge",
+  "implements": [],
+  "fields": {
+    "node": "Order!",
+    "cursor": "String!"
+  }
+}

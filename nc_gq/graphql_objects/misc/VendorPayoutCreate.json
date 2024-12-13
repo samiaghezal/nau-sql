@@ -1,0 +1,8 @@
+{
+  "name": "VendorPayoutCreate",
+  "implements": [],
+  "fields": {
+    "vendorPayout": "VendorPayout",
+    "payoutErrors": "[PayoutError!"
+  }
+}

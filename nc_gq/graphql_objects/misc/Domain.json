@@ -1,0 +1,8 @@
+{
+  "name": "Domain",
+  "implements": [],
+  "fields": {
+    "host": "String!",
+    "url": "String!"
+  }
+}

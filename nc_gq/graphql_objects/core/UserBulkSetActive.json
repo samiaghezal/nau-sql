@@ -1,0 +1,8 @@
+{
+  "name": "UserBulkSetActive",
+  "implements": [],
+  "fields": {
+    "count": "Int!",
+    "accountErrors": "[AccountError!"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Stock",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "warehouse": "Warehouse!",
+    "productVariant": "ProductVariant!",
+    "quantity": "Int!",
+    "outOfStockThreshold": "Int",
+    "quantityAllocated": "Int!",
+    "id": "ID!",
+    "quantityAvailable": "Int!"
+  }
+}

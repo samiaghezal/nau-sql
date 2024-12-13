@@ -1,0 +1,14 @@
+{
+  "name": "Media",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "tenant": "Tenant!",
+    "id": "ID!",
+    "title": "String!",
+    "createdAt": "String!",
+    "image": "Image",
+    "alt": "String!"
+  }
+}

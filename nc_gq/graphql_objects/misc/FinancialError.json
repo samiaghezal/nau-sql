@@ -1,0 +1,9 @@
+{
+  "name": "FinancialError",
+  "implements": [],
+  "fields": {
+    "field": "String",
+    "message": "String!",
+    "code": "FinancialErrorCode!"
+  }
+}

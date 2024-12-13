@@ -1,0 +1,8 @@
+{
+  "name": "TaxType",
+  "implements": [],
+  "fields": {
+    "description": "String",
+    "taxCode": "String"
+  }
+}

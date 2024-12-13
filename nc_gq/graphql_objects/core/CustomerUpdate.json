@@ -1,0 +1,8 @@
+{
+  "name": "CustomerUpdate",
+  "implements": [],
+  "fields": {
+    "accountErrors": "[AccountError!",
+    "user": "User"
+  }
+}

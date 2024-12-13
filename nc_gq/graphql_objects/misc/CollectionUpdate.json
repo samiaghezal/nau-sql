@@ -1,0 +1,8 @@
+{
+  "name": "CollectionUpdate",
+  "implements": [],
+  "fields": {
+    "productErrors": "[ProductError!",
+    "collection": "Collection"
+  }
+}

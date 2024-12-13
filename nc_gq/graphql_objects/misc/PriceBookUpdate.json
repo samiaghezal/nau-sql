@@ -1,0 +1,8 @@
+{
+  "name": "PriceBookUpdate",
+  "implements": [],
+  "fields": {
+    "priceBookErrors": "[PriceBookError!",
+    "priceBook": "PriceBook"
+  }
+}

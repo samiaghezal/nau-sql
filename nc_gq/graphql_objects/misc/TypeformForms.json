@@ -1,0 +1,9 @@
+{
+  "name": "TypeformForms",
+  "implements": [],
+  "fields": {
+    "totalItems": "Int",
+    "pageCount": "Int",
+    "items": "[TypeformFormsItem!"
+  }
+}

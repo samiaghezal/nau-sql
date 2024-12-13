@@ -1,0 +1,10 @@
+{
+  "name": "DefaultSellerChecklist",
+  "implements": [],
+  "fields": {
+    "title": "String!",
+    "description": "String!",
+    "completeOn": "SellerChecklistCompletionTriggersEnum",
+    "isEnabled": "Boolean!"
+  }
+}

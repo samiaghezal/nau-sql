@@ -1,0 +1,11 @@
+{
+  "name": "OrderLinesCsvUpload",
+  "implements": [],
+  "fields": {
+    "order": "Order",
+    "csvFile": "ImportFile",
+    "successfulLines": "Int",
+    "failedLines": "Int",
+    "orderErrors": "[OrderError!"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "ContentPublish",
+  "implements": [],
+  "fields": {
+    "content": "Content",
+    "shopErrors": "[ShopError!"
+  }
+}

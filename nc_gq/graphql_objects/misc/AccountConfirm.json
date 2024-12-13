@@ -1,0 +1,8 @@
+{
+  "name": "AccountConfirm",
+  "implements": [],
+  "fields": {
+    "user": "User",
+    "accountErrors": "[AccountError!"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "PageInfo",
+  "implements": [],
+  "fields": {
+    "hasNextPage": "Boolean!",
+    "hasPreviousPage": "Boolean!",
+    "startCursor": "String",
+    "endCursor": "String"
+  }
+}

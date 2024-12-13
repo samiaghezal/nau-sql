@@ -1,0 +1,8 @@
+{
+  "name": "AttributeCreate",
+  "implements": [],
+  "fields": {
+    "attribute": "Attribute",
+    "productErrors": "[ProductError!"
+  }
+}

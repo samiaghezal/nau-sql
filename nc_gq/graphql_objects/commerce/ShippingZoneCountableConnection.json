@@ -1,0 +1,9 @@
+{
+  "name": "ShippingZoneCountableConnection",
+  "implements": [],
+  "fields": {
+    "pageInfo": "PageInfo!",
+    "edges": "[ShippingZoneCountableEdge!",
+    "totalCount": "Int"
+  }
+}

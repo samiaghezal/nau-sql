@@ -1,0 +1,11 @@
+{
+  "name": "ShippingZoneCountryArea",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "id": "ID!",
+    "country": "CountryDisplay!",
+    "countryArea": "CountryArea!"
+  }
+}

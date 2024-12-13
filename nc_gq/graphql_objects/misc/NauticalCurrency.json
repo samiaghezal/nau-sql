@@ -1,0 +1,7 @@
+{
+  "name": "NauticalCurrency",
+  "implements": [],
+  "fields": {
+    "code": "String!"
+  }
+}

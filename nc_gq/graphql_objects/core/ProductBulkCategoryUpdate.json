@@ -1,0 +1,8 @@
+{
+  "name": "ProductBulkCategoryUpdate",
+  "implements": [],
+  "fields": {
+    "count": "Int!",
+    "productErrors": "[ProductError!"
+  }
+}

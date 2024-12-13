@@ -1,0 +1,9 @@
+{
+  "name": "DraftOrderLineDelete",
+  "implements": [],
+  "fields": {
+    "order": "Order",
+    "orderLine": "OrderLine",
+    "orderErrors": "[OrderError!"
+  }
+}

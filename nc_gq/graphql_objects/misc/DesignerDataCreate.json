@@ -1,0 +1,9 @@
+{
+  "name": "DesignerDataCreate",
+  "implements": [],
+  "fields": {
+    "ok": "Boolean",
+    "designerdata": "DesignerDataType",
+    "designerErrors": "[MarketplaceConfigurationError!"
+  }
+}

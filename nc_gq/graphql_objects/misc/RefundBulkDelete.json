@@ -1,0 +1,8 @@
+{
+  "name": "RefundBulkDelete",
+  "implements": [],
+  "fields": {
+    "count": "Int!",
+    "refundErrors": "[RefundError!"
+  }
+}

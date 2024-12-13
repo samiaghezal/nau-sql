@@ -1,0 +1,8 @@
+{
+  "name": "DraftOrderBulkDelete",
+  "implements": [],
+  "fields": {
+    "count": "Int!",
+    "orderErrors": "[OrderError!"
+  }
+}

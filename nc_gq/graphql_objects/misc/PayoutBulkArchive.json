@@ -1,0 +1,8 @@
+{
+  "name": "PayoutBulkArchive",
+  "implements": [],
+  "fields": {
+    "count": "Int!",
+    "payoutErrors": "[PayoutError!"
+  }
+}

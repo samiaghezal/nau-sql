@@ -1,0 +1,8 @@
+{
+  "name": "SingleVendorPayoutReport",
+  "implements": [],
+  "fields": {
+    "payouts": "[SingleVendorReportType!",
+    "summary": "SingleVendorSummaryType"
+  }
+}

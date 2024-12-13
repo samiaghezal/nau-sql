@@ -1,0 +1,21 @@
+{
+  "name": "AddressType",
+  "implements": [
+    "Node",
+    "ObjectWithMetadata"
+  ],
+  "fields": {
+    "id": "ID!",
+    "privateMetadata": "[MetadataItem!",
+    "metadata": "[MetadataItem!",
+    "firstName": "String",
+    "lastName": "String",
+    "streetAddress1": "String",
+    "streetAddress2": "String",
+    "city": "String",
+    "postalCode": "String",
+    "country": "String",
+    "countryArea": "String",
+    "phone": "String"
+  }
+}

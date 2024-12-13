@@ -1,0 +1,8 @@
+{
+  "name": "AgreementSellersCountableEdge",
+  "implements": [],
+  "fields": {
+    "node": "AgreementSellers!",
+    "cursor": "String!"
+  }
+}

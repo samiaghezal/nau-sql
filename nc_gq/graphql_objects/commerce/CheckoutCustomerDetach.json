@@ -1,0 +1,8 @@
+{
+  "name": "CheckoutCustomerDetach",
+  "implements": [],
+  "fields": {
+    "checkout": "Checkout",
+    "checkoutErrors": "[CheckoutError!"
+  }
+}

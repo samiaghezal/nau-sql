@@ -1,0 +1,9 @@
+{
+  "name": "AccountAddressCreate",
+  "implements": [],
+  "fields": {
+    "user": "User",
+    "accountErrors": "[AccountError!",
+    "address": "Address"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "SellerLogoUpdate",
+  "implements": [],
+  "fields": {
+    "seller": "Seller",
+    "sellerErrors": "[SellerError!"
+  }
+}

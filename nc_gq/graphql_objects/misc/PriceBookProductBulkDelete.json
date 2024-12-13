@@ -1,0 +1,8 @@
+{
+  "name": "PriceBookProductBulkDelete",
+  "implements": [],
+  "fields": {
+    "count": "Int!",
+    "priceBookErrors": "[PriceBookError!"
+  }
+}

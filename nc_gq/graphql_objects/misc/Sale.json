@@ -1,0 +1,22 @@
+{
+  "name": "Sale",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "id": "ID!",
+    "name": "String!",
+    "type": "DiscountValueTypeEnum!",
+    "value": "Decimal!",
+    "startDate": "DateTime!",
+    "endDate": "DateTime",
+    "currency": "String!",
+    "minSpent": "Money",
+    "minCheckoutItemsQuantity": "Int!",
+    "before": "String",
+    "after": "String",
+    "first": "Int",
+    "last": "Int",
+    "saleType": "SaleTypeEnum!"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Agreement",
+  "implements": [
+    "Node",
+    "ObjectWithMetadata"
+  ],
+  "fields": {
+    "id": "ID!",
+    "publicationDate": "Date",
+    "isPublished": "Boolean!",
+    "createdAt": "DateTime!",
+    "updatedAt": "DateTime!",
+    "content": "String!",
+    "contentHtml": "String!",
+    "tenant": "Tenant!",
+    "seoTitle": "String",
+    "seoDescription": "String",
+    "slug": "String!",
+    "title": "String!",
+    "commissionType": "CommissionTypeEnum!",
+    "reason": "\"Markup",
+    "defaultCommission": "Decimal!",
+    "markupCommissionType": "MarkupCommissionTypeEnum!",
+    "markupCommissionValue": "Decimal",
+    "isActive": "Boolean",
+    "granularCommissions": "[AgreementCommission!",
+    "offset": "Int",
+    "before": "String",
+    "after": "String",
+    "first": "Int",
+    "last": "Int",
+    "fees": "[AgreementFees!",
+    "privateMetadata": "[MetadataItem!",
+    "metadata": "[MetadataItem!"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "CountryDisplay",
+  "implements": [],
+  "fields": {
+    "code": "String!",
+    "country": "String!",
+    "requiredFields": "[String!",
+    "allowedCountryAreas": "[String!",
+    "reason": "\"Use",
+    "detailedAllowedCountryAreas": "[CountryArea!"
+  }
+}

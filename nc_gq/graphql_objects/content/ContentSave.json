@@ -1,0 +1,8 @@
+{
+  "name": "ContentSave",
+  "implements": [],
+  "fields": {
+    "content": "Content",
+    "shopErrors": "[ShopError!"
+  }
+}

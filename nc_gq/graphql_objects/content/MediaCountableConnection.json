@@ -1,0 +1,9 @@
+{
+  "name": "MediaCountableConnection",
+  "implements": [],
+  "fields": {
+    "pageInfo": "PageInfo!",
+    "edges": "[MediaCountableEdge!",
+    "totalCount": "Int"
+  }
+}

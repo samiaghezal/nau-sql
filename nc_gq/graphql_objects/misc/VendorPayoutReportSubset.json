@@ -1,0 +1,12 @@
+{
+  "name": "VendorPayoutReportSubset",
+  "implements": [],
+  "fields": {
+    "category": "String",
+    "columns": "[ColumnObjectType!",
+    "filters": "[FilterObjectType!",
+    "summary": "OrderVendorSummaryType",
+    "report": "[OrderVendorReportType!",
+    "title": "String"
+  }
+}

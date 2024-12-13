@@ -1,0 +1,14 @@
+{
+  "name": "DigitalContentUrl",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "content": "DigitalContent!",
+    "created": "DateTime!",
+    "downloadNum": "Int!",
+    "id": "ID!",
+    "url": "String",
+    "token": "NauticalUUID!"
+  }
+}

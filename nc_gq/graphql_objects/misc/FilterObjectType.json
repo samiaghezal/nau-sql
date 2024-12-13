@@ -1,0 +1,12 @@
+{
+  "name": "FilterObjectType",
+  "implements": [],
+  "fields": {
+    "display": "String!",
+    "fieldType": "String!",
+    "name": "String!",
+    "placeholder": "String!",
+    "required": "Boolean!",
+    "value": "String"
+  }
+}

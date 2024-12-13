@@ -1,0 +1,11 @@
+{
+  "name": "Allocation",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "id": "ID!",
+    "quantity": "Int!",
+    "warehouse": "Warehouse!"
+  }
+}

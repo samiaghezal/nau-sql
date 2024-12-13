@@ -1,0 +1,9 @@
+{
+  "name": "VendorPayoutNoteUpdate",
+  "implements": [],
+  "fields": {
+    "vendorPayout": "VendorPayout",
+    "event": "VendorPayoutEvent",
+    "payoutErrors": "[PayoutError!"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "NauticalDraftOrderUpdate",
+  "implements": [],
+  "fields": {
+    "orderErrors": "[OrderError!",
+    "nauticalOrder": "NauticalOrder"
+  }
+}

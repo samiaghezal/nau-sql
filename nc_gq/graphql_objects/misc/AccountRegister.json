@@ -1,0 +1,9 @@
+{
+  "name": "AccountRegister",
+  "implements": [],
+  "fields": {
+    "requiresConfirmation": "Boolean",
+    "accountErrors": "[AccountError!",
+    "user": "User"
+  }
+}

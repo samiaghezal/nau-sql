@@ -1,0 +1,10 @@
+{
+  "name": "TaxExemptCode",
+  "implements": [],
+  "fields": {
+    "code": "String!",
+    "name": "String!",
+    "description": "String!",
+    "validCountries": "[String!"
+  }
+}

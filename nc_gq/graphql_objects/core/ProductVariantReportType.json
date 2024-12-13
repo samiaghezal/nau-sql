@@ -1,0 +1,20 @@
+{
+  "name": "ProductVariantReportType",
+  "implements": [],
+  "fields": {
+    "totals": "Int",
+    "grossRevenue": "Float",
+    "quantityOrdered": "Int",
+    "avgPriceGrossAmount": "Float",
+    "maxPriceGrossAmount": "Float",
+    "minPriceGrossAmount": "Float",
+    "revenue": "Float",
+    "avgPrice": "Float",
+    "maxPrice": "Float",
+    "minPrice": "Float",
+    "productId": "Int!",
+    "product": "Product!",
+    "name": "String!",
+    "id": "ID!"
+  }
+}

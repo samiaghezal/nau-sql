@@ -1,0 +1,19 @@
+{
+  "name": "LedgerEntry",
+  "implements": [
+    "Node",
+    "ObjectWithMetadata"
+  ],
+  "fields": {
+    "createdAt": "DateTime!",
+    "updatedAt": "DateTime!",
+    "id": "ID!",
+    "journalEntry": "JournalEntry!",
+    "ledger": "Ledger!",
+    "ledgerVersion": "BigInt!",
+    "privateMetadata": "[MetadataItem!",
+    "metadata": "[MetadataItem!",
+    "amount": "Money!",
+    "ledgerBalance": "Money!"
+  }
+}

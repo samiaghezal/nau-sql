@@ -1,0 +1,8 @@
+{
+  "name": "WarehouseDelete",
+  "implements": [],
+  "fields": {
+    "warehouseErrors": "[WarehouseError!",
+    "warehouse": "Warehouse"
+  }
+}

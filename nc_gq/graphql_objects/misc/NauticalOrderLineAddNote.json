@@ -1,0 +1,8 @@
+{
+  "name": "NauticalOrderLineAddNote",
+  "implements": [],
+  "fields": {
+    "orderErrors": "[OrderError!",
+    "nauticalOrderLine": "NauticalOrderLine"
+  }
+}

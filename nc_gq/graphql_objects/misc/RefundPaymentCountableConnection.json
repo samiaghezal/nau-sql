@@ -1,0 +1,9 @@
+{
+  "name": "RefundPaymentCountableConnection",
+  "implements": [],
+  "fields": {
+    "pageInfo": "PageInfo!",
+    "edges": "[RefundPaymentCountableEdge!",
+    "totalCount": "Int"
+  }
+}

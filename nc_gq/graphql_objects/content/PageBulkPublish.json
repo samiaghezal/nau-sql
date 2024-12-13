@@ -1,0 +1,8 @@
+{
+  "name": "PageBulkPublish",
+  "implements": [],
+  "fields": {
+    "count": "Int!",
+    "pageErrors": "[PageError!"
+  }
+}

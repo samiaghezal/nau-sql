@@ -1,0 +1,7 @@
+{
+  "name": "File",
+  "implements": [],
+  "fields": {
+    "url": "String!"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "CheckoutSellerShipping",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "tenant": "Tenant!",
+    "id": "ID!",
+    "seller": "Seller!",
+    "shippingMethod": "ShippingMethod!",
+    "isPriceOverridden": "Boolean!",
+    "priceOverrideAmount": "Decimal!"
+  }
+}

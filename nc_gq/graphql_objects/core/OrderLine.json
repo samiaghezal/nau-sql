@@ -1,0 +1,35 @@
+{
+  "name": "OrderLine",
+  "implements": [
+    "Node",
+    "ObjectWithMetadata"
+  ],
+  "fields": {
+    "id": "ID!",
+    "privateMetadata": "[MetadataItem!",
+    "metadata": "[MetadataItem!",
+    "isLinePriceOverridden": "Boolean!",
+    "unitPriceOverriddenNote": "String",
+    "note": "String",
+    "productName": "String!",
+    "variantName": "String!",
+    "productSku": "String",
+    "isShippingRequired": "Boolean!",
+    "quantityFulfilled": "Int!",
+    "quantityDeclined": "Int!",
+    "digitalContentUrl": "DigitalContentUrl",
+    "order": "Order!",
+    "nauticalOrderLine": "NauticalOrderLine!",
+    "size": "Int",
+    "unitPrice": "TaxedMoney",
+    "totalPrice": "TaxedMoney",
+    "variant": "ProductVariant",
+    "translatedProductName": "String!",
+    "translatedVariantName": "String!",
+    "allocations": "[Allocation!",
+    "priceBook": "PriceBook",
+    "quantityOrdered": "Int!",
+    "unfulfilledQuantityRefunded": "Int!",
+    "fulfilledQuantityRefunded": "Int!"
+  }
+}

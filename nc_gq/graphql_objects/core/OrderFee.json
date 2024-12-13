@@ -1,0 +1,21 @@
+{
+  "name": "OrderFee",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "id": "ID!",
+    "tenant": "Tenant!",
+    "order": "Order",
+    "currency": "NauticalCurrency!",
+    "transactionAmount": "Decimal!",
+    "transactionCurrency": "NauticalCurrency!",
+    "transactionFee": "Money",
+    "domiciledAmount": "Decimal!",
+    "domiciledFee": "Money",
+    "source": "SourceFeeEnum",
+    "name": "String!",
+    "notes": "String!",
+    "data": "JSONString!"
+  }
+}

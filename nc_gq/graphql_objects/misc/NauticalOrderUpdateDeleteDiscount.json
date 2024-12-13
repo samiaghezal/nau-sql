@@ -1,0 +1,8 @@
+{
+  "name": "NauticalOrderUpdateDeleteDiscount",
+  "implements": [],
+  "fields": {
+    "nauticalOrder": "NauticalOrder",
+    "orderErrors": "[OrderError!"
+  }
+}

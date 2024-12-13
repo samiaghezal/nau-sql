@@ -1,0 +1,9 @@
+{
+  "name": "AppTokenCreate",
+  "implements": [],
+  "fields": {
+    "authToken": "String",
+    "appErrors": "[AppError!",
+    "appToken": "AppToken"
+  }
+}

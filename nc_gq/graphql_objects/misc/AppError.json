@@ -1,0 +1,10 @@
+{
+  "name": "AppError",
+  "implements": [],
+  "fields": {
+    "field": "String",
+    "message": "String!",
+    "code": "AppErrorCode!",
+    "permissions": "[PermissionEnum!"
+  }
+}

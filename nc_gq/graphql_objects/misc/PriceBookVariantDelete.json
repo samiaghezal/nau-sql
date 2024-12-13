@@ -1,0 +1,8 @@
+{
+  "name": "PriceBookVariantDelete",
+  "implements": [],
+  "fields": {
+    "priceBookErrors": "[PriceBookError!",
+    "priceBookVariant": "PriceBookVariant"
+  }
+}

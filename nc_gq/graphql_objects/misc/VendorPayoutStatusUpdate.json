@@ -1,0 +1,8 @@
+{
+  "name": "VendorPayoutStatusUpdate",
+  "implements": [],
+  "fields": {
+    "vendorPayout": "VendorPayout",
+    "payoutErrors": "[PayoutError!"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "AvalaraRequestLogCountableEdge",
+  "implements": [],
+  "fields": {
+    "node": "AvalaraRequestLog!",
+    "cursor": "String!"
+  }
+}

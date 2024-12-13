@@ -1,0 +1,11 @@
+{
+  "name": "Tenant",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "id": "ID!",
+    "name": "String!",
+    "isActive": "Boolean!"
+  }
+}

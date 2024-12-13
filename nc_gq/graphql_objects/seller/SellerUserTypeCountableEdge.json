@@ -1,0 +1,8 @@
+{
+  "name": "SellerUserTypeCountableEdge",
+  "implements": [],
+  "fields": {
+    "node": "SellerUserType!",
+    "cursor": "String!"
+  }
+}

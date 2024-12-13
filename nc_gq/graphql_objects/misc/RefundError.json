@@ -1,0 +1,9 @@
+{
+  "name": "RefundError",
+  "implements": [],
+  "fields": {
+    "field": "String",
+    "message": "String!",
+    "code": "RefundErrorCode!"
+  }
+}

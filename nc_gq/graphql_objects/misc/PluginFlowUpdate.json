@@ -1,0 +1,8 @@
+{
+  "name": "PluginFlowUpdate",
+  "implements": [],
+  "fields": {
+    "flow": "Flow",
+    "pluginsErrors": "[PluginError!"
+  }
+}

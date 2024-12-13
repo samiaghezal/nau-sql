@@ -1,0 +1,9 @@
+{
+  "name": "PaymentSource",
+  "implements": [],
+  "fields": {
+    "id": "String!",
+    "gateway": "String!",
+    "creditCardInfo": "CreditCard"
+  }
+}

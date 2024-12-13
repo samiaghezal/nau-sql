@@ -1,0 +1,16 @@
+class Location(models.Model):
+    id = models.ID()
+    lon = models.Float()
+    lat = models.Float()
+    locationType = models.LocationTypeEnum()
+    locationKind = models.LocationKindEnum()
+    companyName = models.String()
+    streetAddress1 = models.String()
+    streetAddress2 = models.String()
+    city = models.String()
+    cityArea = models.String()
+    postalCode = models.String()
+    country = models.CountryDisplay()
+    countryArea = models.String()
+    phone = models.String()
+

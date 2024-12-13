@@ -1,0 +1,8 @@
+{
+  "name": "ShopSettingsUpdate",
+  "implements": [],
+  "fields": {
+    "shop": "Shop",
+    "shopErrors": "[ShopError!"
+  }
+}

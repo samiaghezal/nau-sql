@@ -1,0 +1,8 @@
+{
+  "name": "LedgerCountableEdge",
+  "implements": [],
+  "fields": {
+    "node": "Ledger!",
+    "cursor": "String!"
+  }
+}

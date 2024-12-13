@@ -1,0 +1,29 @@
+{
+  "name": "Plugin",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "id": "ID!",
+    "privateMetadata": "JSONString!",
+    "metadata": "JSONString!",
+    "company": "String",
+    "category": "PluginConfigurationCategory",
+    "descriptionShort": "String!",
+    "logoUrl": "String",
+    "created": "DateTime!",
+    "externalUrl": "String",
+    "supportUrl": "String",
+    "allowSellers": "Boolean",
+    "allowManyActivePluginsInCategory": "Boolean!",
+    "tenant": "Tenant!",
+    "identifier": "String!",
+    "name": "String!",
+    "description": "String!",
+    "active": "Boolean!",
+    "configuration": "[ConfigurationItem!",
+    "defaultConfiguration": "[ConfigurationItem!",
+    "supportSellerConfiguration": "Boolean",
+    "version": "String!"
+  }
+}

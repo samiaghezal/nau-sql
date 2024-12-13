@@ -1,0 +1,16 @@
+{
+  "name": "UserType",
+  "implements": [
+    "Node",
+    "ObjectWithMetadata"
+  ],
+  "fields": {
+    "id": "ID!",
+    "privateMetadata": "[MetadataItem!",
+    "metadata": "[MetadataItem!",
+    "firstName": "String",
+    "lastName": "String",
+    "email": "String",
+    "defaultShippingAddress": "AddressType"
+  }
+}

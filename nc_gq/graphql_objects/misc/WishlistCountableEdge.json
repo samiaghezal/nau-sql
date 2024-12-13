@@ -1,0 +1,8 @@
+{
+  "name": "WishlistCountableEdge",
+  "implements": [],
+  "fields": {
+    "node": "Wishlist!",
+    "cursor": "String!"
+  }
+}

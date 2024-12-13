@@ -1,0 +1,8 @@
+{
+  "name": "RefundPaymentsDelete",
+  "implements": [],
+  "fields": {
+    "count": "Int!",
+    "refundErrors": "[RefundError!"
+  }
+}

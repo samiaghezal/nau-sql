@@ -1,0 +1,11 @@
+{
+  "name": "Font",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "id": "ID!",
+    "name": "String",
+    "slug": "String"
+  }
+}

@@ -1,0 +1,15 @@
+class RefundLine(models.Model):
+    createdAt = models.DateTime()
+    updatedAt = models.DateTime()
+    id = models.ID()
+    chargedTo = models.RefundChargeToEnum()
+    currency = models.String()
+    lineScope = models.RefundLineScopeEnum()
+    lineType = models.RefundLineTypeEnum()
+    percentage = models.Float()
+    quantityFulfilled = models.Int()
+    quantityUnfulfilled = models.Int()
+    refund = models.Refund()
+    refundScope = models.RefundScope()
+    total = models.TaxedMoney()
+

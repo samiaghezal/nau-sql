@@ -1,0 +1,9 @@
+{
+  "name": "ShippingPriceDelete",
+  "implements": [],
+  "fields": {
+    "shippingMethod": "ShippingMethod",
+    "shippingZone": "ShippingZone",
+    "shippingErrors": "[ShippingError!"
+  }
+}

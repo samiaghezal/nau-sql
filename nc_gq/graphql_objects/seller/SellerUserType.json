@@ -1,0 +1,13 @@
+{
+  "name": "SellerUserType",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "id": "ID!",
+    "tenant": "Tenant!",
+    "seller": "Seller!",
+    "user": "User!",
+    "isDefault": "Boolean!"
+  }
+}

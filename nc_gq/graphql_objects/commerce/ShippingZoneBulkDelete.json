@@ -1,0 +1,8 @@
+{
+  "name": "ShippingZoneBulkDelete",
+  "implements": [],
+  "fields": {
+    "count": "Int!",
+    "shippingErrors": "[ShippingError!"
+  }
+}

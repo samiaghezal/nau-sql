@@ -1,0 +1,9 @@
+{
+  "name": "ValidationStatus",
+  "implements": [],
+  "fields": {
+    "message": "String",
+    "code": "String",
+    "variant": "ID"
+  }
+}

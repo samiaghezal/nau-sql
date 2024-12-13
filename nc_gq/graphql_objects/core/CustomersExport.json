@@ -1,0 +1,9 @@
+{
+  "name": "CustomersExport",
+  "implements": [],
+  "fields": {
+    "ok": "Boolean",
+    "plugin": "ID",
+    "pluginsErrors": "[PluginError!"
+  }
+}

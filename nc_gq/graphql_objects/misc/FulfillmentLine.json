@@ -1,0 +1,12 @@
+{
+  "name": "FulfillmentLine",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "id": "ID!",
+    "quantity": "Int!",
+    "orderLine": "OrderLine",
+    "returnReason": "String"
+  }
+}

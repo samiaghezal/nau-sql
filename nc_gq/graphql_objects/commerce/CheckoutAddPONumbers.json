@@ -1,0 +1,8 @@
+{
+  "name": "CheckoutAddPONumbers",
+  "implements": [],
+  "fields": {
+    "checkout": "Checkout",
+    "checkoutErrors": "[CheckoutError!"
+  }
+}

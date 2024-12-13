@@ -1,0 +1,8 @@
+{
+  "name": "TypeformFormProperties",
+  "implements": [],
+  "fields": {
+    "description": "String",
+    "fields": "[TypeformGroupProperties!"
+  }
+}

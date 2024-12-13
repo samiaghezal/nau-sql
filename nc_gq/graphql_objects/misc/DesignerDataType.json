@@ -1,0 +1,10 @@
+{
+  "name": "DesignerDataType",
+  "implements": [],
+  "fields": {
+    "tenant": "Tenant!",
+    "id": "ID!",
+    "name": "String!",
+    "jsonContent": "JSONString!"
+  }
+}

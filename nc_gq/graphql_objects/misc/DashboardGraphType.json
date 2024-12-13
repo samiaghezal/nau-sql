@@ -1,0 +1,8 @@
+{
+  "name": "DashboardGraphType",
+  "implements": [],
+  "fields": {
+    "filters": "[FilterObjectType!",
+    "graph": "[GraphDataType!"
+  }
+}

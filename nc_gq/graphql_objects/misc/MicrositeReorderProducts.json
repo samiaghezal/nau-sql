@@ -1,0 +1,8 @@
+{
+  "name": "MicrositeReorderProducts",
+  "implements": [],
+  "fields": {
+    "microsite": "Microsite",
+    "micrositeErrors": "[ProductError!"
+  }
+}

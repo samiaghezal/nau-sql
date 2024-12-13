@@ -1,0 +1,9 @@
+{
+  "name": "AccountAddressUpdate",
+  "implements": [],
+  "fields": {
+    "user": "User",
+    "accountErrors": "[AccountError!",
+    "address": "Address"
+  }
+}

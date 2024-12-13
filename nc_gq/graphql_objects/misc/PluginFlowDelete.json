@@ -1,0 +1,7 @@
+{
+  "name": "PluginFlowDelete",
+  "implements": [],
+  "fields": {
+    "pluginsErrors": "[PluginError!"
+  }
+}

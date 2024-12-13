@@ -1,0 +1,8 @@
+{
+  "name": "StaffCreate",
+  "implements": [],
+  "fields": {
+    "staffErrors": "[StaffError!",
+    "user": "User"
+  }
+}

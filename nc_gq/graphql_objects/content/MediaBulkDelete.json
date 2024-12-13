@@ -1,0 +1,8 @@
+{
+  "name": "MediaBulkDelete",
+  "implements": [],
+  "fields": {
+    "count": "Int!",
+    "shopErrors": "[ShopError!"
+  }
+}

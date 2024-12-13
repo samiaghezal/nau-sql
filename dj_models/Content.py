@@ -1,0 +1,16 @@
+class Content(models.Model):
+    publicationDate = models.Date()
+    isPublished = models.Boolean()
+    createdAt = models.DateTime()
+    updatedAt = models.DateTime()
+    id = models.ID()
+    slug = models.String()
+    isPage = models.Boolean()
+    lockedBy = models.User()
+    lockExpiry = models.DateTime()
+    data = models.JSONString()
+    draftData = models.JSONString()
+    revision = models.Int()
+    hasActiveDraft = models.Boolean()
+    contentPageData = models.ContentPageData()
+

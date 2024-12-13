@@ -1,0 +1,8 @@
+{
+  "name": "VendorPayoutCountableEdge",
+  "implements": [],
+  "fields": {
+    "node": "VendorPayout!",
+    "cursor": "String!"
+  }
+}

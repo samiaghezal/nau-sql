@@ -1,0 +1,9 @@
+{
+  "name": "FulfillmentCountableConnection",
+  "implements": [],
+  "fields": {
+    "pageInfo": "PageInfo!",
+    "edges": "[FulfillmentCountableEdge!",
+    "totalCount": "Int"
+  }
+}

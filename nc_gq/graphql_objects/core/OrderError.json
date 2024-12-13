@@ -1,0 +1,12 @@
+{
+  "name": "OrderError",
+  "implements": [],
+  "fields": {
+    "field": "String",
+    "message": "String!",
+    "code": "OrderErrorCode!",
+    "warehouse": "ID",
+    "orderLine": "ID",
+    "variant": "ID"
+  }
+}

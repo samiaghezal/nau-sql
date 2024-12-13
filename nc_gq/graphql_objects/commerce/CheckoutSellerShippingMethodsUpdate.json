@@ -1,0 +1,8 @@
+{
+  "name": "CheckoutSellerShippingMethodsUpdate",
+  "implements": [],
+  "fields": {
+    "checkout": "Checkout",
+    "checkoutErrors": "[CheckoutError!"
+  }
+}

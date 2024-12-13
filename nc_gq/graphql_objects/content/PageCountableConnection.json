@@ -1,0 +1,9 @@
+{
+  "name": "PageCountableConnection",
+  "implements": [],
+  "fields": {
+    "pageInfo": "PageInfo!",
+    "edges": "[PageCountableEdge!",
+    "totalCount": "Int"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "StaffDelete",
+  "implements": [],
+  "fields": {
+    "staffErrors": "[StaffError!",
+    "user": "User"
+  }
+}

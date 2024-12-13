@@ -1,0 +1,8 @@
+{
+  "name": "CheckoutSetTransactionCurrency",
+  "implements": [],
+  "fields": {
+    "checkout": "Checkout",
+    "checkoutErrors": "[CheckoutError!"
+  }
+}

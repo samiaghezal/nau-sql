@@ -1,0 +1,8 @@
+{
+  "name": "SellerEventTypeCountableEdge",
+  "implements": [],
+  "fields": {
+    "node": "SellerEventType!",
+    "cursor": "String!"
+  }
+}

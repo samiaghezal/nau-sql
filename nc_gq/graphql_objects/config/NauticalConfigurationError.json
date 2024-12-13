@@ -1,0 +1,9 @@
+{
+  "name": "NauticalConfigurationError",
+  "implements": [],
+  "fields": {
+    "field": "String",
+    "message": "String!",
+    "code": "NauticalConfigurationErrorCode!"
+  }
+}

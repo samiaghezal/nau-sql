@@ -1,0 +1,16 @@
+class Address(models.Model):
+    id = models.ID()
+    firstName = models.String()
+    lastName = models.String()
+    companyName = models.String()
+    streetAddress1 = models.String()
+    streetAddress2 = models.String()
+    city = models.String()
+    cityArea = models.String()
+    postalCode = models.String()
+    country = models.CountryDisplay()
+    countryArea = models.String()
+    phone = models.String()
+    isDefaultShippingAddress = models.Boolean()
+    isDefaultBillingAddress = models.Boolean()
+

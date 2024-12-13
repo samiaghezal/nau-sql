@@ -1,0 +1,9 @@
+{
+  "name": "SellerEventTypeCountableConnection",
+  "implements": [],
+  "fields": {
+    "pageInfo": "PageInfo!",
+    "edges": "[SellerEventTypeCountableEdge!",
+    "totalCount": "Int"
+  }
+}

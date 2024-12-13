@@ -1,0 +1,8 @@
+{
+  "name": "PageCreate",
+  "implements": [],
+  "fields": {
+    "pageErrors": "[PageError!",
+    "page": "Page"
+  }
+}

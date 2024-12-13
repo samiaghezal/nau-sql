@@ -1,0 +1,8 @@
+{
+  "name": "Permission",
+  "implements": [],
+  "fields": {
+    "code": "PermissionEnum!",
+    "name": "String!"
+  }
+}

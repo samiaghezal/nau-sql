@@ -1,0 +1,8 @@
+{
+  "name": "MicrositeUpdate",
+  "implements": [],
+  "fields": {
+    "micrositeErrors": "[ProductError!",
+    "microsite": "Microsite"
+  }
+}

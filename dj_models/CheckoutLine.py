@@ -1,0 +1,16 @@
+class CheckoutLine(models.Model):
+    id = models.ID()
+    privateMetadata = models.MetadataItem()
+    metadata = models.MetadataItem()
+    isLinePriceOverridden = models.Boolean()
+    unitPriceOverriddenNote = models.String()
+    note = models.String()
+    variant = models.ProductVariant()
+    quantity = models.Int()
+    sale = models.Sale()
+    totalPrice = models.TaxedMoney()
+    requiresShipping = models.Boolean()
+    seller = models.SellerType()
+    discountedUnitPrice = models.TaxedMoney()
+    originalUnitPrice = models.TaxedMoney()
+

@@ -1,0 +1,8 @@
+{
+  "name": "MetadataUpdate",
+  "implements": [],
+  "fields": {
+    "metadataErrors": "[MetadataError!",
+    "item": "ObjectWithMetadata"
+  }
+}

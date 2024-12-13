@@ -1,0 +1,18 @@
+class Refund(models.Model):
+    createdAt = models.DateTime()
+    updatedAt = models.DateTime()
+    description = models.String()
+    descriptionHtml = models.String()
+    id = models.ID()
+    lines = models.RefundLineCountableConnection()
+    payments = models.RefundPaymentCountableConnection()
+    privateMetadata = models.MetadataItem()
+    metadata = models.MetadataItem()
+    buyer = models.User()
+    externalId = models.String()
+    name = models.String()
+    order = models.NauticalOrder()
+    status = models.RefundStatusEnum()
+    token = models.String()
+    refundType = models.RefundTypeEnum()
+

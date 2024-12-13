@@ -1,0 +1,8 @@
+{
+  "name": "WebhookEvent",
+  "implements": [],
+  "fields": {
+    "eventType": "WebhookEventTypeEnum!",
+    "name": "String!"
+  }
+}

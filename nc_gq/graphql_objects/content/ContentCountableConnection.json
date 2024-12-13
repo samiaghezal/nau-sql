@@ -1,0 +1,9 @@
+{
+  "name": "ContentCountableConnection",
+  "implements": [],
+  "fields": {
+    "pageInfo": "PageInfo!",
+    "edges": "[ContentCountableEdge!",
+    "totalCount": "Int"
+  }
+}

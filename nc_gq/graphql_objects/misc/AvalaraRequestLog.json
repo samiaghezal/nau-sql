@@ -1,0 +1,14 @@
+{
+  "name": "AvalaraRequestLog",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "createdAt": "DateTime!",
+    "requestUrl": "String",
+    "requestData": "JSONString!",
+    "responseData": "JSONString!",
+    "error": "String",
+    "id": "ID!"
+  }
+}

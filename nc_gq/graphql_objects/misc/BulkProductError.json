@@ -1,0 +1,12 @@
+{
+  "name": "BulkProductError",
+  "implements": [],
+  "fields": {
+    "field": "String",
+    "message": "String!",
+    "code": "ProductErrorCode!",
+    "attributes": "[ID!",
+    "index": "Int",
+    "warehouses": "[ID!"
+  }
+}

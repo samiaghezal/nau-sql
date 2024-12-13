@@ -1,0 +1,8 @@
+{
+  "name": "AppTokenVerify",
+  "implements": [],
+  "fields": {
+    "valid": "Boolean!",
+    "appErrors": "[AppError!"
+  }
+}

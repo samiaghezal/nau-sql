@@ -1,0 +1,8 @@
+{
+  "name": "UserRemoveFromPriceBook",
+  "implements": [],
+  "fields": {
+    "user": "User",
+    "priceBookErrors": "[PriceBookError!"
+  }
+}

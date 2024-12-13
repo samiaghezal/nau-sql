@@ -1,0 +1,8 @@
+{
+  "name": "ShopFetchTaxRates",
+  "implements": [],
+  "fields": {
+    "shop": "Shop",
+    "shopErrors": "[ShopError!"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "UserAddToPriceBook",
+  "implements": [],
+  "fields": {
+    "user": "User",
+    "priceBookErrors": "[PriceBookError!"
+  }
+}

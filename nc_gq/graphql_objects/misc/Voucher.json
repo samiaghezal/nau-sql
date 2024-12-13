@@ -1,0 +1,28 @@
+{
+  "name": "Voucher",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "id": "ID!",
+    "type": "VoucherTypeEnum!",
+    "name": "String",
+    "code": "String!",
+    "usageLimit": "Int",
+    "used": "Int!",
+    "startDate": "DateTime!",
+    "endDate": "DateTime",
+    "applyOncePerOrder": "Boolean!",
+    "applyOncePerCustomer": "Boolean!",
+    "discountValueType": "DiscountValueTypeEnum!",
+    "discountValue": "Decimal!",
+    "currency": "String!",
+    "minSpent": "Money",
+    "minCheckoutItemsQuantity": "Int",
+    "before": "String",
+    "after": "String",
+    "first": "Int",
+    "last": "Int",
+    "countries": "[CountryDisplay!"
+  }
+}

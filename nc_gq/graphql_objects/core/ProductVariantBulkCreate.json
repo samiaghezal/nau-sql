@@ -1,0 +1,9 @@
+{
+  "name": "ProductVariantBulkCreate",
+  "implements": [],
+  "fields": {
+    "count": "Int!",
+    "productVariants": "[ProductVariant!",
+    "bulkProductErrors": "[BulkProductError!"
+  }
+}

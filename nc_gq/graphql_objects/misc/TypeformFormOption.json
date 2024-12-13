@@ -1,0 +1,7 @@
+{
+  "name": "TypeformFormOption",
+  "implements": [],
+  "fields": {
+    "label": "String"
+  }
+}

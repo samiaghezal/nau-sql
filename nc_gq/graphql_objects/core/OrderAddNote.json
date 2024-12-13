@@ -1,0 +1,9 @@
+{
+  "name": "OrderAddNote",
+  "implements": [],
+  "fields": {
+    "order": "Order",
+    "event": "OrderEvent",
+    "orderErrors": "[OrderError!"
+  }
+}

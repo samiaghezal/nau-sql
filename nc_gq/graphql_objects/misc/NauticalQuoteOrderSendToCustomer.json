@@ -1,0 +1,8 @@
+{
+  "name": "NauticalQuoteOrderSendToCustomer",
+  "implements": [],
+  "fields": {
+    "order": "NauticalOrder",
+    "orderErrors": "[OrderError!"
+  }
+}

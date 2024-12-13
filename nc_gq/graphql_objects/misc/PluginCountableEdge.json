@@ -1,0 +1,8 @@
+{
+  "name": "PluginCountableEdge",
+  "implements": [],
+  "fields": {
+    "node": "Plugin!",
+    "cursor": "String!"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "FulfillmentCancel",
+  "implements": [],
+  "fields": {
+    "fulfillment": "Fulfillment",
+    "order": "Order",
+    "orderErrors": "[OrderError!"
+  }
+}

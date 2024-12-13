@@ -1,0 +1,9 @@
+{
+  "name": "CheckoutCreate",
+  "implements": [],
+  "fields": {
+    "created": "Boolean",
+    "checkoutErrors": "[CheckoutError!",
+    "checkout": "Checkout"
+  }
+}

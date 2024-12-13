@@ -1,0 +1,13 @@
+{
+  "name": "CustomDomain",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "id": "ID!",
+    "domain": "String!",
+    "status": "DomainStatusEnum!",
+    "errorDetails": "String!",
+    "sslCertName": "String!"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "OptimizedHome",
+  "implements": [],
+  "fields": {
+    "sales": "TaxedMoney",
+    "orders": "Int",
+    "toFulfill": "Int",
+    "toCapture": "Int",
+    "outOfStock": "Int",
+    "topProducts": "[ProductVariant!",
+    "sellerActivities": "[OrderEvent!",
+    "marketplaceActivities": "[NauticalOrderEvent!"
+  }
+}

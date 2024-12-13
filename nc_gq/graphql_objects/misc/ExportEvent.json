@@ -1,0 +1,14 @@
+{
+  "name": "ExportEvent",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "id": "ID!",
+    "date": "DateTime!",
+    "type": "ExportEventsEnum!",
+    "user": "User",
+    "app": "App",
+    "message": "String!"
+  }
+}

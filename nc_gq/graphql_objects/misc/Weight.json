@@ -1,0 +1,8 @@
+{
+  "name": "Weight",
+  "implements": [],
+  "fields": {
+    "unit": "WeightUnitsEnum!",
+    "value": "Float!"
+  }
+}

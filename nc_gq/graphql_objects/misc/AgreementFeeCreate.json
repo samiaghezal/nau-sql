@@ -1,0 +1,8 @@
+{
+  "name": "AgreementFeeCreate",
+  "implements": [],
+  "fields": {
+    "agreementErrors": "[AgreementError!",
+    "agreementFees": "AgreementFees"
+  }
+}

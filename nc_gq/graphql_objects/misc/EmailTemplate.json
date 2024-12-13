@@ -1,0 +1,23 @@
+{
+  "name": "EmailTemplate",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "id": "ID!",
+    "title": "String!",
+    "subject": "String!",
+    "senderEmailAddress": "String",
+    "content": "String",
+    "defaultContent": "String",
+    "renderedContent": "String",
+    "description": "String",
+    "isCustom": "Boolean!",
+    "isActive": "Boolean!",
+    "isEditable": "Boolean!",
+    "createdAt": "DateTime!",
+    "updatedAt": "DateTime!",
+    "recipientType": "RecipientTypeEnum!",
+    "eventType": "EventTypeEnum!"
+  }
+}

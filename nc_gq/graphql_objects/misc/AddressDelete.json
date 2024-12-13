@@ -1,0 +1,9 @@
+{
+  "name": "AddressDelete",
+  "implements": [],
+  "fields": {
+    "user": "User",
+    "accountErrors": "[AccountError!",
+    "address": "Address"
+  }
+}

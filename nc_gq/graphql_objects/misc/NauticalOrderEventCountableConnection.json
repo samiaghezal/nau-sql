@@ -1,0 +1,9 @@
+{
+  "name": "NauticalOrderEventCountableConnection",
+  "implements": [],
+  "fields": {
+    "pageInfo": "PageInfo!",
+    "edges": "[NauticalOrderEventCountableEdge!",
+    "totalCount": "Int"
+  }
+}

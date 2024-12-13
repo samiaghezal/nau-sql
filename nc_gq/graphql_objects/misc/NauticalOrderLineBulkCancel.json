@@ -1,0 +1,8 @@
+{
+  "name": "NauticalOrderLineBulkCancel",
+  "implements": [],
+  "fields": {
+    "count": "Int!",
+    "order": "NauticalOrder"
+  }
+}

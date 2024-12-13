@@ -1,0 +1,9 @@
+{
+  "name": "ShippingPriceUpdate",
+  "implements": [],
+  "fields": {
+    "shippingZone": "ShippingZone",
+    "shippingErrors": "[ShippingError!",
+    "shippingMethod": "ShippingMethod"
+  }
+}

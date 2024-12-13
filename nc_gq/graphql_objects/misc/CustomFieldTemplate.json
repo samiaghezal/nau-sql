@@ -1,0 +1,13 @@
+{
+  "name": "CustomFieldTemplate",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "id": "ID!",
+    "createdAt": "DateTime!",
+    "updatedAt": "DateTime!",
+    "contentType": "CustomFieldTemplateEnum",
+    "customAttributes": "[Attribute!"
+  }
+}

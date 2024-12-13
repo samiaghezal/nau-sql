@@ -1,0 +1,8 @@
+{
+  "name": "LocationSuggestion",
+  "implements": [],
+  "fields": {
+    "label": "String!",
+    "address": "Address"
+  }
+}

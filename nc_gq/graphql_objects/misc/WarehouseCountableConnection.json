@@ -1,0 +1,9 @@
+{
+  "name": "WarehouseCountableConnection",
+  "implements": [],
+  "fields": {
+    "pageInfo": "PageInfo!",
+    "edges": "[WarehouseCountableEdge!",
+    "totalCount": "Int"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MicrositeDelete",
+  "implements": [],
+  "fields": {
+    "micrositeErrors": "[ProductError!",
+    "microsite": "Microsite"
+  }
+}

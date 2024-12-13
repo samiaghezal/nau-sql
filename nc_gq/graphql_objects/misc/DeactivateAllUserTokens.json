@@ -1,0 +1,7 @@
+{
+  "name": "DeactivateAllUserTokens",
+  "implements": [],
+  "fields": {
+    "accountErrors": "[AccountError!"
+  }
+}

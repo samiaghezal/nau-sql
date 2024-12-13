@@ -1,0 +1,8 @@
+{
+  "name": "Image",
+  "implements": [],
+  "fields": {
+    "url": "String!",
+    "alt": "String"
+  }
+}

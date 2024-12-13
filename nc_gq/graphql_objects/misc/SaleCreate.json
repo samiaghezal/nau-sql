@@ -1,0 +1,8 @@
+{
+  "name": "SaleCreate",
+  "implements": [],
+  "fields": {
+    "discountErrors": "[DiscountError!",
+    "sale": "Sale"
+  }
+}

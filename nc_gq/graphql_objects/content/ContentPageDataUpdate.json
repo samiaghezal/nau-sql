@@ -1,0 +1,8 @@
+{
+  "name": "ContentPageDataUpdate",
+  "implements": [],
+  "fields": {
+    "contentPageData": "ContentPageData",
+    "shopErrors": "[ShopError!"
+  }
+}

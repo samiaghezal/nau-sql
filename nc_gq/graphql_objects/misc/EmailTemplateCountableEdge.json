@@ -1,0 +1,8 @@
+{
+  "name": "EmailTemplateCountableEdge",
+  "implements": [],
+  "fields": {
+    "node": "EmailTemplate!",
+    "cursor": "String!"
+  }
+}

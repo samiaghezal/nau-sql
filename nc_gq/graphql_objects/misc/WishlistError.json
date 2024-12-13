@@ -1,0 +1,9 @@
+{
+  "name": "WishlistError",
+  "implements": [],
+  "fields": {
+    "field": "String",
+    "message": "String!",
+    "code": "WishlistErrorCode!"
+  }
+}

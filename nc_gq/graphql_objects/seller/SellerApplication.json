@@ -1,0 +1,15 @@
+{
+  "name": "SellerApplication",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "createdAt": "DateTime!",
+    "updatedAt": "DateTime!",
+    "checkpoint": "SellerApplicationCheckpoint!",
+    "formData": "JSONString!",
+    "seller": "Seller!",
+    "submittedAt": "DateTime",
+    "id": "ID!"
+  }
+}

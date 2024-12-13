@@ -1,0 +1,8 @@
+{
+  "name": "SellerAgreementDecline",
+  "implements": [],
+  "fields": {
+    "user": "User",
+    "agreementErrors": "[AgreementError!"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "WebhookJobCountableEdge",
+  "implements": [],
+  "fields": {
+    "node": "WebhookJob!",
+    "cursor": "String!"
+  }
+}

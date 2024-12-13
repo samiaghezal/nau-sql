@@ -1,0 +1,34 @@
+{
+  "name": "NauticalOrderLine",
+  "implements": [
+    "Node",
+    "ObjectWithMetadata"
+  ],
+  "fields": {
+    "id": "ID!",
+    "privateMetadata": "[MetadataItem!",
+    "metadata": "[MetadataItem!",
+    "isLinePriceOverridden": "Boolean!",
+    "unitPriceOverriddenNote": "String",
+    "note": "String",
+    "productName": "String!",
+    "variantName": "String!",
+    "productSku": "String",
+    "isShippingRequired": "Boolean!",
+    "digitalContentUrl": "DigitalContentUrl",
+    "size": "Int",
+    "unitPrice": "TaxedMoney",
+    "totalPrice": "TaxedMoney",
+    "variant": "ProductVariant",
+    "translatedProductName": "String!",
+    "translatedVariantName": "String!",
+    "priceBook": "PriceBook",
+    "sellerOrderline": "OrderLine",
+    "quantityOrdered": "Int!",
+    "sale": "Sale",
+    "saleDiscount": "Money",
+    "voucherDiscount": "Money",
+    "originalUnitPrice": "TaxedMoney",
+    "discountedUnitPrice": "TaxedMoney"
+  }
+}

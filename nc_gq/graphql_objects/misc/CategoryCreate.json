@@ -1,0 +1,8 @@
+{
+  "name": "CategoryCreate",
+  "implements": [],
+  "fields": {
+    "productErrors": "[ProductError!",
+    "category": "Category"
+  }
+}

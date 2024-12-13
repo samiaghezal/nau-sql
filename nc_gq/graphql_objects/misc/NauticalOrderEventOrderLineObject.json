@@ -1,0 +1,9 @@
+{
+  "name": "NauticalOrderEventOrderLineObject",
+  "implements": [],
+  "fields": {
+    "quantity": "Int",
+    "orderLine": "NauticalOrderLine",
+    "itemName": "String"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "SellerWithOwnerCreate",
+  "implements": [],
+  "fields": {
+    "seller": "Seller",
+    "sellerErrors": "[SellerError!"
+  }
+}

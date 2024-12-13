@@ -1,0 +1,8 @@
+{
+  "name": "ContentDuplicate",
+  "implements": [],
+  "fields": {
+    "content": "Content",
+    "shopErrors": "[ShopError!"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ColumnObjectType",
+  "implements": [],
+  "fields": {
+    "display": "String!",
+    "fieldType": "String!",
+    "name": "String!",
+    "order": "Int!"
+  }
+}

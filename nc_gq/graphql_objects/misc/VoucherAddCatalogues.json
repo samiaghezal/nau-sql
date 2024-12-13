@@ -1,0 +1,8 @@
+{
+  "name": "VoucherAddCatalogues",
+  "implements": [],
+  "fields": {
+    "voucher": "Voucher",
+    "discountErrors": "[DiscountError!"
+  }
+}

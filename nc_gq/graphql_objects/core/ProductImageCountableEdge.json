@@ -1,0 +1,8 @@
+{
+  "name": "ProductImageCountableEdge",
+  "implements": [],
+  "fields": {
+    "node": "ProductImage!",
+    "cursor": "String!"
+  }
+}

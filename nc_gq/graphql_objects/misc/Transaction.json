@@ -1,0 +1,16 @@
+{
+  "name": "Transaction",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "id": "ID!",
+    "created": "DateTime!",
+    "payment": "Payment!",
+    "token": "String!",
+    "kind": "TransactionKind!",
+    "isSuccess": "Boolean!",
+    "error": "String",
+    "amount": "Money"
+  }
+}

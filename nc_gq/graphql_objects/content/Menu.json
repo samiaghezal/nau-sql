@@ -1,0 +1,12 @@
+{
+  "name": "Menu",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "id": "ID!",
+    "name": "String!",
+    "slug": "String!",
+    "items": "[MenuItem!"
+  }
+}

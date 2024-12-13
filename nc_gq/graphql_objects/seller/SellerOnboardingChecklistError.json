@@ -1,0 +1,9 @@
+{
+  "name": "SellerOnboardingChecklistError",
+  "implements": [],
+  "fields": {
+    "field": "String",
+    "message": "String!",
+    "code": "SellerOnboardingChecklistErrorCode!"
+  }
+}

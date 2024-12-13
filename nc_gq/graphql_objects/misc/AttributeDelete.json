@@ -1,0 +1,8 @@
+{
+  "name": "AttributeDelete",
+  "implements": [],
+  "fields": {
+    "productErrors": "[ProductError!",
+    "attribute": "Attribute"
+  }
+}

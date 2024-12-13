@@ -1,0 +1,23 @@
+{
+  "name": "CheckoutLine",
+  "implements": [
+    "Node",
+    "ObjectWithMetadata"
+  ],
+  "fields": {
+    "id": "ID!",
+    "privateMetadata": "[MetadataItem!",
+    "metadata": "[MetadataItem!",
+    "isLinePriceOverridden": "Boolean!",
+    "unitPriceOverriddenNote": "String",
+    "note": "String",
+    "variant": "ProductVariant!",
+    "quantity": "Int!",
+    "sale": "Sale",
+    "totalPrice": "TaxedMoney!",
+    "requiresShipping": "Boolean",
+    "seller": "SellerType",
+    "discountedUnitPrice": "TaxedMoney!",
+    "originalUnitPrice": "TaxedMoney!"
+  }
+}

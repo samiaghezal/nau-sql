@@ -1,0 +1,9 @@
+{
+  "name": "MenuError",
+  "implements": [],
+  "fields": {
+    "field": "String",
+    "message": "String!",
+    "code": "MenuErrorCode!"
+  }
+}

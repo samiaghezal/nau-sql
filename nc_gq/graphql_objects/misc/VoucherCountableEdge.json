@@ -1,0 +1,8 @@
+{
+  "name": "VoucherCountableEdge",
+  "implements": [],
+  "fields": {
+    "node": "Voucher!",
+    "cursor": "String!"
+  }
+}

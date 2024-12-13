@@ -1,0 +1,8 @@
+{
+  "name": "CheckoutLineAddNote",
+  "implements": [],
+  "fields": {
+    "checkoutErrors": "[CheckoutError!",
+    "checkoutLine": "CheckoutLine"
+  }
+}

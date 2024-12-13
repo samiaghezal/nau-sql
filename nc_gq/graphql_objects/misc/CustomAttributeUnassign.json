@@ -1,0 +1,8 @@
+{
+  "name": "CustomAttributeUnassign",
+  "implements": [],
+  "fields": {
+    "customFieldTemplate": "CustomFieldTemplate",
+    "attributeErrors": "[ProductError!"
+  }
+}

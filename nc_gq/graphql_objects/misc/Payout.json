@@ -1,0 +1,34 @@
+{
+  "name": "Payout",
+  "implements": [
+    "Node",
+    "ObjectWithMetadata"
+  ],
+  "fields": {
+    "id": "ID!",
+    "privateMetadata": "[MetadataItem!",
+    "metadata": "[MetadataItem!",
+    "tenant": "Tenant!",
+    "created": "String!",
+    "updated": "DateTime!",
+    "startDate": "Date",
+    "endDate": "String!",
+    "status": "PayoutStatus!",
+    "name": "String",
+    "currency": "String!",
+    "offset": "Int",
+    "before": "String",
+    "after": "String",
+    "first": "Int",
+    "last": "Int",
+    "vendors": "Int!",
+    "netSales": "Money!",
+    "discounts": "Money!",
+    "shipping": "Money!",
+    "commission": "Money!",
+    "fees": "Money!",
+    "refunds": "Money!",
+    "adjustments": "Money!",
+    "payout": "Money!"
+  }
+}

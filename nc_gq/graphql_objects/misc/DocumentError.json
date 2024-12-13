@@ -1,0 +1,9 @@
+{
+  "name": "DocumentError",
+  "implements": [],
+  "fields": {
+    "field": "String",
+    "message": "String!",
+    "code": "DocumentErrorCode!"
+  }
+}

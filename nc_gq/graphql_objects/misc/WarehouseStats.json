@@ -1,0 +1,10 @@
+{
+  "name": "WarehouseStats",
+  "implements": [],
+  "fields": {
+    "warehouseId": "ID!",
+    "quantity": "Int!",
+    "quantityAllocated": "Int!",
+    "quantityAvailable": "Int!"
+  }
+}

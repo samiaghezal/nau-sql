@@ -1,0 +1,8 @@
+{
+  "name": "CheckoutCustomerAttach",
+  "implements": [],
+  "fields": {
+    "checkout": "Checkout",
+    "checkoutErrors": "[CheckoutError!"
+  }
+}

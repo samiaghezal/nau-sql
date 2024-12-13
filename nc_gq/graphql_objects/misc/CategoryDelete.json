@@ -1,0 +1,8 @@
+{
+  "name": "CategoryDelete",
+  "implements": [],
+  "fields": {
+    "productErrors": "[ProductError!",
+    "category": "Category"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "AgreementSellersCountableConnection",
+  "implements": [],
+  "fields": {
+    "pageInfo": "PageInfo!",
+    "edges": "[AgreementSellersCountableEdge!",
+    "totalCount": "Int"
+  }
+}

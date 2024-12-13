@@ -1,0 +1,17 @@
+{
+  "name": "Document",
+  "implements": [],
+  "fields": {
+    "id": "ID!",
+    "createdAt": "DateTime!",
+    "updatedAt": "DateTime!",
+    "tenant": "Tenant!",
+    "file": "String!",
+    "name": "String!",
+    "description": "String!",
+    "fileExtension": "String!",
+    "fileContentType": "String",
+    "fileSize": "FileSize",
+    "url": "String"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "TaxedMoney",
+  "implements": [],
+  "fields": {
+    "currency": "String!",
+    "gross": "Money!",
+    "net": "Money!",
+    "tax": "Money!"
+  }
+}

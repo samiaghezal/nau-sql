@@ -1,0 +1,9 @@
+{
+  "name": "StockError",
+  "implements": [],
+  "fields": {
+    "field": "String",
+    "message": "String!",
+    "code": "StockErrorCode!"
+  }
+}

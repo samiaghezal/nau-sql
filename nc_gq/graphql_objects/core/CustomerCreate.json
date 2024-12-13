@@ -1,0 +1,8 @@
+{
+  "name": "CustomerCreate",
+  "implements": [],
+  "fields": {
+    "accountErrors": "[AccountError!",
+    "user": "User"
+  }
+}

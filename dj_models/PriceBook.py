@@ -1,0 +1,15 @@
+class PriceBook(models.Model):
+    description = models.String()
+    descriptionHtml = models.String()
+    id = models.ID()
+    privateMetadata = models.MetadataItem()
+    metadata = models.MetadataItem()
+    name = models.String()
+    deleted = models.Boolean()
+    priceBookVariants = models.PriceBookVariant()
+    priceBookProducts = models.PriceBookProduct()
+    priceBookProductTypes = models.PriceBookProductType()
+    numberOfProducts = models.Int()
+    numberOfProductTypes = models.Int()
+    numberOfVariants = models.Int()
+

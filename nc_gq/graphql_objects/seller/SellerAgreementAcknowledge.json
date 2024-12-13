@@ -1,0 +1,8 @@
+{
+  "name": "SellerAgreementAcknowledge",
+  "implements": [],
+  "fields": {
+    "user": "User",
+    "agreementErrors": "[AgreementError!"
+  }
+}

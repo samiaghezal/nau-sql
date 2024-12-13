@@ -1,0 +1,8 @@
+{
+  "name": "AgreementBulkPublish",
+  "implements": [],
+  "fields": {
+    "count": "Int!",
+    "agreementErrors": "[AgreementError!"
+  }
+}

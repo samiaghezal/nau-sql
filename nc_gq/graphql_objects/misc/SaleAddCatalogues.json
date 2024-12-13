@@ -1,0 +1,8 @@
+{
+  "name": "SaleAddCatalogues",
+  "implements": [],
+  "fields": {
+    "sale": "Sale",
+    "discountErrors": "[DiscountError!"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "VariantSize",
+  "implements": [],
+  "fields": {
+    "length": "Decimal",
+    "width": "Decimal",
+    "height": "Decimal",
+    "sizeUnits": "DistanceUnitsEnum"
+  }
+}

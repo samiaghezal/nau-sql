@@ -1,0 +1,9 @@
+{
+  "name": "InvoiceError",
+  "implements": [],
+  "fields": {
+    "field": "String",
+    "message": "String!",
+    "code": "InvoiceErrorCode!"
+  }
+}

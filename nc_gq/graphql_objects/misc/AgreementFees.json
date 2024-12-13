@@ -1,0 +1,15 @@
+{
+  "name": "AgreementFees",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "id": "ID!",
+    "tenant": "Tenant!",
+    "agreement": "Agreement!",
+    "feeType": "FeeType!",
+    "feeScope": "FeeScope!",
+    "feeValue": "Decimal!",
+    "feeName": "String!"
+  }
+}

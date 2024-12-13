@@ -1,0 +1,8 @@
+{
+  "name": "InvoiceRequestDelete",
+  "implements": [],
+  "fields": {
+    "invoiceErrors": "[InvoiceError!",
+    "invoice": "Invoice"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "TenantCountableEdge",
+  "implements": [],
+  "fields": {
+    "node": "Tenant!",
+    "cursor": "String!"
+  }
+}

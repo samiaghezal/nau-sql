@@ -1,0 +1,9 @@
+{
+  "name": "NauticalDraftOrderLinePriceOverride",
+  "implements": [],
+  "fields": {
+    "nauticalOrder": "NauticalOrder",
+    "orderErrors": "[OrderError!",
+    "nauticalOrderLine": "NauticalOrderLine"
+  }
+}

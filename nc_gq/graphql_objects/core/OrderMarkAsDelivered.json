@@ -1,0 +1,8 @@
+{
+  "name": "OrderMarkAsDelivered",
+  "implements": [],
+  "fields": {
+    "orderErrors": "[OrderError!",
+    "order": "Order"
+  }
+}

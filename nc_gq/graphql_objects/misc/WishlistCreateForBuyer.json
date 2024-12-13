@@ -1,0 +1,8 @@
+{
+  "name": "WishlistCreateForBuyer",
+  "implements": [],
+  "fields": {
+    "wishlistErrors": "[WishlistError!",
+    "wishlist": "Wishlist"
+  }
+}

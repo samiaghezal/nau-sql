@@ -1,0 +1,8 @@
+{
+  "name": "OrderFeeCreate",
+  "implements": [],
+  "fields": {
+    "orderFee": "OrderFee",
+    "orderErrors": "[OrderError!"
+  }
+}

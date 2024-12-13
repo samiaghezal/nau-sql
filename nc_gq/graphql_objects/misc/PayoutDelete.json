@@ -1,0 +1,8 @@
+{
+  "name": "PayoutDelete",
+  "implements": [],
+  "fields": {
+    "payoutErrors": "[PayoutError!",
+    "payout": "Payout"
+  }
+}

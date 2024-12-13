@@ -1,0 +1,8 @@
+{
+  "name": "EmailEventCountableEdge",
+  "implements": [],
+  "fields": {
+    "node": "EmailEvent!",
+    "cursor": "String!"
+  }
+}

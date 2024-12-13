@@ -1,0 +1,8 @@
+{
+  "name": "VoucherCreate",
+  "implements": [],
+  "fields": {
+    "discountErrors": "[DiscountError!",
+    "voucher": "Voucher"
+  }
+}

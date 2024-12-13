@@ -1,0 +1,8 @@
+{
+  "name": "AppInstall",
+  "implements": [],
+  "fields": {
+    "appErrors": "[AppError!",
+    "appInstallation": "AppInstallation"
+  }
+}

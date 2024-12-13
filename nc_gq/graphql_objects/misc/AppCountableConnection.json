@@ -1,0 +1,9 @@
+{
+  "name": "AppCountableConnection",
+  "implements": [],
+  "fields": {
+    "pageInfo": "PageInfo!",
+    "edges": "[AppCountableEdge!",
+    "totalCount": "Int"
+  }
+}

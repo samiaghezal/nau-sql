@@ -1,0 +1,8 @@
+{
+  "name": "CatalogImportProcessLogRecordCountableEdge",
+  "implements": [],
+  "fields": {
+    "node": "CatalogImportProcessLogRecord!",
+    "cursor": "String!"
+  }
+}

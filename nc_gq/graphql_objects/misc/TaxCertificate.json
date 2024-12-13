@@ -1,0 +1,26 @@
+{
+  "name": "TaxCertificate",
+  "implements": [],
+  "fields": {
+    "id": "Int",
+    "companyId": "String",
+    "signedDate": "String",
+    "expirationDate": "String",
+    "filename": "String",
+    "documentExists": "Boolean",
+    "downloadUrl": "String",
+    "valid": "Boolean",
+    "verified": "Boolean",
+    "exemptPercentage": "String",
+    "isSingleCertificate": "Boolean",
+    "exemptionNumber": "String",
+    "exemptionReasonName": "String",
+    "exemptionReasonId": "Int",
+    "status": "String",
+    "createdDate": "String",
+    "modifiedDate": "String",
+    "taxNumberType": "String",
+    "businessNumberType": "String",
+    "exposureZoneName": "String"
+  }
+}

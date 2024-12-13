@@ -1,0 +1,8 @@
+{
+  "name": "CustomerDelete",
+  "implements": [],
+  "fields": {
+    "accountErrors": "[AccountError!",
+    "user": "User"
+  }
+}

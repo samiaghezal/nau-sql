@@ -1,0 +1,8 @@
+{
+  "name": "PriceBookVariantCountableEdge",
+  "implements": [],
+  "fields": {
+    "node": "PriceBookVariant!",
+    "cursor": "String!"
+  }
+}

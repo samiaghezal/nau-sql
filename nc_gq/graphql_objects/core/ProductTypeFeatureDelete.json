@@ -1,0 +1,8 @@
+{
+  "name": "ProductTypeFeatureDelete",
+  "implements": [],
+  "fields": {
+    "productType": "ProductType",
+    "productErrors": "[ProductError!"
+  }
+}

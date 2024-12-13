@@ -1,0 +1,15 @@
+{
+  "name": "DashboardOrdersSummaryType",
+  "implements": [],
+  "fields": {
+    "filters": "[FilterObjectType!",
+    "current": "AbstractOrderSellerReportType",
+    "previous": "AbstractOrderSellerReportType",
+    "deltas": "OrderSummaryDeltaDataType",
+    "ordersToFulfill": "Int",
+    "paymentsToProcess": "Int",
+    "returnsToProcess": "Int",
+    "pendingReviews": "Int",
+    "pendingPayouts": "Int"
+  }
+}

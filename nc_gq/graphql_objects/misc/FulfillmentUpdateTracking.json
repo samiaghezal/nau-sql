@@ -1,0 +1,9 @@
+{
+  "name": "FulfillmentUpdateTracking",
+  "implements": [],
+  "fields": {
+    "fulfillment": "Fulfillment",
+    "order": "Order",
+    "orderErrors": "[OrderError!"
+  }
+}

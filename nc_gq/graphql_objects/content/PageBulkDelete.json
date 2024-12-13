@@ -1,0 +1,8 @@
+{
+  "name": "PageBulkDelete",
+  "implements": [],
+  "fields": {
+    "count": "Int!",
+    "pageErrors": "[PageError!"
+  }
+}

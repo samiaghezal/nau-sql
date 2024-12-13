@@ -1,0 +1,8 @@
+{
+  "name": "ProductVariantStocksCreate",
+  "implements": [],
+  "fields": {
+    "productVariant": "ProductVariant",
+    "bulkStockErrors": "[BulkStockError!"
+  }
+}

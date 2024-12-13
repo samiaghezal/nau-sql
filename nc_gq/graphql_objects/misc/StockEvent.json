@@ -1,0 +1,14 @@
+{
+  "name": "StockEvent",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "id": "ID!",
+    "date": "DateTime!",
+    "type": "StockEventType!",
+    "stock": "Stock",
+    "parameters": "JSONString!",
+    "user": "User"
+  }
+}

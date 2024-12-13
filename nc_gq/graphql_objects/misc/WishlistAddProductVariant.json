@@ -1,0 +1,8 @@
+{
+  "name": "WishlistAddProductVariant",
+  "implements": [],
+  "fields": {
+    "wishlist": "[WishlistItem!",
+    "wishlistErrors": "[WishlistError!"
+  }
+}

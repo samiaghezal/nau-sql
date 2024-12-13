@@ -1,0 +1,8 @@
+{
+  "name": "ProductTypeUpdate",
+  "implements": [],
+  "fields": {
+    "productErrors": "[ProductError!",
+    "productType": "ProductType"
+  }
+}

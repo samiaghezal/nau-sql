@@ -1,0 +1,14 @@
+{
+  "name": "RefundPayment",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "createdAt": "DateTime!",
+    "updatedAt": "DateTime!",
+    "id": "ID!",
+    "paymentType": "RefundPaymentTypeEnum!",
+    "refund": "Refund!",
+    "refundMethod": "RefundMethod!"
+  }
+}

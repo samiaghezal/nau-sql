@@ -1,0 +1,8 @@
+{
+  "name": "CheckoutEventTriggered",
+  "implements": [],
+  "fields": {
+    "checkoutEvent": "CheckoutEvent",
+    "pluginsErrors": "[PluginError!"
+  }
+}

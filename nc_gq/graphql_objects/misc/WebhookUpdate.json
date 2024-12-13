@@ -1,0 +1,8 @@
+{
+  "name": "WebhookUpdate",
+  "implements": [],
+  "fields": {
+    "webhookErrors": "[WebhookError!",
+    "webhook": "Webhook"
+  }
+}

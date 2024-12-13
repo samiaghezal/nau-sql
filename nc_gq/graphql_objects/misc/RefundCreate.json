@@ -1,0 +1,8 @@
+{
+  "name": "RefundCreate",
+  "implements": [],
+  "fields": {
+    "refundErrors": "[RefundError!",
+    "refund": "Refund"
+  }
+}

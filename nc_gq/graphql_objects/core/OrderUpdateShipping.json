@@ -1,0 +1,8 @@
+{
+  "name": "OrderUpdateShipping",
+  "implements": [],
+  "fields": {
+    "order": "Order",
+    "orderErrors": "[OrderError!"
+  }
+}

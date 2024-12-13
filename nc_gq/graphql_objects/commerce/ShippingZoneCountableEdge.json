@@ -1,0 +1,8 @@
+{
+  "name": "ShippingZoneCountableEdge",
+  "implements": [],
+  "fields": {
+    "node": "ShippingZone!",
+    "cursor": "String!"
+  }
+}

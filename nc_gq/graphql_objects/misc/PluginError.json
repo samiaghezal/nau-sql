@@ -1,0 +1,9 @@
+{
+  "name": "PluginError",
+  "implements": [],
+  "fields": {
+    "field": "String",
+    "message": "String!",
+    "code": "PluginErrorCode!"
+  }
+}

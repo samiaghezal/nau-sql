@@ -1,0 +1,8 @@
+{
+  "name": "AppFetchManifest",
+  "implements": [],
+  "fields": {
+    "manifest": "Manifest",
+    "appErrors": "[AppError!"
+  }
+}

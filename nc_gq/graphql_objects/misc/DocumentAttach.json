@@ -1,0 +1,9 @@
+{
+  "name": "DocumentAttach",
+  "implements": [],
+  "fields": {
+    "document": "Document",
+    "instances": "[DocumentTargetInstance!",
+    "documentErrors": "[DocumentError!"
+  }
+}

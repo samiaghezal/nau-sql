@@ -1,0 +1,8 @@
+{
+  "name": "NauticalOrderCountableEdge",
+  "implements": [],
+  "fields": {
+    "node": "NauticalOrder!",
+    "cursor": "String!"
+  }
+}

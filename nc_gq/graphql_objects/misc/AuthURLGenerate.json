@@ -1,0 +1,8 @@
+{
+  "name": "AuthURLGenerate",
+  "implements": [],
+  "fields": {
+    "authUrl": "String",
+    "accountErrors": "[AccountError!"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "CheckoutComplete",
+  "implements": [],
+  "fields": {
+    "order": "NauticalOrder",
+    "confirmationNeeded": "Boolean!",
+    "confirmationData": "JSONString",
+    "checkoutErrors": "[CheckoutError!"
+  }
+}

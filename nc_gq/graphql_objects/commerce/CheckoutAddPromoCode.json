@@ -1,0 +1,8 @@
+{
+  "name": "CheckoutAddPromoCode",
+  "implements": [],
+  "fields": {
+    "checkout": "Checkout",
+    "checkoutErrors": "[CheckoutError!"
+  }
+}

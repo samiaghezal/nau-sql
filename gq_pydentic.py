@@ -1,113 +1,103 @@
-from typing import Dict, List, Optional, Any
 import json
-import re
-from pathlib import Path
+from typing import Dict, Any
 
-def graphql_to_python_type(gql_type: str) -> str:
+def convert_graphql_type(gql_type: str) -> str:
     """Convert GraphQL types to Python/Pydantic types"""
-    # Remove non-null operator
-    is_required = gql_type.endswith('!')
-    gql_type = gql_type.rstrip('!')
-    
-    # Handle arrays
-    is_list = gql_type.startswith('[') and gql_type.endswith(']')
-    if is_list:
-        inner_type = gql_type[1:-1].rstrip('!')
-        python_type = f"List[{graphql_to_python_type(inner_type)}]"
-        return python_type if is_required else f"Optional[{python_type}]"
-
-    # Basic type mapping
     type_mapping = {
-        'String': 'str',
-        'Int': 'int',
-        'Float': 'float',
-        'Boolean': 'bool',
-        'ID': 'str',  # GraphQL ID is typically a string
-        'DateTime': 'datetime',
-        'Date': 'date',
-        'JSON': 'Dict[str, Any]',
-        'JSONString': 'str',
-        'Decimal': 'Decimal',
-        'BigInt': 'int',
+        "String": "str",
+        "Int": "int",
+        "Float": "float",
+        "Boolean": "bool",
+        "ID": "str",
+        "DateTime": "datetime",
+        "Date": "date",
+        "BigInt": "int",
+        "Decimal": "Decimal",
+        "JSONString": "Dict[str, Any]",
+        "UUID": "UUID",
+        "NauticalUUID": "UUID"
     }
     
-    python_type = type_mapping.get(gql_type, gql_type)
-    return python_type if is_required else f"Optional[{python_type}]"
-
-def sanitize_field_name(name: str) -> str:
-    """Sanitize field names to be valid Python identifiers"""
-    # Handle Python keywords
-    python_keywords = {'from', 'class', 'import', 'return', 'None', 'True', 'False', 'async', 'await'}
-    if name in python_keywords:
-        return f"{name}_"
-    return name
-
-def generate_pydantic_models(models_json: Dict) -> str:
-    """Generate Pydantic models from the GraphQL schema"""
-    output = [
-        "from datetime import datetime, date",
-        "from decimal import Decimal",
-        "from typing import List, Optional, Dict, Any",
-        "from pydantic import BaseModel, Field",
-        "\n\n"
-    ]
+    # Handle non-null (!) and list types ([])
+    is_required = gql_type.endswith("!")
+    is_list = gql_type.startswith("[") and gql_type.endswith("]")
     
-    # First generate enums
-    for enum_name, values in models_json['enums'].items():
-        output.append(f"class {enum_name}(str):")
-        for value in values:
-            # Clean up enum values
-            clean_value = value.strip().replace(' ', '_').upper()
-            output.append(f"    {clean_value} = '{value}'")
-        output.append("")
+    # Clean up the type
+    clean_type = gql_type.replace("!", "").replace("[", "").replace("]", "")
     
-    # Then generate type models
-    for type_name, fields in models_json['types'].items():
-        output.append(f"class {type_name}(BaseModel):")
-        if not fields:
-            output.append("    pass")
+    # Get the Python type
+    python_type = type_mapping.get(clean_type, clean_type)
+    
+    # Add List wrapper if needed
+    if is_list:
+        python_type = f"List[{python_type}]"
+    
+    # Add Optional wrapper if not required
+    if not is_required and not is_list:
+        python_type = f"Optional[{python_type}]"
+        
+    return python_type
+
+def generate_pydantic_model(name: str, fields: Dict[str, str]) -> str:
+    """Generate a Pydantic model class from GraphQL type definition"""
+    imports = set()
+    field_definitions = []
+    
+    for field_name, field_type in fields.items():
+        python_type = convert_graphql_type(field_type)
+        
+        # Track needed imports
+        if "datetime" in python_type:
+            imports.add("from datetime import datetime, date")
+        if "Decimal" in python_type:
+            imports.add("from decimal import Decimal")
+        if "UUID" in python_type:
+            imports.add("from uuid import UUID")
+        if "List" in python_type:
+            imports.add("from typing import List, Optional, Dict, Any")
+        elif "Optional" in python_type:
+            imports.add("from typing import Optional, Dict, Any")
+            
+        # Handle camelCase to snake_case conversion
+        snake_case_name = ''.join(['_' + c.lower() if c.isupper() else c for c in field_name]).lstrip('_')
+        
+        # Add Field if name needs to be aliased
+        if snake_case_name != field_name:
+            field_definitions.append(f'    {snake_case_name}: {python_type} = Field(..., alias="{field_name}")')
         else:
-            for field_name, field_type in fields.items():
-                sanitized_name = sanitize_field_name(field_name)
-                python_type = graphql_to_python_type(field_type)
-                
-                # If the field name needed to be sanitized, use Field alias
-                if sanitized_name != field_name:
-                    output.append(f"    {sanitized_name}: {python_type} = Field(None, alias='{field_name}')")
-                else:
-                    output.append(f"    {field_name}: {python_type}")
-        output.append("")
+            field_definitions.append(f'    {snake_case_name}: {python_type}')
     
-    # Finally generate input models
-    for input_name, fields in models_json['inputs'].items():
-        output.append(f"class {input_name}(BaseModel):")
-        if not fields:
-            output.append("    pass")
-        else:
-            for field_name, field_type in fields.items():
-                sanitized_name = sanitize_field_name(field_name)
-                python_type = graphql_to_python_type(field_type)
-                
-                if sanitized_name != field_name:
-                    output.append(f"    {sanitized_name}: {python_type} = Field(None, alias='{field_name}')")
-                else:
-                    output.append(f"    {field_name}: {python_type}")
-        output.append("")
+    # Combine everything into a class definition
+    imports.add("from pydantic import BaseModel, Field")
     
-    return "\n".join(output)
+    return f"""{''.join(f'{imp}\n' for imp in sorted(imports))}
 
-def main():
-    # Read the JSON file
-    with open('extracted_models.json', 'r') as f:
-        models = json.load(f)
-    
-    # Generate the Pydantic models
-    pydantic_models = generate_pydantic_models(models)
-    
-    # Save to file
-    output_file = Path('models.py')
-    output_file.write_text(pydantic_models)
-    print(f"Pydantic models have been generated in {output_file}")
+class {name}(BaseModel):
+{chr(10).join(field_definitions)}
+"""
 
-if __name__ == "__main__":
-    main()
+def generate_all_models(schema_dict: Dict[str, Any]) -> Dict[str, str]:
+    """Generate all Pydantic models from GraphQL schema"""
+    models = {}
+    
+    for type_name, type_def in schema_dict["types"].items():
+        # Skip certain types if needed
+        # if type_name in ["Query", "Mutation"]:
+        #     continue
+            
+        models[type_name] = generate_pydantic_model(type_name, type_def)
+    
+    return models
+
+# Load your GraphQL schema
+with open("extracted_models.json") as f:
+    schema = json.load(f)
+
+# Generate all models
+models = generate_all_models(schema)
+
+# Write to separate files or one large file
+with open("generated_models.py", "w") as f:
+    f.write("# Generated Pydantic models from GraphQL schema\n\n")
+    for model_code in models.values():
+        f.write(f"{model_code}\n")

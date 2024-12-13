@@ -1,0 +1,10 @@
+{
+  "name": "AttributeError",
+  "implements": [],
+  "fields": {
+    "field": "String",
+    "message": "String!",
+    "code": "ProductErrorCode!",
+    "values": "[String!"
+  }
+}

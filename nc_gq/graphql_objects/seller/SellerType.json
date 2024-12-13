@@ -1,0 +1,15 @@
+{
+  "name": "SellerType",
+  "implements": [
+    "Node",
+    "ObjectWithMetadata"
+  ],
+  "fields": {
+    "id": "ID!",
+    "privateMetadata": "[MetadataItem!",
+    "metadata": "[MetadataItem!",
+    "pk": "Int",
+    "companyName": "String",
+    "owner": "UserType"
+  }
+}

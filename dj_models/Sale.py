@@ -1,0 +1,16 @@
+class Sale(models.Model):
+    id = models.ID()
+    name = models.String()
+    type = models.DiscountValueTypeEnum()
+    value = models.Decimal()
+    startDate = models.DateTime()
+    endDate = models.DateTime()
+    currency = models.String()
+    minSpent = models.Money()
+    minCheckoutItemsQuantity = models.Int()
+    categories = models.CategoryCountableConnection()
+    collections = models.CollectionCountableConnection()
+    products = models.ProductCountableConnection()
+    variants = models.ProductVariantCountableConnection()
+    saleType = models.SaleTypeEnum()
+

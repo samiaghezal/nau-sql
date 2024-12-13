@@ -1,0 +1,9 @@
+{
+  "name": "WebhookJobCountableConnection",
+  "implements": [],
+  "fields": {
+    "pageInfo": "PageInfo!",
+    "edges": "[WebhookJobCountableEdge!",
+    "totalCount": "Int"
+  }
+}

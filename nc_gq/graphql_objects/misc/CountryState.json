@@ -1,0 +1,10 @@
+{
+  "name": "CountryState",
+  "implements": [],
+  "fields": {
+    "area": "String",
+    "areaName": "String",
+    "country": "String",
+    "countryName": "String"
+  }
+}

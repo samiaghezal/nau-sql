@@ -1,0 +1,26 @@
+{
+  "name": "OrderEvent",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "id": "ID!",
+    "date": "DateTime!",
+    "type": "OrderEventsEnum",
+    "user": "User",
+    "message": "String",
+    "email": "String",
+    "emailType": "OrderEventsEmailsEnum",
+    "amount": "Float",
+    "paymentId": "String",
+    "paymentGateway": "String",
+    "quantity": "Int",
+    "composedId": "String",
+    "orderNumber": "String",
+    "invoiceNumber": "String",
+    "oversoldItems": "[String!",
+    "lines": "[OrderEventOrderLineObject!",
+    "fulfilledItems": "[FulfillmentLine!",
+    "warehouse": "Warehouse"
+  }
+}

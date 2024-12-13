@@ -1,0 +1,15 @@
+{
+  "name": "OrderPayoutSummary",
+  "implements": [],
+  "fields": {
+    "commissions": "Money!",
+    "discounts": "Money!",
+    "fees": "Money!",
+    "refunds": "Money!",
+    "refundsCommission": "Money!",
+    "sales": "Money!",
+    "shipping": "Money!",
+    "total": "Money!",
+    "vendorPayout": "VendorPayout!"
+  }
+}

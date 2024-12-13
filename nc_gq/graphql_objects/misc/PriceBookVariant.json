@@ -1,0 +1,15 @@
+{
+  "name": "PriceBookVariant",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "id": "ID!",
+    "priceBook": "PriceBook!",
+    "variant": "ProductVariant!",
+    "valueType": "PriceBookVariantValueType!",
+    "currency": "String!",
+    "price": "Money!",
+    "percentage": "Float!"
+  }
+}

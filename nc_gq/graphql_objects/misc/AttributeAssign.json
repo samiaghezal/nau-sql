@@ -1,0 +1,8 @@
+{
+  "name": "AttributeAssign",
+  "implements": [],
+  "fields": {
+    "productType": "ProductType",
+    "productErrors": "[ProductError!"
+  }
+}

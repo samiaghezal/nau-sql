@@ -1,0 +1,8 @@
+{
+  "name": "InstanceAttributeUnassign",
+  "implements": [],
+  "fields": {
+    "instance": "CustomFieldInstance",
+    "attributeErrors": "[AttributeError!"
+  }
+}

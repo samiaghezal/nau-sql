@@ -1,0 +1,15 @@
+class Page(models.Model):
+    id = models.ID()
+    publicationDate = models.Date()
+    createdAt = models.DateTime()
+    updatedAt = models.DateTime()
+    content = models.String()
+    contentHtml = models.String()
+    seoTitle = models.String()
+    seoDescription = models.String()
+    slug = models.String()
+    title = models.String()
+    privateMetadata = models.MetadataItem()
+    metadata = models.MetadataItem()
+    isPublished = models.Boolean()
+

@@ -1,0 +1,8 @@
+{
+  "name": "OrderSummaryDeltaDataType",
+  "implements": [],
+  "fields": {
+    "percent": "AbstractPercentReportType",
+    "values": "AbstractOrderSellerReportType"
+  }
+}

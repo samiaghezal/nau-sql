@@ -1,0 +1,8 @@
+{
+  "name": "ContentCreate",
+  "implements": [],
+  "fields": {
+    "content": "Content",
+    "shopErrors": "[ShopError!"
+  }
+}

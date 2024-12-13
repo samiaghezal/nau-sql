@@ -1,0 +1,15 @@
+class ProductFeature(models.Model):
+    id = models.ID()
+    sortOrder = models.Int()
+    deletedAt = models.DateTime()
+    deletedByUser = models.User()
+    deletedByApp = models.App()
+    deletionBatchUuid = models.UUID()
+    tenant = models.Tenant()
+    featureType = models.FeatureTypeEnum()
+    name = models.String()
+    description = models.String()
+    options = models.String()
+    product = models.Product()
+    productTypeFeature = models.ProductTypeProductFeature()
+

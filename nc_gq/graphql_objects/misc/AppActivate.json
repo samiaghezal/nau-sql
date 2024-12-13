@@ -1,0 +1,8 @@
+{
+  "name": "AppActivate",
+  "implements": [],
+  "fields": {
+    "appErrors": "[AppError!",
+    "app": "App"
+  }
+}

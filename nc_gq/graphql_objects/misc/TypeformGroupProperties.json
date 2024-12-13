@@ -1,0 +1,10 @@
+{
+  "name": "TypeformGroupProperties",
+  "implements": [],
+  "fields": {
+    "id": "String",
+    "title": "String",
+    "ref": "String",
+    "type": "String"
+  }
+}

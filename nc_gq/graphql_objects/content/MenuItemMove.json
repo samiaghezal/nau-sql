@@ -1,0 +1,8 @@
+{
+  "name": "MenuItemMove",
+  "implements": [],
+  "fields": {
+    "menu": "Menu",
+    "menuErrors": "[MenuError!"
+  }
+}

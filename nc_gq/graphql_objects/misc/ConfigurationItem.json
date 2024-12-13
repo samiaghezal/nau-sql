@@ -1,0 +1,12 @@
+{
+  "name": "ConfigurationItem",
+  "implements": [],
+  "fields": {
+    "name": "String!",
+    "value": "String",
+    "type": "ConfigurationTypeFieldEnum",
+    "helpText": "String",
+    "label": "String",
+    "options": "[String!"
+  }
+}

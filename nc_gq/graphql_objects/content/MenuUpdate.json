@@ -1,0 +1,8 @@
+{
+  "name": "MenuUpdate",
+  "implements": [],
+  "fields": {
+    "menuErrors": "[MenuError!",
+    "menu": "Menu"
+  }
+}

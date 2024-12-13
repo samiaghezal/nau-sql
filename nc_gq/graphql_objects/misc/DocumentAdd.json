@@ -1,0 +1,9 @@
+{
+  "name": "DocumentAdd",
+  "implements": [],
+  "fields": {
+    "document": "Document",
+    "instances": "[DocumentTargetInstance!",
+    "documentErrors": "[DocumentError!"
+  }
+}

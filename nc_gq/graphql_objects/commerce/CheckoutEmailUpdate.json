@@ -1,0 +1,8 @@
+{
+  "name": "CheckoutEmailUpdate",
+  "implements": [],
+  "fields": {
+    "checkout": "Checkout",
+    "checkoutErrors": "[CheckoutError!"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "CheckoutCountableEdge",
+  "implements": [],
+  "fields": {
+    "node": "Checkout!",
+    "cursor": "String!"
+  }
+}

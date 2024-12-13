@@ -1,0 +1,14 @@
+{
+  "name": "ProductImage",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "id": "ID!",
+    "sortOrder": "Int",
+    "externalId": "String",
+    "externalSource": "String",
+    "alt": "String!",
+    "size": "Int"
+  }
+}

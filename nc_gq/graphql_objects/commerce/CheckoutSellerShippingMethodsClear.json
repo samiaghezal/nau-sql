@@ -1,0 +1,8 @@
+{
+  "name": "CheckoutSellerShippingMethodsClear",
+  "implements": [],
+  "fields": {
+    "checkout": "Checkout",
+    "checkoutErrors": "[CheckoutError!"
+  }
+}

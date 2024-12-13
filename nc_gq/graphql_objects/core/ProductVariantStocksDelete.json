@@ -1,0 +1,8 @@
+{
+  "name": "ProductVariantStocksDelete",
+  "implements": [],
+  "fields": {
+    "productVariant": "ProductVariant",
+    "stockErrors": "[StockError!"
+  }
+}

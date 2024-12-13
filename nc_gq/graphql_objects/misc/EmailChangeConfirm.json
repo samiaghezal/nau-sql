@@ -1,0 +1,8 @@
+{
+  "name": "EmailChangeConfirm",
+  "implements": [],
+  "fields": {
+    "user": "User",
+    "accountErrors": "[AccountError!"
+  }
+}

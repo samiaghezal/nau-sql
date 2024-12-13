@@ -1,0 +1,8 @@
+{
+  "name": "NauticalOrderCancel",
+  "implements": [],
+  "fields": {
+    "order": "NauticalOrder",
+    "orderErrors": "[OrderError!"
+  }
+}

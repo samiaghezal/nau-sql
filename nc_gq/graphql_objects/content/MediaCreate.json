@@ -1,0 +1,8 @@
+{
+  "name": "MediaCreate",
+  "implements": [],
+  "fields": {
+    "media": "Media",
+    "shopErrors": "[ShopError!"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "NauticalOrderLinesCsvUpload",
+  "implements": [],
+  "fields": {
+    "nauticalOrder": "NauticalOrder",
+    "csvFile": "ImportFile",
+    "successfulLines": "Int",
+    "failedLines": "Int",
+    "orderErrors": "[OrderError!"
+  }
+}

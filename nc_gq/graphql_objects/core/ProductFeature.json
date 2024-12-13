@@ -1,0 +1,21 @@
+{
+  "name": "ProductFeature",
+  "implements": [
+    "Node"
+  ],
+  "fields": {
+    "id": "ID!",
+    "sortOrder": "Int",
+    "deletedAt": "DateTime",
+    "deletedByUser": "User",
+    "deletedByApp": "App",
+    "deletionBatchUuid": "UUID",
+    "tenant": "Tenant!",
+    "featureType": "FeatureTypeEnum!",
+    "name": "String!",
+    "description": "String!",
+    "options": "[String!",
+    "product": "Product!",
+    "productTypeFeature": "ProductTypeProductFeature"
+  }
+}

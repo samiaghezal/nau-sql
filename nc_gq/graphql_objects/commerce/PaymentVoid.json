@@ -1,0 +1,8 @@
+{
+  "name": "PaymentVoid",
+  "implements": [],
+  "fields": {
+    "payment": "Payment",
+    "paymentErrors": "[PaymentError!"
+  }
+}

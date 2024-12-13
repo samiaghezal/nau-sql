@@ -1,0 +1,8 @@
+{
+  "name": "ProductTypeCountableEdge",
+  "implements": [],
+  "fields": {
+    "node": "ProductType!",
+    "cursor": "String!"
+  }
+}

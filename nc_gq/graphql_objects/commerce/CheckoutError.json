@@ -1,0 +1,10 @@
+{
+  "name": "CheckoutError",
+  "implements": [],
+  "fields": {
+    "field": "String",
+    "message": "String!",
+    "code": "CheckoutErrorCode!",
+    "variants": "[ID!"
+  }
+}

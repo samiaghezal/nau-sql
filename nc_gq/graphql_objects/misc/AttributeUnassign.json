@@ -1,0 +1,8 @@
+{
+  "name": "AttributeUnassign",
+  "implements": [],
+  "fields": {
+    "productType": "ProductType",
+    "productErrors": "[ProductError!"
+  }
+}

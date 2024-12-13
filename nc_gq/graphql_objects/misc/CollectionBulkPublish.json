@@ -1,0 +1,8 @@
+{
+  "name": "CollectionBulkPublish",
+  "implements": [],
+  "fields": {
+    "count": "Int!",
+    "productErrors": "[ProductError!"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "VendorPayoutCountableConnection",
+  "implements": [],
+  "fields": {
+    "pageInfo": "PageInfo!",
+    "edges": "[VendorPayoutCountableEdge!",
+    "totalCount": "Int"
+  }
+}

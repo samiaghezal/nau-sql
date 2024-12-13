@@ -54,9 +54,9 @@ class EventTypeEnum(str):
     
 
 class OrderDirection(str):
-    SPECIFIES_AN_ASCENDING_SORT_ORDER. = 'Specifies an ascending sort order.'
+    SPECIFIES_AN_ASCENDING_SORT_ORDER = 'Specifies an ascending sort order.'
     ASC = 'ASC'
-    SPECIFIES_A_DESCENDING_SORT_ORDER. = 'Specifies a descending sort order.'
+    SPECIFIES_A_DESCENDING_SORT_ORDER = 'Specifies a descending sort order.'
     DESC = 'DESC'
     
 
@@ -204,15 +204,15 @@ class VendorPayoutStatus(str):
     
 
 class VendorPayoutEventsEnum(str):
-    THE_VENDOR_PAYOUT_WAS_CREATED. = 'The vendor payout was created.'
+    THE_VENDOR_PAYOUT_WAS_CREATED = 'The vendor payout was created'
     VENDOR_PAYOUT_CREATED = 'VENDOR_PAYOUT_CREATED'
-    THE_VENDOR_PAYOUT_WAS_UPDATED. = 'The vendor payout was updated.'
+    THE_VENDOR_PAYOUT_WAS_UPDATED = 'The vendor payout was updated'
     VENDOR_PAYOUT_UPDATED = 'VENDOR_PAYOUT_UPDATED'
-    VENDOR_PAYOUT_STATUS_WAS_UPDATED. = 'Vendor payout status was updated.'
+    VENDOR_PAYOUT_STATUS_WAS_UPDATED = 'Vendor payout status was updated'
     VENDOR_PAYOUT_STATUS_UPDATED = 'VENDOR_PAYOUT_STATUS_UPDATED'
     A_NOTE_WAS_ADDED_TO_THE_VENDOR_PAYOUT = 'A note was added to the vendor payout'
     NOTE_ADDED = 'NOTE_ADDED'
-    THE_VENDOR_PAYOUT_EMAIL_WAS_SENT. = 'The vendor payout email was sent.'
+    THE_VENDOR_PAYOUT_EMAIL_WAS_SENT = 'The vendor payout email was sent'
     VENDOR_PAYOUT_EMAIL_SENT = 'VENDOR_PAYOUT_EMAIL_SENT'
     
 
@@ -330,9 +330,9 @@ class ProductSearchFieldEnum(str):
     
 
 class ProductOrderField(str):
-    SORT_PRODUCTS_BY_NAME. = 'Sort products by name.'
+    SORT_PRODUCTS_BY_NAME = 'Sort products by name.'
     NAME = 'NAME'
-    SORT_PRODUCTS_BY_SKU. = 'Sort products by sku.'
+    SORT_PRODUCTS_BY_SKU = 'Sort products by sku.'
     SKU = 'SKU'
     SORT_PRODUCTS_BY_PRICE = 'Sort products by price.'
     PRICE = 'PRICE'
@@ -340,29 +340,29 @@ class ProductOrderField(str):
     MINIMAL_PRICE = 'MINIMAL_PRICE'
     SORT_PRODUCTS_BY_UPDATE_DATE = 'Sort products by update date.'
     DATE = 'DATE'
-    SORT_PRODUCTS_BY_CREATE_DATE. = 'Sort products by create date.'
+    SORT_PRODUCTS_BY_CREATE_DATE = 'Sort products by create date.'
     CREATED = 'CREATED'
-    SORT_PRODUCTS_BY_TYPE. = 'Sort products by type.'
+    SORT_PRODUCTS_BY_TYPE = 'Sort products by type.'
     TYPE = 'TYPE'
-    SORT_PRODUCTS_BY_PUBLICATION_STATUS. = 'Sort products by publication status.'
+    SORT_PRODUCTS_BY_PUBLICATION_STATUS = 'Sort products by publication status.'
     PUBLISHED = 'PUBLISHED'
-    SORT_PRODUCTS_BY_PUBLICATION_DATE. = 'Sort products by publication date.'
+    SORT_PRODUCTS_BY_PUBLICATION_DATE = 'Sort products by publication date.'
     PUBLICATION_DATE = 'PUBLICATION_DATE'
-    SORT_PRODUCTS_BY_SELLER. = 'Sort products by seller.'
+    SORT_PRODUCTS_BY_SELLER = 'Sort products by seller.'
     SELLER = 'SELLER'
-    SORT_PRODUCTS_BY_CATEGORY. = 'Sort products by category.'
+    SORT_PRODUCTS_BY_CATEGORY = 'Sort products by category.'
     CATEGORY = 'CATEGORY'
-    SORT_PRODUCTS_BY_SUB_STATUS. = 'Sort products by sub status.'
+    SORT_PRODUCTS_BY_SUB_STATUS = 'Sort products by sub status.'
     SUB_STATUS = 'SUB_STATUS'
-    SORT_PRODUCTS_BY_SORT_PRIORITY_WEIGHT. = 'Sort products by sort priority weight.'
+    SORT_PRODUCTS_BY_SORT_PRIORITY_WEIGHT = 'Sort products by sort priority weight.'
     SORT_PRIORITY_WEIGHT = 'SORT_PRIORITY_WEIGHT'
-    SORT_PRODUCTS_BY_BRAND. = 'Sort products by brand.'
+    SORT_PRODUCTS_BY_BRAND = 'Sort products by brand.'
     BRAND = 'BRAND'
-    SORT_PRODUCTS_BY_MANUFACTURER. = 'Sort products by manufacturer.'
+    SORT_PRODUCTS_BY_MANUFACTURER = 'Sort products by manufacturer.'
     MANUFACTURER = 'MANUFACTURER'
-    SORT_PRODUCTS_BY_EXTERNAL_ID. = 'Sort products by external id.'
+    SORT_PRODUCTS_BY_EXTERNAL_ID = 'Sort products by external id.'
     EXTERNAL_ID = 'EXTERNAL_ID'
-    SORT_PRODUCTS_BY_EXTERNAL_SOURCE. = 'Sort products by external source.'
+    SORT_PRODUCTS_BY_EXTERNAL_SOURCE = 'Sort products by external source.'
     EXTERNAL_SOURCE = 'EXTERNAL_SOURCE'
     
 
@@ -651,13 +651,13 @@ class PriceBookProductTypeValueType(str):
     
 
 class OrderAction(str):
-    REPRESENTS_THE_CAPTURE_ACTION. = 'Represents the capture action.'
+    REPRESENTS_THE_CAPTURE_ACTION = 'Represents the capture action.'
     CAPTURE = 'CAPTURE'
-    REPRESENTS_A_MARK-AS-PAID_ACTION. = 'Represents a mark-as-paid action.'
+    REPRESENTS_A_MARK_AS_PAID_ACTION = 'Represents a mark-as-paid action.'
     MARK_AS_PAID = 'MARK_AS_PAID'
-    REPRESENTS_A_REFUND_ACTION. = 'Represents a refund action.'
+    REPRESENTS_A_REFUND_ACTION = 'Represents a refund action.'
     REFUND = 'REFUND'
-    REPRESENTS_A_VOID_ACTION. = 'Represents a void action.'
+    REPRESENTS_A_VOID_ACTION = 'Represents a void action.'
     VOID = 'VOID'
     
 
@@ -943,7 +943,6 @@ class OrderPayoutStatusEnum(str):
     READY_FOR_PAYOUT = 'READY_FOR_PAYOUT'
     PENDING_FINAL_PAYOUT = 'Pending final payout'
     PENDING_FINAL_PAYOUT = 'PENDING_FINAL_PAYOUT'
-    @DEPRECATED(REASON:_"THIS_WILL_BE_REMOVED_ON_FEBRUARY_26,_2025") = '@deprecated(reason: "This will be removed on February 26, 2025")'
     PAID_OUT = 'Paid out'
     PAID_OUT = 'PAID_OUT'
     PARTIALLY_PAID_OUT = 'Partially paid out'
@@ -1015,9 +1014,9 @@ class LocationKindEnum(str):
     
 
 class ProductAction(str):
-    REPRESENTS_A_PRODUCT_THAT_WAS_DECLINED_MASTER_PRODUCT_STATUS. = 'Represents a product that was declined master product status.'
+    REPRESENTS_A_PRODUCT_THAT_WAS_DECLINED_MASTER_PRODUCT_STATUS = 'Represents a product that was declined master product status.'
     DECLINED = 'DECLINED'
-    REPRESENTS_A_PRODUCT_THAT_WAS_APPROVED_FOR_MASTER_PRODUCT_STATUS. = 'Represents a product that was approved for master product status.'
+    REPRESENTS_A_PRODUCT_THAT_WAS_APPROVED_FOR_MASTER_PRODUCT_STATUS = 'Represents a product that was approved for master product status.'
     APPROVED = 'APPROVED'
     
 
@@ -1333,27 +1332,27 @@ class OfferOrderSubStatusFilter(str):
     
 
 class OrderSortField(str):
-    SORT_ORDERS_BY_NUMBER. = 'Sort orders by number.'
+    SORT_ORDERS_BY_NUMBER = 'Sort orders by number.'
     NUMBER = 'NUMBER'
-    SORT_ORDERS_BY_CREATION_DATE. = 'Sort orders by creation date.'
+    SORT_ORDERS_BY_CREATION_DATE = 'Sort orders by creation date.'
     CREATION_DATE = 'CREATION_DATE'
-    SORT_ORDERS_BY_UPDATE_DATE. = 'Sort orders by update date.'
+    SORT_ORDERS_BY_UPDATE_DATE = 'Sort orders by update date.'
     UPDATE_DATE = 'UPDATE_DATE'
-    SORT_ORDERS_BY_CUSTOMER. = 'Sort orders by customer.'
+    SORT_ORDERS_BY_CUSTOMER = 'Sort orders by customer.'
     CUSTOMER = 'CUSTOMER'
-    SORT_ORDERS_BY_PAYMENT. = 'Sort orders by payment.'
+    SORT_ORDERS_BY_PAYMENT = 'Sort orders by payment.'
     PAYMENT = 'PAYMENT'
-    SORT_ORDERS_BY_PAYMENT_DATE. = 'Sort orders by payment date.'
+    SORT_ORDERS_BY_PAYMENT_DATE = 'Sort orders by payment date.'
     PAYMENT_DATE = 'PAYMENT_DATE'
-    SORT_ORDERS_BY_FULFILLMENT_STATUS. = 'Sort orders by fulfillment status.'
+    SORT_ORDERS_BY_FULFILLMENT_STATUS = 'Sort orders by fulfillment status.'
     FULFILLMENT_STATUS = 'FULFILLMENT_STATUS'
-    SORT_ORDERS_BY_TOTAL. = 'Sort orders by total.'
+    SORT_ORDERS_BY_TOTAL = 'Sort orders by total.'
     TOTAL = 'TOTAL'
-    SORT_ORDERS_BY_PO_NUMBERS. = 'Sort orders by po numbers.'
+    SORT_ORDERS_BY_PO_NUMBERS = 'Sort orders by po numbers.'
     PO_NUMBERS = 'PO_NUMBERS'
-    SORT_ORDERS_BY_EXTERNAL_ID. = 'Sort orders by external id.'
+    SORT_ORDERS_BY_EXTERNAL_ID = 'Sort orders by external id.'
     EXTERNAL_ID = 'EXTERNAL_ID'
-    SORT_ORDERS_BY_EXTERNAL_SOURCE. = 'Sort orders by external source.'
+    SORT_ORDERS_BY_EXTERNAL_SOURCE = 'Sort orders by external source.'
     EXTERNAL_SOURCE = 'EXTERNAL_SOURCE'
     
 
@@ -1387,7 +1386,7 @@ class CustomerEventsEnum(str):
     
 
 class WishlistItemSortField(str):
-    SORT_WISHLIST_ITEMS_BY_CREATED_AT. = 'Sort wishlist items by created at.'
+    SORT_WISHLIST_ITEMS_BY_CREATED_AT = 'Sort wishlist items by created at.'
     CREATED_AT = 'CREATED_AT'
     
 
@@ -1468,29 +1467,29 @@ class GenericWebhookTransactionType(str):
     ORDER_UPDATE = 'ORDER_UPDATE'
     A_PAYLOAD_FOR_ORDER_CANCEL_WAS_RECEIVED = 'A payload for order cancel was received'
     ORDER_CANCEL = 'ORDER_CANCEL'
-    A_PAYLOAD_FOR_PRODUCT_CREATE_WAS_RECEIVED. = 'A payload for product create was received.'
+    A_PAYLOAD_FOR_PRODUCT_CREATE_WAS_RECEIVED = 'A payload for product create was received.'
     PRODUCT_CREATE = 'PRODUCT_CREATE'
-    A_PAYLOAD_FOR_PRODUCT_UPDATE_WAS_RECEIVED. = 'A payload for product update was received.'
+    A_PAYLOAD_FOR_PRODUCT_UPDATE_WAS_RECEIVED = 'A payload for product update was received.'
     PRODUCT_UPDATE = 'PRODUCT_UPDATE'
-    A_PAYLOAD_FOR_PRODUCT_DELETE_WAS_RECEIVED. = 'A payload for product delete was received.'
+    A_PAYLOAD_FOR_PRODUCT_DELETE_WAS_RECEIVED = 'A payload for product delete was received.'
     PRODUCT_DELETE = 'PRODUCT_DELETE'
-    A_PAYLOAD_FOR_PRODUCT_INVENTORY_TRACKING_UPDATE_WAS_RECEIVED. = 'A payload for product inventory tracking update was received.'
+    A_PAYLOAD_FOR_PRODUCT_INVENTORY_TRACKING_UPDATE_WAS_RECEIVED = 'A payload for product inventory tracking update was received.'
     INVENTORY_TRACKING_UPDATE = 'INVENTORY_TRACKING_UPDATE'
-    A_PAYLOAD_FOR_STOCK_CREATE_WAS_RECEIVED. = 'A payload for stock create was received.'
+    A_PAYLOAD_FOR_STOCK_CREATE_WAS_RECEIVED = 'A payload for stock create was received.'
     STOCK_CREATE = 'STOCK_CREATE'
-    A_PAYLOAD_FOR_STOCK_UPDATE_WAS_RECEIVED. = 'A payload for stock update was received.'
+    A_PAYLOAD_FOR_STOCK_UPDATE_WAS_RECEIVED = 'A payload for stock update was received.'
     STOCK_UPDATE = 'STOCK_UPDATE'
-    A_PAYLOAD_FOR_STOCK_DELETE_WAS_RECEIVED. = 'A payload for stock delete was received.'
+    A_PAYLOAD_FOR_STOCK_DELETE_WAS_RECEIVED = 'A payload for stock delete was received.'
     STOCK_DELETE = 'STOCK_DELETE'
-    A_PAYLOAD_FOR_WAREHOUSE_CREATE_WAS_RECEIVED. = 'A payload for warehouse create was received.'
+    A_PAYLOAD_FOR_WAREHOUSE_CREATE_WAS_RECEIVED = 'A payload for warehouse create was received.'
     WAREHOUSE_CREATE = 'WAREHOUSE_CREATE'
-    A_PAYLOAD_FOR_WAREHOUSE_UPDATE_WAS_RECEIVED. = 'A payload for warehouse update was received.'
+    A_PAYLOAD_FOR_WAREHOUSE_UPDATE_WAS_RECEIVED = 'A payload for warehouse update was received.'
     WAREHOUSE_UPDATE = 'WAREHOUSE_UPDATE'
-    A_PAYLOAD_FOR_WAREHOUSE_DELETE_WAS_RECEIVED. = 'A payload for warehouse delete was received.'
+    A_PAYLOAD_FOR_WAREHOUSE_DELETE_WAS_RECEIVED = 'A payload for warehouse delete was received.'
     WAREHOUSE_DELETE = 'WAREHOUSE_DELETE'
-    A_PAYLOAD_FOR_FULFILLMENT_CREATE_WAS_RECEIVED. = 'A payload for fulfillment create was received.'
+    A_PAYLOAD_FOR_FULFILLMENT_CREATE_WAS_RECEIVED = 'A payload for fulfillment create was received.'
     FULFILLMENT_CREATE = 'FULFILLMENT_CREATE'
-    A_PAYLOAD_FOR_FULFILLMENT_UPDATE_WAS_RECEIVED. = 'A payload for fulfillment update was received.'
+    A_PAYLOAD_FOR_FULFILLMENT_UPDATE_WAS_RECEIVED = 'A payload for fulfillment update was received.'
     FULFILLMENT_UPDATE = 'FULFILLMENT_UPDATE'
     A_PAYLOD_FOR_CUSTOMER_CREATE_WAS_RECEIVED = 'A paylod for customer create was received'
     CUSTOMER_CREATE = 'CUSTOMER_CREATE'
@@ -1520,22 +1519,22 @@ class WebhookJobType(str):
     
 
 class WebhookJobSortField(str):
-    SORT_WEBHOOK_JOBS_BY_SOURCE. = 'Sort webhook jobs by source.'
+    SORT_WEBHOOK_JOBS_BY_SOURCE = 'Sort webhook jobs by source.'
     SOURCE = 'SOURCE'
-    SORT_WEBHOOK_JOBS_BY_TYPE. = 'Sort webhook jobs by type.'
+    SORT_WEBHOOK_JOBS_BY_TYPE = 'Sort webhook jobs by type.'
     TYPE = 'TYPE'
-    SORT_WEBHOOK_JOBS_BY_STATUS. = 'Sort webhook jobs by status.'
+    SORT_WEBHOOK_JOBS_BY_STATUS = 'Sort webhook jobs by status.'
     STATUS = 'STATUS'
-    SORT_WEBHOOK_JOBS_BY_CREATED_AT. = 'Sort webhook jobs by created at.'
+    SORT_WEBHOOK_JOBS_BY_CREATED_AT = 'Sort webhook jobs by created at.'
     CREATED_AT = 'CREATED_AT'
     
 
 class WarehouseSortField(str):
-    SORT_WAREHOUSES_BY_NAME. = 'Sort warehouses by name.'
+    SORT_WAREHOUSES_BY_NAME = 'Sort warehouses by name.'
     NAME = 'NAME'
-    SORT_WAREHOUSES_BY_EXTERNAL_ID. = 'Sort warehouses by external id.'
+    SORT_WAREHOUSES_BY_EXTERNAL_ID = 'Sort warehouses by external id.'
     EXTERNAL_ID = 'EXTERNAL_ID'
-    SORT_WAREHOUSES_BY_EXTERNAL_SOURCE. = 'Sort warehouses by external source.'
+    SORT_WAREHOUSES_BY_EXTERNAL_SOURCE = 'Sort warehouses by external source.'
     EXTERNAL_SOURCE = 'EXTERNAL_SOURCE'
     
 
@@ -1662,13 +1661,13 @@ class SellerStatusFilter(str):
     
 
 class SellerSortField(str):
-    SORT_SELLERS_BY_COMPANY_NAME. = 'Sort sellers by company name.'
+    SORT_SELLERS_BY_COMPANY_NAME = 'Sort sellers by company name.'
     COMPANY_NAME = 'COMPANY_NAME'
-    SORT_SELLERS_BY_OWNER. = 'Sort sellers by owner.'
+    SORT_SELLERS_BY_OWNER = 'Sort sellers by owner.'
     OWNER = 'OWNER'
-    SORT_SELLERS_BY_STATUS. = 'Sort sellers by status.'
+    SORT_SELLERS_BY_STATUS = 'Sort sellers by status.'
     STATUS = 'STATUS'
-    SORT_SELLERS_BY_CREATED. = 'Sort sellers by created.'
+    SORT_SELLERS_BY_CREATED = 'Sort sellers by created.'
     CREATED = 'CREATED'
     
 
@@ -1678,32 +1677,32 @@ class ReportingPeriod(str):
     
 
 class RefundSortField(str):
-    SORT_REFUND_BY_NAME. = 'Sort refund by name.'
+    SORT_REFUND_BY_NAME = 'Sort refund by name.'
     NAME = 'NAME'
-    SORT_REFUND_BY_CREATED. = 'Sort refund by created.'
+    SORT_REFUND_BY_CREATED = 'Sort refund by created.'
     CREATED = 'CREATED'
-    SORT_REFUND_BY_UPDATED. = 'Sort refund by updated.'
+    SORT_REFUND_BY_UPDATED = 'Sort refund by updated.'
     UPDATED = 'UPDATED'
-    SORT_REFUND_BY_STATUS. = 'Sort refund by status.'
+    SORT_REFUND_BY_STATUS = 'Sort refund by status.'
     STATUS = 'STATUS'
-    SORT_REFUND_BY_BUYER. = 'Sort refund by buyer.'
+    SORT_REFUND_BY_BUYER = 'Sort refund by buyer.'
     BUYER = 'BUYER'
-    SORT_REFUND_BY_EXTERNAL_ID. = 'Sort refund by external id.'
+    SORT_REFUND_BY_EXTERNAL_ID = 'Sort refund by external id.'
     EXTERNAL_ID = 'EXTERNAL_ID'
-    SORT_REFUND_BY_TOKEN. = 'Sort refund by token.'
+    SORT_REFUND_BY_TOKEN = 'Sort refund by token.'
     TOKEN = 'TOKEN'
     
 
 class CategorySortField(str):
-    SORT_CATEGORIES_BY_NAME. = 'Sort categories by name.'
+    SORT_CATEGORIES_BY_NAME = 'Sort categories by name.'
     NAME = 'NAME'
-    SORT_CATEGORIES_BY_PRODUCT_COUNT. = 'Sort categories by product count.'
+    SORT_CATEGORIES_BY_PRODUCT_COUNT = 'Sort categories by product count.'
     PRODUCT_COUNT = 'PRODUCT_COUNT'
-    SORT_CATEGORIES_BY_SUBCATEGORY_COUNT. = 'Sort categories by subcategory count.'
+    SORT_CATEGORIES_BY_SUBCATEGORY_COUNT = 'Sort categories by subcategory count.'
     SUBCATEGORY_COUNT = 'SUBCATEGORY_COUNT'
-    SORT_CATEGORIES_BY_EXTERNAL_ID. = 'Sort categories by external id.'
+    SORT_CATEGORIES_BY_EXTERNAL_ID = 'Sort categories by external id.'
     EXTERNAL_ID = 'EXTERNAL_ID'
-    SORT_CATEGORIES_BY_EXTERNAL_SOURCE. = 'Sort categories by external source.'
+    SORT_CATEGORIES_BY_EXTERNAL_SOURCE = 'Sort categories by external source.'
     EXTERNAL_SOURCE = 'EXTERNAL_SOURCE'
     
 
@@ -1718,13 +1717,13 @@ class CollectionVisible(str):
     
 
 class CollectionSortField(str):
-    SORT_COLLECTIONS_BY_NAME. = 'Sort collections by name.'
+    SORT_COLLECTIONS_BY_NAME = 'Sort collections by name.'
     NAME = 'NAME'
-    SORT_COLLECTIONS_BY_AVAILABILITY. = 'Sort collections by availability.'
+    SORT_COLLECTIONS_BY_AVAILABILITY = 'Sort collections by availability.'
     AVAILABILITY = 'AVAILABILITY'
-    SORT_COLLECTIONS_BY_PRODUCT_COUNT. = 'Sort collections by product count.'
+    SORT_COLLECTIONS_BY_PRODUCT_COUNT = 'Sort collections by product count.'
     PRODUCT_COUNT = 'PRODUCT_COUNT'
-    SORT_COLLECTIONS_BY_PUBLICATION_DATE. = 'Sort collections by publication date.'
+    SORT_COLLECTIONS_BY_PUBLICATION_DATE = 'Sort collections by publication date.'
     PUBLICATION_DATE = 'PUBLICATION_DATE'
     
 
@@ -1739,53 +1738,1815 @@ class ProductTypeConfigurable(str):
     
 
 class ProductTypeSortField(str):
-    SORT_PRODUCTS_BY_NAME. = 'Sort products by name.'
+    SORT_PRODUCTS_BY_NAME = 'Sort products by name.'
     NAME = 'NAME'
-    SORT_PRODUCTS_BY_TYPE. = 'Sort products by type.'
+    SORT_PRODUCTS_BY_TYPE = 'Sort products by type.'
     DIGITAL = 'DIGITAL'
-    SORT_PRODUCTS_BY_SHIPPING. = 'Sort products by shipping.'
+    SORT_PRODUCTS_BY_SHIPPING = 'Sort products by shipping.'
     SHIPPING_REQUIRED = 'SHIPPING_REQUIRED'
-    SORT_PRODUCTS_BY_EXTERNAL_ID. = 'Sort products by external id.'
+    SORT_PRODUCTS_BY_EXTERNAL_ID = 'Sort products by external id.'
     EXTERNAL_ID = 'EXTERNAL_ID'
-    SORT_PRODUCTS_BY_EXTERNAL_SOURCE. = 'Sort products by external source.'
+    SORT_PRODUCTS_BY_EXTERNAL_SOURCE = 'Sort products by external source.'
     EXTERNAL_SOURCE = 'EXTERNAL_SOURCE'
     
 
 class PriceBookSortField(str):
-    SORT_PRICEBOOK_BY_NAME. = 'Sort pricebook by name.'
+    SORT_PRICEBOOK_BY_NAME = 'Sort pricebook by name.'
     NAME = 'NAME'
     
 
 class PriceBookVariantSortField(str):
-    SORT_PRICEBOOK_VARIANT_HISTORY_BY_NUMBER. = 'Sort pricebook variant history by number.'
+    SORT_PRICEBOOK_VARIANT_HISTORY_BY_NUMBER = 'Sort pricebook variant history by number.'
     NUMBER = 'NUMBER'
-    SORT_PRICEBOOK_VARIANT_HISTORY_BY_TYPE. = 'Sort pricebook variant history by type.'
+    SORT_PRICEBOOK_VARIANT_HISTORY_BY_TYPE = 'Sort pricebook variant history by type.'
     TYPE = 'TYPE'
-    SORT_PRICEBOOK_VARIANT_HISTORY_BY_PRICE. = 'Sort pricebook variant history by price.'
+    SORT_PRICEBOOK_VARIANT_HISTORY_BY_PRICE = 'Sort pricebook variant history by price.'
+from datetime import datetime, date
+from decimal import Decimal
+from typing import List, Optional, Dict, Any
+from pydantic import BaseModel, Field
+
+
+
+class RecipientTypeEnum(str):
+    CUSTOMER = 'CUSTOMER'
+    SELLER_PRIMARY_CONTACT = 'SELLER_PRIMARY_CONTACT'
+    STAFF_MEMBER_MARKETPLACE = 'STAFF_MEMBER_MARKETPLACE'
+    STAFF_MEMBER_SELLER = 'STAFF_MEMBER_SELLER'
+    STAFF_MEMBER_MARKETPLACE_OR_SELLER = 'STAFF_MEMBER_MARKETPLACE_OR_SELLER'
+    
+
+class EventTypeEnum(str):
+    ACCOUNT_CONFIRMATION = 'account_confirmation'
+    ACCOUNT_PASSWORD_RESET = 'account_password_reset'
+    ACCOUNT_CHANGE_EMAIL_REQUEST = 'account_change_email_request'
+    ACCOUNT_CHANGE_EMAIL_CONFIRM = 'account_change_email_confirm'
+    ACCOUNT_DELETE = 'account_delete'
+    ACCOUNT_SET_CUSTOMER_PASSWORD = 'account_set_customer_password'
+    INVOICE_READY = 'invoice_ready'
+    ORDER_CONFIRMATION = 'order_confirmation'
+    ORDER_FULFILLMENT_CONFIRMATION = 'order_fulfillment_confirmation'
+    ORDER_FULFILLMENT_DENIED = 'order_fulfillment_denied'
+    ORDER_FULFILLMENT_UPDATE = 'order_fulfillment_update'
+    ORDER_CANCELED = 'order_canceled'
+    PARTIAL_ORDER_CANCEL = 'partial_order_cancel'
+    ORDER_REFUND_CONFIRMATION = 'order_refund_confirmation'
+    PENDING_QUOTE = 'pending_quote'
+    ACCOUNT_SET_STAFF_PASSWORD = 'account_set_staff_password'
+    CSV_EXPORT_PRODUCTS_SUCCESS = 'csv_export_products_success'
+    CSV_EXPORT_FAILED = 'csv_export_failed'
+    STAFF_ORDER_CONFIRMATION = 'staff_order_confirmation'
+    ACCOUNT_STAFF_RESET_PASSWORD = 'account_staff_reset_password'
+    VENDOR_PAYOUT_CONFIRMATION = 'vendor_payout_confirmation'
+    PENDING_SELLER = 'pending_seller'
+    UPDATED_STATUS = 'updated_status'
+    SELLER_STATUS_PENDING = 'seller_status_pending'
+    SELLER_STATUS_APPROVED = 'seller_status_approved'
+    SELLER_STATUS_DECLINED = 'seller_status_declined'
+    SELLER_STATUS_PAUSED = 'seller_status_paused'
+    SELLER_AGREEMENT_ACCEPTED = 'seller_agreement_accepted'
+    SELLER_AGREEMENT_NOT_ACCEPTED = 'seller_agreement_not_accepted'
+    IMPORT_CATALOG_FAILED = 'import_catalog_failed'
+    IMPORT_CATALOG_SUCCESS = 'import_catalog_success'
+    ACCOUNT_ACTIVATE_REQUEST = 'account_activate_request'
+    ACCOUNT_ACTIVATED = 'account_activated'
+    ACCOUNT_DEACTIVATED = 'account_deactivated'
+    PENDING_ORDER = 'pending_order'
+    PENDING_CUSTOMER = 'pending_customer'
+    QUOTE_REQUESTED = 'quote_requested'
+    
+
+class OrderDirection(str):
+    SPECIFIES_AN_ASCENDING_SORT_ORDER = 'Specifies an ascending sort order.'
+    ASC = 'ASC'
+    SPECIFIES_A_DESCENDING_SORT_ORDER = 'Specifies a descending sort order.'
+    DESC = 'DESC'
+    
+
+class EmailTemplateSortField(str):
+    SORT_EMAIL_TEMPLATE_BY_TITLE = 'Sort email template by title.'
+    TITLE = 'TITLE'
+    SORT_EMAIL_TEMPLATE_BY_SUBJECT = 'Sort email template by subject.'
+    SUBJECT = 'SUBJECT'
+    SORT_EMAIL_TEMPLATE_BY_RECIPIENT_TYPE = 'Sort email template by recipient type.'
+    RECIPIENT_TYPE = 'RECIPIENT_TYPE'
+
+class UserExternalPayoutSource(str):
+    NAUTICAL_PAYMENTS_STRIPE_PATH = 'nautical.payments.stripe'
+    NAUTICAL_PAYMENTS_STRIPE = 'NAUTICAL_PAYMENTS_STRIPE'
+    NAUTICAL_PAYMENTS_PAYPAL_PATH = 'nautical.payments.paypal'
+    NAUTICAL_PAYMENTS_PAYPAL = 'NAUTICAL_PAYMENTS_PAYPAL'
+    NAUTICAL_PAYMENTS_TROLLEY_PATH = 'nautical.payments.trolley'
+    NAUTICAL_PAYMENTS_TROLLEY = 'NAUTICAL_PAYMENTS_TROLLEY'
+
+class WeightUnitsEnum(str):
+    KG = 'KG'
+    LB = 'LB'
+    OZ = 'OZ'
+    G = 'G'
+    
+
+class ShippingMethodTypeEnum(str):
+    PRICE_BASED_SHIPPING = 'Price based shipping'
     PRICE = 'PRICE'
-    SORT_PRICEBOOK_VARIANT_HISTORY_BY_PERCENTAGE. = 'Sort pricebook variant history by percentage.'
+    WEIGHT_BASED_SHIPPING = 'Weight based shipping'
+    WEIGHT = 'WEIGHT'
+    
+
+class ProductVariantStatus(str):
+    DRAFT = 'Draft'
+    DRAFT = 'DRAFT'
+    ACTIVE = 'Active'
+    ACTIVE = 'ACTIVE'
+    
+
+class ProductVariantSubStatus(str):
+    IN_REVIEW = 'In review'
+    IN_REVIEW = 'IN_REVIEW'
+    DECLINED = 'Declined'
+    DECLINED = 'DECLINED'
+    APPROVED = 'Approved'
+    APPROVED = 'APPROVED'
+    
+
+class SellerStatus(str):
+    APPLYING = 'Applying'
+    APPLYING = 'APPLYING'
+    PENDING = 'Pending'
+    PENDING = 'PENDING'
+    APPROVED = 'Approved'
+    APPROVED = 'APPROVED'
+    DECLINED = 'Declined'
+    DECLINED = 'DECLINED'
+    PAUSED = 'Paused'
+    PAUSED = 'PAUSED'
+    SUSPENDED = 'Suspended'
+    SUSPENDED = 'SUSPENDED'
+    BANNED = 'Banned'
+    BANNED = 'BANNED'
+    DEACTIVATED = 'Deactivated'
+    DEACTIVATED = 'DEACTIVATED'
+    
+
+class SellerExternalPayoutSource(str):
+    NAUTICAL_PAYMENTS_STRIPE_DISPLAY = 'nautical.payments.stripe'
+    NAUTICAL_PAYMENTS_STRIPE = 'NAUTICAL_PAYMENTS_STRIPE'
+    NAUTICAL_PAYMENTS_PAYPAL_DISPLAY = 'nautical.payments.paypal'
+    NAUTICAL_PAYMENTS_PAYPAL = 'NAUTICAL_PAYMENTS_PAYPAL'
+    NAUTICAL_PAYMENTS_TROLLEY_DISPLAY = 'nautical.payments.trolley'
+    NAUTICAL_PAYMENTS_TROLLEY = 'NAUTICAL_PAYMENTS_TROLLEY'
+    
+
+class SellerEventsEnum(str):
+    THE_SELLER_WAS_CREATED = 'The seller was created'
+    SELLER_CREATED = 'SELLER_CREATED'
+    SELLER_STATUS_WAS_UPDATED = 'Seller status was updated'
+    SELLER_STATUS_CHANGED = 'SELLER_STATUS_CHANGED'
+    THE_SELLER_WAS_DELETED = 'The seller was deleted'
+    SELLER_DELETED = 'SELLER_DELETED'
+    A_NOTE_WAS_ADDED_TO_THE_SELLER = 'A note was added to the seller'
+    SELLER_NOTE_ADDED = 'SELLER_NOTE_ADDED'
+    
+
+class SellerChecklistCompletionTriggersEnum(str):
+    PAYOUT_ACCOUNT_CREATED = 'Payout Account Created'
+    PAYOUT_ACCOUNT_CREATED = 'PAYOUT_ACCOUNT_CREATED'
+    FIRST_WAREHOUSE_CREATED = 'First Warehouse Created'
+    FIRST_WAREHOUSE_CREATED = 'FIRST_WAREHOUSE_CREATED'
+    FIRST_PRODUCT_CREATED = 'First Product Created'
+    FIRST_PRODUCT_CREATED = 'FIRST_PRODUCT_CREATED'
+    FIRST_SHIPPING_ZONE_CREATED = 'First Shipping Zone Created'
+    FIRST_SHIPPING_ZONE_CREATED = 'FIRST_SHIPPING_ZONE_CREATED'
+    PAGE_SETUP_IN_STORE = 'Page Setup in Store'
+    PAGE_SETUP_IN_STORE = 'PAGE_SETUP_IN_STORE'
+    INVITE_STAFF = 'Invite Staff'
+    INVITE_STAFF = 'INVITE_STAFF'
+    
+
+class SellerApplicationCheckpoint(str):
+    WELCOME = 'Welcome'
+    WELCOME = 'WELCOME'
+    USER_INFO = 'User Info'
+    USER_INFO = 'USER_INFO'
+    BUSINESS_INFO = 'Business Info'
+    BUSINESS_INFO = 'BUSINESS_INFO'
+    BUSINESS_STATEMENTS = 'Business Statements'
+    BUSINESS_STATEMENTS = 'BUSINESS_STATEMENTS'
+    BUSINESS_STRUCTURE = 'Business Structure'
+    BUSINESS_STRUCTURE = 'BUSINESS_STRUCTURE'
+    TIN = 'Tin'
+    TIN = 'TIN'
+    ADDRESS = 'Address'
+    ADDRESS = 'ADDRESS'
+    BUSINESS_SELL = 'Business Sell'
+    BUSINESS_SELL = 'BUSINESS_SELL'
+    COMPLETE = 'Complete'
+    COMPLETE = 'COMPLETE'
+    
+
+class PayoutStatus(str):
+    DRAFT = 'Draft'
+    DRAFT = 'DRAFT'
+    PAID = 'Paid'
+    PAID = 'PAID'
+    ARCHIVED = 'Archived'
+    ARCHIVED = 'ARCHIVED'
+    LOCKED = 'Locked'
+    LOCKED = 'LOCKED'
+    ERROR = 'Error'
+    ERROR = 'ERROR'
+    
+
+class VendorPayoutStatus(str):
+    PAID = 'Paid'
+    PAID = 'PAID'
+    UNPAID = 'Unpaid'
+    UNPAID = 'UNPAID'
+    ERROR = 'Error'
+    ERROR = 'ERROR'
+    
+
+class VendorPayoutEventsEnum(str):
+    THE_VENDOR_PAYOUT_WAS_CREATED = 'The vendor payout was created.'
+    VENDOR_PAYOUT_CREATED = 'VENDOR_PAYOUT_CREATED'
+    THE_VENDOR_PAYOUT_WAS_UPDATED = 'The vendor payout was updated.'
+    VENDOR_PAYOUT_UPDATED = 'VENDOR_PAYOUT_UPDATED'
+    VENDOR_PAYOUT_STATUS_WAS_UPDATED = 'Vendor payout status was updated.'
+    VENDOR_PAYOUT_STATUS_UPDATED = 'VENDOR_PAYOUT_STATUS_UPDATED'
+    A_NOTE_WAS_ADDED_TO_THE_VENDOR_PAYOUT = 'A note was added to the vendor payout'
+    NOTE_ADDED = 'NOTE_ADDED'
+    THE_VENDOR_PAYOUT_EMAIL_WAS_SENT = 'The vendor payout email was sent.'
+    VENDOR_PAYOUT_EMAIL_SENT = 'VENDOR_PAYOUT_EMAIL_SENT'
+    
+
+class OrderOrderSource(str):
+    CHECKOUT = 'checkout'
+    CHECKOUT = 'CHECKOUT'
+    DRAFT = 'draft'
+    DRAFT = 'DRAFT'
+    QUOTE = 'quote'
+    QUOTE = 'QUOTE'
+    MANUAL = 'manual'
+    MANUAL = 'MANUAL'
+    EXTERNAL = 'external'
+    EXTERNAL = 'EXTERNAL'
+    
+
+class OrderStatus(str):
+    DRAFT = 'DRAFT'
+    QUOTE = 'QUOTE'
+    UNFULFILLED = 'UNFULFILLED'
+    PARTIALLY_FULFILLED = 'PARTIALLY_FULFILLED'
+    FULFILLED = 'FULFILLED'
+    DELIVERED = 'DELIVERED'
+    CANCELED = 'CANCELED'
+    RETURN_REQUESTED = 'RETURN_REQUESTED'
+    RETURN_AUTHORIZED = 'RETURN_AUTHORIZED'
+    RETURN_DECLINED = 'RETURN_DECLINED'
+    RETURN_CANCELLED = 'RETURN_CANCELLED'
+    RETURN_COMPLETE = 'RETURN_COMPLETE'
+    
+
+class OrderSubStatus(str):
+    IN_REVIEW = 'In Review'
+    IN_REVIEW = 'IN_REVIEW'
+    QUOTE_REQUESTED = 'Quote Requested'
+    QUOTE_REQUESTED = 'QUOTE_REQUESTED'
+    AWAITING_PAYMENT = 'Awaiting Payment'
+    AWAITING_PAYMENT = 'AWAITING_PAYMENT'
+    COMPLETE = 'Complete'
+    COMPLETE = 'COMPLETE'
+    
+
+class VoucherTypeEnum(str):
+    SHIPPING = 'SHIPPING'
+    ENTIRE_ORDER = 'ENTIRE_ORDER'
+    SPECIFIC_PRODUCT = 'SPECIFIC_PRODUCT'
+    
+
+class DiscountValueTypeEnum(str):
+    FIXED = 'FIXED'
+    PERCENTAGE = 'PERCENTAGE'
+    
+
+class AttributeFilterConnector(str):
+    AND = 'AND'
+    OR = 'OR'
+    
+
+class StockAvailability(str):
+    IN_STOCK = 'IN_STOCK'
+    OUT_OF_STOCK = 'OUT_OF_STOCK'
+    
+
+class ProductSubStatusEnum(str):
+    IN_REVIEW = 'In review'
+    IN_REVIEW = 'IN_REVIEW'
+    DECLINED = 'Declined'
+    DECLINED = 'DECLINED'
+    APPROVED = 'Approved'
+    APPROVED = 'APPROVED'
+    
+
+class FeatureFilterConnector(str):
+    AND = 'AND'
+    OR = 'OR'
+    
+
+class FeatureFilterOperationCondition(str):
+    AND = 'AND'
+    OR = 'OR'
+    
+
+class LocationTypeEnum(str):
+    PRIMARY = 'Primary'
+    PRIMARY = 'PRIMARY'
+    ORIGIN = 'Origin'
+    ORIGIN = 'ORIGIN'
+    DESTINATION = 'Destination'
+    DESTINATION = 'DESTINATION'
+    
+
+class DistanceUnit(str):
+    KM = 'KM'
+    MI = 'MI'
+    
+
+class ProductSearchFieldEnum(str):
+    NAME = 'NAME'
+    BRAND = 'BRAND'
+    MANUFACTURER = 'MANUFACTURER'
+    MPN = 'MPN'
+    MODEL = 'MODEL'
+    SELLER_NAME = 'SELLER_NAME'
+    CATEGORY_NAME = 'CATEGORY_NAME'
+    NSN = 'NSN'
+    SKU = 'SKU'
+    VARIANT_NAME = 'VARIANT_NAME'
+    PRODUCT_ATTRIBUTE_NAME = 'PRODUCT_ATTRIBUTE_NAME'
+    PRODUCT_ATTRIBUTE_VALUE_NAME = 'PRODUCT_ATTRIBUTE_VALUE_NAME'
+    PRODUCT_ATTRIBUTE_VALUE_VALUE = 'PRODUCT_ATTRIBUTE_VALUE_VALUE'
+    VARIANT_ATTRIBUTE_NAME = 'VARIANT_ATTRIBUTE_NAME'
+    VARIANT_ATTRIBUTE_VALUE_NAME = 'VARIANT_ATTRIBUTE_VALUE_NAME'
+    VARIANT_ATTRIBUTE_VALUE_VALUE = 'VARIANT_ATTRIBUTE_VALUE_VALUE'
+    DESCRIPTION = 'DESCRIPTION'
+    
+
+class ProductOrderField(str):
+    SORT_PRODUCTS_BY_NAME = 'Sort products by name.'
+    NAME = 'NAME'
+    SORT_PRODUCTS_BY_SKU = 'Sort products by sku.'
+    SKU = 'SKU'
+    SORT_PRODUCTS_BY_PRICE = 'Sort products by price.'
+    PRICE = 'PRICE'
+    SORT_PRODUCTS_BY_A_MINIMAL_PRICE_OF_A_PRODUCT_S_VARIANT = "Sort products by a minimal price of a product's variant."
+    MINIMAL_PRICE = 'MINIMAL_PRICE'
+    SORT_PRODUCTS_BY_UPDATE_DATE = 'Sort products by update date.'
+    DATE = 'DATE'
+    SORT_PRODUCTS_BY_CREATE_DATE = 'Sort products by create date.'
+    CREATED = 'CREATED'
+    SORT_PRODUCTS_BY_TYPE = 'Sort products by type.'
+    TYPE = 'TYPE'
+    SORT_PRODUCTS_BY_PUBLICATION_STATUS = 'Sort products by publication status.'
+    PUBLISHED = 'PUBLISHED'
+    SORT_PRODUCTS_BY_PUBLICATION_DATE = 'Sort products by publication date.'
+    PUBLICATION_DATE = 'PUBLICATION_DATE'
+    SORT_PRODUCTS_BY_SELLER = 'Sort products by seller.'
+    SELLER = 'SELLER'
+    SORT_PRODUCTS_BY_CATEGORY = 'Sort products by category.'
+    CATEGORY = 'CATEGORY'
+    SORT_PRODUCTS_BY_SUB_STATUS = 'Sort products by sub status.'
+    SUB_STATUS = 'SUB_STATUS'
+    SORT_PRODUCTS_BY_SORT_PRIORITY_WEIGHT = 'Sort products by sort priority weight.'
+    SORT_PRIORITY_WEIGHT = 'SORT_PRIORITY_WEIGHT'
+    SORT_PRODUCTS_BY_BRAND = 'Sort products by brand.'
+    BRAND = 'BRAND'
+    SORT_PRODUCTS_BY_MANUFACTURER = 'Sort products by manufacturer.'
+    MANUFACTURER = 'MANUFACTURER'
+    SORT_PRODUCTS_BY_EXTERNAL_ID = 'Sort products by external id.'
+    EXTERNAL_ID = 'EXTERNAL_ID'
+    SORT_PRODUCTS_BY_EXTERNAL_SOURCE = 'Sort products by external source.'
+    EXTERNAL_SOURCE = 'EXTERNAL_SOURCE'
+    
+
+class FeatureTypeEnum(str):
+    DROPDOWN = 'Dropdown'
+    DROPDOWN = 'DROPDOWN'
+    MULTI_SELECT = 'Multi Select'
+    MULTISELECT = 'MULTISELECT'
+    TEXT = 'Text'
+    TEXT = 'TEXT'
+    
+
+class PermissionEnum(str):
+    MANAGE_USERS = 'MANAGE_USERS'
+    MANAGE_STAFF = 'MANAGE_STAFF'
+    MANAGE_PERMISSIONS = 'MANAGE_PERMISSIONS'
+    MANAGE_APPS = 'MANAGE_APPS'
+    MANAGE_DISCOUNTS = 'MANAGE_DISCOUNTS'
+    MANAGE_DOCUMENTS = 'MANAGE_DOCUMENTS'
+    MANAGE_EMAILS = 'MANAGE_EMAILS'
+    MANAGE_PLUGINS = 'MANAGE_PLUGINS'
+    MANAGE_PRICEBOOKS = 'MANAGE_PRICEBOOKS'
+    MANAGE_STOREFRONTS = 'MANAGE_STOREFRONTS'
+    MANAGE_MENUS = 'MANAGE_MENUS'
+    MANAGE_ORDERS = 'MANAGE_ORDERS'
+    MANAGE_DRAFT_AND_QUOTE_ORDERS = 'MANAGE_DRAFT_AND_QUOTE_ORDERS'
+    MANAGE_FULFILLMENTS = 'MANAGE_FULFILLMENTS'
+    MANAGE_PAGES = 'MANAGE_PAGES'
+    MANAGE_PRODUCTS = 'MANAGE_PRODUCTS'
+    MANAGE_INVENTORY = 'MANAGE_INVENTORY'
+    MANAGE_PRODUCT_TYPES_AND_ATTRIBUTES = 'MANAGE_PRODUCT_TYPES_AND_ATTRIBUTES'
+    MANAGE_SHIPPING = 'MANAGE_SHIPPING'
+    MANAGE_SETTINGS = 'MANAGE_SETTINGS'
+    MANAGE_TRANSLATIONS = 'MANAGE_TRANSLATIONS'
+    MANAGE_CHECKOUTS = 'MANAGE_CHECKOUTS'
+    MANAGE_AGREEMENTS = 'MANAGE_AGREEMENTS'
+    MANAGE_MARKETPLACE = 'MANAGE_MARKETPLACE'
+    MANAGE_MARKETPLACE_CONFIGURATION = 'MANAGE_MARKETPLACE_CONFIGURATION'
+    MANAGE_MICROSITES = 'MANAGE_MICROSITES'
+    MANAGE_PAYOUTS = 'MANAGE_PAYOUTS'
+    MANAGE_PAYMENTS = 'MANAGE_PAYMENTS'
+    MANAGE_REFUNDS = 'MANAGE_REFUNDS'
+    MANAGE_COLLECTIONS = 'MANAGE_COLLECTIONS'
+    
+
+class AppTypeEnum(str):
+    LOCAL = 'local'
+    LOCAL = 'LOCAL'
+    THIRDPARTY = 'thirdparty'
+    THIRDPARTY = 'THIRDPARTY'
+    
+
+class WebhookEventTypeEnum(str):
+    ANY_EVENTS = 'ANY_EVENTS'
+    AGREEMENT_CREATED = 'AGREEMENT_CREATED'
+    AGREEMENT_DELETED = 'AGREEMENT_DELETED'
+    AGREEMENT_UPDATED = 'AGREEMENT_UPDATED'
+    CATEGORY_CREATED = 'CATEGORY_CREATED'
+    CATEGORY_DELETED = 'CATEGORY_DELETED'
+    CATEGORY_UPDATED = 'CATEGORY_UPDATED'
+    CHECKOUT_CREATED = 'CHECKOUT_CREATED'
+    CHECKOUT_UPDATED = 'CHECKOUT_UPDATED'
+    COLLECTION_CREATED = 'COLLECTION_CREATED'
+    COLLECTION_DELETED = 'COLLECTION_DELETED'
+    COLLECTION_UPDATED = 'COLLECTION_UPDATED'
+    CUSTOMER_CREATED = 'CUSTOMER_CREATED'
+    CUSTOMER_UPDATED = 'CUSTOMER_UPDATED'
+    CUSTOMER_DELETED = 'CUSTOMER_DELETED'
+    FULFILLMENT_CREATED = 'FULFILLMENT_CREATED'
+    INVOICE_DELETED = 'INVOICE_DELETED'
+    INVOICE_REQUESTED = 'INVOICE_REQUESTED'
+    INVOICE_SENT = 'INVOICE_SENT'
+    MICROSITE_CREATED = 'MICROSITE_CREATED'
+    MICROSITE_UPDATED = 'MICROSITE_UPDATED'
+    NAUTICAL_ORDER_CANCELLED = 'NAUTICAL_ORDER_CANCELLED'
+    NAUTICAL_ORDER_CREATED = 'NAUTICAL_ORDER_CREATED'
+    NAUTICAL_ORDER_FULFILLED = 'NAUTICAL_ORDER_FULFILLED'
+    NAUTICAL_ORDER_FULLY_PAID = 'NAUTICAL_ORDER_FULLY_PAID'
+    NAUTICAL_ORDER_UPDATED = 'NAUTICAL_ORDER_UPDATED'
+    ORDER_CANCELLED = 'ORDER_CANCELLED'
+    ORDER_CREATED = 'ORDER_CREATED'
+    ORDER_FULFILLED = 'ORDER_FULFILLED'
+    ORDER_FULLY_PAID = 'ORDER_FULLY_PAID'
+    ORDER_UPDATED = 'ORDER_UPDATED'
+    PAYMENT_CREATED = 'PAYMENT_CREATED'
+    PAYMENT_UPDATED = 'PAYMENT_UPDATED'
+    PAYOUT_CREATED = 'PAYOUT_CREATED'
+    PAYOUT_UPDATED = 'PAYOUT_UPDATED'
+    PAYOUT_DELETED = 'PAYOUT_DELETED'
+    PRICE_BOOK_CREATED = 'PRICE_BOOK_CREATED'
+    PRICE_BOOK_UPDATED = 'PRICE_BOOK_UPDATED'
+    PRODUCT_CREATED = 'PRODUCT_CREATED'
+    PRODUCT_DELETED = 'PRODUCT_DELETED'
+    PRODUCT_UPDATED = 'PRODUCT_UPDATED'
+    REFUND_CREATED = 'REFUND_CREATED'
+    REFUND_DELETED = 'REFUND_DELETED'
+    REFUND_UPDATED = 'REFUND_UPDATED'
+    SELLER_CREATED = 'SELLER_CREATED'
+    SELLER_UPDATED = 'SELLER_UPDATED'
+    SELLER_AGREEMENT_ACKNOWLEDGED = 'SELLER_AGREEMENT_ACKNOWLEDGED'
+    SELLER_AGREEMENT_DECLINED = 'SELLER_AGREEMENT_DECLINED'
+    VARIANT_CREATED = 'VARIANT_CREATED'
+    VARIANT_DELETED = 'VARIANT_DELETED'
+    VARIANT_UPDATED = 'VARIANT_UPDATED'
+    STOCK_CREATED = 'STOCK_CREATED'
+    STOCK_DELETED = 'STOCK_DELETED'
+    STOCK_UPDATED = 'STOCK_UPDATED'
+    STOCK_ALLOCATED = 'STOCK_ALLOCATED'
+    STOCK_DEALLOCATED = 'STOCK_DEALLOCATED'
+    VENDOR_PAYOUT_CREATED = 'VENDOR_PAYOUT_CREATED'
+    VENDOR_PAYOUT_UPDATED = 'VENDOR_PAYOUT_UPDATED'
+    WAREHOUSE_CREATED = 'WAREHOUSE_CREATED'
+    WAREHOUSE_DELETED = 'WAREHOUSE_DELETED'
+    WAREHOUSE_UPDATED = 'WAREHOUSE_UPDATED'
+    
+
+class AttributeInputTypeEnum(str):
+    DROPDOWN = 'Dropdown'
+    DROPDOWN = 'DROPDOWN'
+    MULTI_SELECT = 'Multi Select'
+    MULTISELECT = 'MULTISELECT'
+    DATE = 'Date'
+    DATE = 'DATE'
+    DATE_TIME = 'Date Time'
+    DATE_TIME = 'DATE_TIME'
+    RICH_TEXT = 'Rich Text'
+    RICH_TEXT = 'RICH_TEXT'
+    PLAIN_TEXT = 'Plain Text'
+    PLAIN_TEXT = 'PLAIN_TEXT'
+    REFERENCE = 'Reference'
+    REFERENCE = 'REFERENCE'
+    MONEY = 'Money'
+    MONEY = 'MONEY'
+    BOOLEAN = 'Boolean'
+    BOOLEAN = 'BOOLEAN'
+    NUMERIC = 'Numeric'
+    NUMERIC = 'NUMERIC'
+    FILE = 'File'
+    FILE = 'FILE'
+    SWATCH = 'Swatch'
+    SWATCH = 'SWATCH'
+    
+
+class AttributeValueType(str):
+    COLOR = 'COLOR'
+    GRADIENT = 'GRADIENT'
+    URL = 'URL'
+    STRING = 'STRING'
+    
+
+class ProductVariantSubStatusEnum(str):
+    IN_REVIEW = 'In review'
+    IN_REVIEW = 'IN_REVIEW'
+    DECLINED = 'Declined'
+    DECLINED = 'DECLINED'
+    APPROVED = 'Approved'
+    APPROVED = 'APPROVED'
+    
+
+class ProductVariantSearchFieldEnum(str):
+    PRIMARY_KEY = 'PRIMARY_KEY'
+    NAME = 'NAME'
+    PRODUCT_NAME = 'PRODUCT_NAME'
+    CATEGORY_NAME = 'CATEGORY_NAME'
+    SKU = 'SKU'
+    NSN = 'NSN'
+    VARIANT_ATTRIBUTE_NAME = 'VARIANT_ATTRIBUTE_NAME'
+    VARIANT_ATTRIBUTE_VALUE_NAME = 'VARIANT_ATTRIBUTE_VALUE_NAME'
+    VARIANT_ATTRIBUTE_VALUE_VALUE = 'VARIANT_ATTRIBUTE_VALUE_VALUE'
+    DESCRIPTION = 'DESCRIPTION'
+    
+
+class VariantSortField(str):
+    NAME_DESC = 'Sort variants by name.'
+    NAME = 'NAME'
+    SKU_DESC = 'Sort variants by sku.'
+    SKU = 'SKU'
+    PRICE_DESC = 'Sort variants by price.'
+    PRICE = 'PRICE'
+    CREATED_DESC = 'Sort variants by create date.'
+    CREATED = 'CREATED'
+    UPDATED_DESC = 'Sort variants by update date.'
+    UPDATED = 'UPDATED'
+    TYPE_DESC = 'Sort variants by type.'
+    TYPE = 'TYPE'
+    SELLER_DESC = 'Sort variants by seller.'
+    SELLER = 'SELLER'
+    SUB_STATUS_DESC = 'Sort variants by sub status.'
+    SUB_STATUS = 'SUB_STATUS'
+    VARIANT_ID_DESC = 'Sort variants by variant id.'
+    VARIANT_ID = 'VARIANT_ID'
+    CATEGORY_DESC = 'Sort variants by category.'
+    CATEGORY = 'CATEGORY'
+    BRAND_DESC = 'Sort variants by brand.'
+    BRAND = 'BRAND'
+    MANUFACTURER_DESC = 'Sort variants by manufacturer.'
+    MANUFACTURER = 'MANUFACTURER'
+    EXTERNAL_ID_DESC = 'Sort variants by external id.'
+    EXTERNAL_ID = 'EXTERNAL_ID'
+    EXTERNAL_SOURCE_DESC = 'Sort variants by external source.'
+    EXTERNAL_SOURCE = 'EXTERNAL_SOURCE'
+
+class CollectionTypeEnum(str):
+    PRODUCT = 'Product'
+    PRODUCT = 'PRODUCT'
+    VARIANT = 'Variant'
+    VARIANT = 'VARIANT'
+    
+
+class SaleTypeEnum(str):
+    SHIPPING = 'SHIPPING'
+    SPECIFIC_PRODUCT = 'SPECIFIC_PRODUCT'
+    
+
+class NauticalOrderOrderSource(str):
+    CHECKOUT = 'checkout'
+    CHECKOUT = 'CHECKOUT'
+    DRAFT = 'draft'
+    DRAFT = 'DRAFT'
+    QUOTE = 'quote'
+    QUOTE = 'QUOTE'
+    MANUAL = 'manual'
+    MANUAL = 'MANUAL'
+    EXTERNAL = 'external'
+    EXTERNAL = 'EXTERNAL'
+    
+
+class NauticalOrderStatus(str):
+    DRAFT = 'DRAFT'
+    QUOTE = 'QUOTE'
+    UNFULFILLED = 'UNFULFILLED'
+    PARTIALLY_FULFILLED = 'PARTIALLY_FULFILLED'
+    FULFILLED = 'FULFILLED'
+    DELIVERED = 'DELIVERED'
+    CANCELED = 'CANCELED'
+    RETURN_REQUESTED = 'RETURN_REQUESTED'
+    RETURN_AUTHORIZED = 'RETURN_AUTHORIZED'
+    RETURN_DECLINED = 'RETURN_DECLINED'
+    RETURN_CANCELLED = 'RETURN_CANCELLED'
+    RETURN_COMPLETE = 'RETURN_COMPLETE'
+    
+
+class NauticalOrderSubStatus(str):
+    IN_REVIEW = 'In Review'
+    IN_REVIEW = 'IN_REVIEW'
+    QUOTE_REQUESTED = 'Quote Requested'
+    QUOTE_REQUESTED = 'QUOTE_REQUESTED'
+    AWAITING_PAYMENT = 'Awaiting Payment'
+    AWAITING_PAYMENT = 'AWAITING_PAYMENT'
+    COMPLETE = 'Complete'
+    COMPLETE = 'COMPLETE'
+    
+
+class OrderSubStatusEnum(str):
+    IN_REVIEW = 'In Review'
+    IN_REVIEW = 'IN_REVIEW'
+    QUOTE_REQUESTED = 'Quote Requested'
+    QUOTE_REQUESTED = 'QUOTE_REQUESTED'
+    AWAITING_PAYMENT = 'Awaiting Payment'
+    AWAITING_PAYMENT = 'AWAITING_PAYMENT'
+    COMPLETE = 'Complete'
+    COMPLETE = 'COMPLETE'
+    
+
+class PriceBookVariantValueType(str):
+    OVERRIDE = 'Override'
+    OVERRIDE = 'OVERRIDE'
+    ADJUST_PERCENTAGE = 'Adjust Percentage'
+    ADJUST_PERCENTAGE = 'ADJUST_PERCENTAGE'
+    ADJUST_FIXED = 'Adjust Fixed'
+    ADJUST_FIXED = 'ADJUST_FIXED'
+    
+
+class PriceBookProductValueType(str):
+    ADJUST_PERCENTAGE = 'adjust_percentage'
+    ADJUST_PERCENTAGE = 'ADJUST_PERCENTAGE'
+    ADJUST_FIXED = 'adjust_fixed'
+    ADJUST_FIXED = 'ADJUST_FIXED'
+    
+
+class PriceBookProductTypeValueType(str):
+    ADJUST_PERCENTAGE = 'adjust_percentage'
+    ADJUST_PERCENTAGE = 'ADJUST_PERCENTAGE'
+    ADJUST_FIXED = 'adjust_fixed'
+    ADJUST_FIXED = 'ADJUST_FIXED'
+    
+
+class OrderAction(str):
+    REPRESENTS_THE_CAPTURE_ACTION = 'Represents the capture action.'
+    CAPTURE = 'CAPTURE'
+    REPRESENTS_A_MARK_AS_PAID_ACTION = 'Represents a mark-as-paid action.' 
+    MARK_AS_PAID = 'MARK_AS_PAID'
+    REPRESENTS_A_REFUND_ACTION = 'Represents a refund action.'
+    REFUND = 'REFUND'
+    REPRESENTS_A_VOID_ACTION = 'Represents a void action.'
+    VOID = 'VOID'
+
+class JobStatusEnum(str):
+    PENDING = 'Pending'
+    PENDING = 'PENDING'
+    PROCESSING = 'Processing'
+    PROCESSING = 'PROCESSING'
+    SUCCESS = 'Success'
+    SUCCESS = 'SUCCESS'
+    FAILED = 'Failed'
+    FAILED = 'FAILED'
+    DELETED = 'Deleted'
+    DELETED = 'DELETED'
+    
+
+class PaymentChargeStatusEnum(str):
+    NOT_CHARGED = 'NOT_CHARGED'
+    PENDING = 'PENDING'
+    PARTIALLY_CHARGED = 'PARTIALLY_CHARGED'
+    FULLY_CHARGED = 'FULLY_CHARGED'
+    PARTIALLY_REFUNDED = 'PARTIALLY_REFUNDED'
+    FULLY_REFUNDED = 'FULLY_REFUNDED'
+    REFUSED = 'REFUSED'
+    CANCELLED = 'CANCELLED'
+    VOIDED = 'VOIDED'
+    
+
+class TransactionKind(str):
+    AUTHORIZATION = 'Authorization'
+    AUTH = 'AUTH'
+    CAPTURE = 'Capture'
+    CAPTURE = 'CAPTURE'
+    CAPTURE_FAILED = 'Capture failed'
+    CAPTURE_FAILED = 'CAPTURE_FAILED'
+    ACTION_TO_CONFIRM = 'Action to confirm'
+    ACTION_TO_CONFIRM = 'ACTION_TO_CONFIRM'
+    VOID = 'Void'
+    VOID = 'VOID'
+    PENDING = 'Pending'
+    PENDING = 'PENDING'
+    REFUND = 'Refund'
+    REFUND = 'REFUND'
+    REFUND_IN_PROGRESS = 'Refund in progress'
+    REFUND_ONGOING = 'REFUND_ONGOING'
+    REFUND_FAILED = 'Refund failed'
+    REFUND_FAILED = 'REFUND_FAILED'
+    REFUND_REVERSED = 'Refund reversed'
+    REFUND_REVERSED = 'REFUND_REVERSED'
+    CONFIRM = 'Confirm'
+    CONFIRM = 'CONFIRM'
+    CANCEL = 'Cancel'
+    CANCEL = 'CANCEL'
+    CREATED = 'Created'
+    CREATED = 'CREATED'
+    
+
+class OrderEventsEnum(str):
+    ORDER_WAS_CONFIRMED = 'Order was confirmed'
+    CONFIRMED = 'CONFIRMED'
+    THE_DRAFT_ORDER_WAS_CREATED = 'The draft order was created'
+    DRAFT_CREATED = 'DRAFT_CREATED'
+    THE_QUOTE_ORDER_WAS_CREATED = 'The quote order was created'
+    QUOTE_CREATED = 'QUOTE_CREATED'
+    THE_DRAFT_ORDER_WAS_UPDATED = 'The draft order was updated'
+    DRAFT_UPDATED = 'DRAFT_UPDATED'
+    THE_QUOTE_ORDER_WAS_UPDATED = 'The quote order was updated'
+    QUOTE_UPDATED = 'QUOTE_UPDATED'
+    SOME_PRODUCTS_WERE_ADDED_TO_THE_ORDER = 'Some products were added to the order'
+    ADDED_PRODUCTS = 'ADDED_PRODUCTS'
+    SOME_PRODUCTS_WERE_REMOVED_FROM_THE_ORDER = 'Some products were removed from the order'
+    REMOVED_PRODUCTS = 'REMOVED_PRODUCTS'
+    SOME_PRODUCTS_WERE_ADDED_TO_THE_DRAFT_ORDER = 'Some products were added to the draft order'
+    DRAFT_ADDED_PRODUCTS = 'DRAFT_ADDED_PRODUCTS'
+    SOME_PRODUCTS_WERE_REMOVED_FROM_THE_DRAFT_ORDER = 'Some products were removed from the draft order'
+    DRAFT_REMOVED_PRODUCTS = 'DRAFT_REMOVED_PRODUCTS'
+    SOME_PRODUCTS_WERE_ADDED_TO_THE_QUOTE_ORDER = 'Some products were added to the quote order'
+    QUOTE_ADDED_PRODUCTS = 'QUOTE_ADDED_PRODUCTS'
+    SOME_PRODUCTS_WERE_REMOVED_FROM_THE_QUOTE_ORDER = 'Some products were removed from the quote order'
+    QUOTE_REMOVED_PRODUCTS = 'QUOTE_REMOVED_PRODUCTS'
+    THE_ORDER_WAS_PLACED = 'The order was placed'
+    PLACED = 'PLACED'
+    THE_DRAFT_ORDER_WAS_PLACED = 'The draft order was placed'
+    PLACED_FROM_DRAFT = 'PLACED_FROM_DRAFT'
+    THE_QUOTE_ORDER_WAS_PLACED = 'The quote order was placed'
+    PLACED_FROM_QUOTE = 'PLACED_FROM_QUOTE'
+    THE_DRAFT_ORDER_WAS_PLACED_WITH_OVERSOLD_ITEMS = 'The draft order was placed with oversold items'
+    OVERSOLD_ITEMS = 'OVERSOLD_ITEMS'
+    THE_ORDER_WAS_CANCELED = 'The order was canceled'
+    CANCELED = 'CANCELED'
+    THE_ORDER_WAS_MANUALLY_MARKED_AS_FULLY_PAID = 'The order was manually marked as fully paid'
+    ORDER_MARKED_AS_PAID = 'ORDER_MARKED_AS_PAID'
+    THE_ORDER_WAS_MANUALLY_MARKED_AS_DELIVERED = 'The order was manually marked as delivered'
+    ORDER_MARKED_AS_DELIVERED = 'ORDER_MARKED_AS_DELIVERED'
+    THE_ORDER_WAS_FULLY_PAID = 'The order was fully paid'
+    ORDER_FULLY_PAID = 'ORDER_FULLY_PAID'
+    THE_ADDRESS_FROM_THE_PLACED_ORDER_WAS_UPDATED = 'The address from the placed order was updated'
+    UPDATED_ADDRESS = 'UPDATED_ADDRESS'
+    THE_EMAIL_WAS_SENT = 'The email was sent'
+    EMAIL_SENT = 'EMAIL_SENT'
+    THE_ORDER_PAYOUT_STATUS_WAS_MANUALLY_CHANGED = 'The order payout status was manually changed'
+    PAYOUT_STATUS_MANUALLY_CHANGED = 'PAYOUT_STATUS_MANUALLY_CHANGED'
+    THE_PAYMENT_WAS_AUTHORIZED = 'The payment was authorized'
+    PAYMENT_AUTHORIZED = 'PAYMENT_AUTHORIZED'
+    THE_PAYMENT_WAS_CAPTURED = 'The payment was captured'
+    PAYMENT_CAPTURED = 'PAYMENT_CAPTURED'
+    THE_PAYMENT_WAS_REFUNDED = 'The payment was refunded'
+    PAYMENT_REFUNDED = 'PAYMENT_REFUNDED'
+    THE_PAYMENT_WAS_VOIDED = 'The payment was voided'
+    PAYMENT_VOIDED = 'PAYMENT_VOIDED'
+    THE_PAYMENT_WAS_FAILED = 'The payment was failed'
+    PAYMENT_FAILED = 'PAYMENT_FAILED'
+    NOTIFICATION_FROM_EXTERNAL_SERVICE = 'Notification from external service'
+    EXTERNAL_SERVICE_NOTIFICATION = 'EXTERNAL_SERVICE_NOTIFICATION'
+    AN_INVOICE_WAS_REQUESTED = 'An invoice was requested'
+    INVOICE_REQUESTED = 'INVOICE_REQUESTED'
+    AN_INVOICE_WAS_GENERATED = 'An invoice was generated'
+    INVOICE_GENERATED = 'INVOICE_GENERATED'
+    AN_INVOICE_WAS_UPDATED = 'An invoice was updated'
+    INVOICE_UPDATED = 'INVOICE_UPDATED'
+    AN_INVOICE_WAS_SENT = 'An invoice was sent'
+    INVOICE_SENT = 'INVOICE_SENT'
+    A_FULFILLMENT_WAS_CANCELED = 'A fulfillment was canceled'
+    FULFILLMENT_CANCELED = 'FULFILLMENT_CANCELED'
+    THE_ITEMS_OF_THE_FULFILLMENT_WERE_RESTOCKED = 'The items of the fulfillment were restocked'
+    FULFILLMENT_RESTOCKED_ITEMS = 'FULFILLMENT_RESTOCKED_ITEMS'
+    SOME_ITEMS_WERE_FULFILLED = 'Some items were fulfilled'
+    FULFILLMENT_FULFILLED_ITEMS = 'FULFILLMENT_FULFILLED_ITEMS'
+    SOME_ITEMS_HAD_FULFILLMENT_DECLINED = 'Some items had fulfillment declined'
+    FULFILLMENT_DECLINED_ITEMS = 'FULFILLMENT_DECLINED_ITEMS'
+    THE_FULFILLMENT_TRACKING_CODE_WAS_UPDATED = 'The fulfillment tracking code was updated'
+    TRACKING_CODE_UPDATED = 'TRACKING_CODE_UPDATED'
+    TRACKING_UPDATED = 'TRACKING_UPDATED'
+    A_NOTE_WAS_ADDED_TO_THE_ORDER = 'A note was added to the order'
+    NOTE_ADDED = 'NOTE_ADDED'
+    A_LINE_UNIT_PRICE_WAS_OVERRIDDEN = 'A line unit price was overridden'
+    LINE_PRICE_OVERRIDDEN = 'LINE_PRICE_OVERRIDDEN'
+    AN_UNKNOWN_ORDER_EVENT_CONTAINING_A_MESSAGE = 'An unknown order event containing a message'
+    OTHER = 'OTHER'
+    A_REFUND_RECEIPT_WAS_GENERATED = 'A refund receipt was generated'
+    REFUND_RECEIPT_GENERATED = 'REFUND_RECEIPT_GENERATED'
+    A_RETURN_WAS_REQUESTED_FOR_THE_ORDER = 'A return was requested for the order'
+    RETURN_REQUESTED = 'RETURN_REQUESTED'
+    A_RETURN_REQUEST_WAS_AUTHORIZED_FOR_THE_ORDER = 'A return request was authorized for the order'
+    RETURN_AUTHORIZED = 'RETURN_AUTHORIZED'
+    A_RETURN_REQUEST_WAS_DECLINED_FOR_THE_ORDER = 'A return request was declined for the order'
+    RETURN_DECLINED = 'RETURN_DECLINED'
+    A_RETURN_REQUEST_WAS_RECEIVED_FOR_THE_ORDER = 'A return request was received for the order'
+    RETURN_RECEIVED = 'RETURN_RECEIVED'
+    A_RETURN_REQUEST_WAS_CANCELLED_FOR_THE_ORDER = 'A return request was cancelled for the order'
+    RETURN_CANCELLED = 'RETURN_CANCELLED'
+    A_RETURN_HAS_BEEN_COMPLETED_FOR_THE_ORDER = 'A return has been completed for the order'
+    RETURN_COMPLETE = 'RETURN_COMPLETE'
+    
+
+class OrderEventsEmailsEnum(str):
+    THE_ORDER_CONFIRMED_EMAIL_WAS_SENT = 'The order confirmed email was sent'
+    CONFIRMED = 'CONFIRMED'
+    THE_PAYMENT_CONFIRMATION_EMAIL_WAS_SENT = 'The payment confirmation email was sent'
+    PAYMENT_CONFIRMATION = 'PAYMENT_CONFIRMATION'
+    THE_SHIPPING_CONFIRMATION_EMAIL_WAS_SENT = 'The shipping confirmation email was sent'
+    SHIPPING_CONFIRMATION = 'SHIPPING_CONFIRMATION'
+    THE_FULFILLMENT_TRACKING_CODE_EMAIL_WAS_SENT = 'The fulfillment tracking code email was sent'
+    TRACKING_UPDATED = 'TRACKING_UPDATED'
+    THE_ORDER_PLACEMENT_CONFIRMATION_EMAIL_WAS_SENT = 'The order placement confirmation email was sent'
+    ORDER_CONFIRMATION = 'ORDER_CONFIRMATION'
+    THE_ORDER_CANCEL_CONFIRMATION_EMAIL_WAS_SENT = 'The order cancel confirmation email was sent'
+    ORDER_CANCEL = 'ORDER_CANCEL'
+    THE_ORDER_REFUND_CONFIRMATION_EMAIL_WAS_SENT = 'The order refund confirmation email was sent'
+    ORDER_REFUND = 'ORDER_REFUND'
+    THE_FULFILLMENT_CONFIRMATION_EMAIL_WAS_SENT = 'The fulfillment confirmation email was sent'
+    FULFILLMENT_CONFIRMATION = 'FULFILLMENT_CONFIRMATION'
+    FULFILLMENT_DENIED = 'fulfillment_denied'
+    FULFILLMENT_DENIED = 'FULFILLMENT_DENIED'
+    THE_EMAIL_CONTAINING_THE_DIGITAL_LINKS_WAS_SENT = 'The email containing the digital links was sent'
+    DIGITAL_LINKS = 'DIGITAL_LINKS'
+    THE_PARTIAL_ORDER_CANCEL_CONFIRMATION_EMAIL_WAS_SENT = 'The partial order cancel confirmation email was sent'
+    PARTIAL_ORDER_CANCEL = 'PARTIAL_ORDER_CANCEL'
+    THE_MARKETPLACE_OPERATOR_ORDER_NOTIFICATION_EMAIL_WAS_SENT = 'The marketplace operator order notification email was sent'
+    MPO_ORDER_NOTIFICATION = 'MPO_ORDER_NOTIFICATION'
+    THE_QUOTE_EMAIL_WAS_SENT = 'The quote email was sent'
+    QUOTE_SENT = 'QUOTE_SENT'
+    THE_QUOTE_REQUEST_EMAIL_WAS_SENT_TO_THE_MARKETPLACE_OPERATOR = 'The quote request email was sent to the marketplace operator'
+    QUOTE_REQUESTED = 'QUOTE_REQUESTED'
+    
+
+class RefundChargeToEnum(str):
+    MARKETPLACE = 'Marketplace'
+    MARKETPLACE = 'MARKETPLACE'
+    SELLER = 'Seller'
+    SELLER = 'SELLER'
+    
+
+class RefundLineScopeEnum(str):
+    BUYER_ORDER = 'Buyer Order'
+    BUYERORDER = 'BUYERORDER'
+    ORDER_LINE = 'Order Line'
+    ORDERLINE = 'ORDERLINE'
+    SELLER_ORDER = 'Seller Order'
+    SELLERORDER = 'SELLERORDER'
+    
+
+class RefundLineTypeEnum(str):
+    ENTIRE_SCOPE = 'ENTIRE_SCOPE'
+    FIXED_AMOUNT = 'FIXED_AMOUNT'
+    PARTIAL_QUANTITY = 'PARTIAL_QUANTITY'
+    PERCENTAGE = 'PERCENTAGE'
+    SHIPPING = 'SHIPPING'
+    TAX = 'TAX'
+    
+
+class RefundPaymentTypeEnum(str):
+    TRANSACTION = 'Transaction'
+    TRANSACTION = 'TRANSACTION'
+    VOUCHER = 'Voucher'
+    VOUCHER = 'VOUCHER'
+    
+
+class RefundStatusEnum(str):
+    REQUESTED = 'Requested'
+    REQUESTED = 'REQUESTED'
+    CANCELED = 'Canceled'
+    CANCELED = 'CANCELED'
+    DECLINED = 'Declined'
+    DECLINED = 'DECLINED'
+    APPROVED = 'Approved'
+    APPROVED = 'APPROVED'
+    PROCESSING = 'Processing'
+    PROCESSING = 'PROCESSING'
+    FAILED = 'Failed'
+    FAILED = 'FAILED'
+    PAID = 'Paid'
+    PAID = 'PAID'
+    LOCKED = 'Locked'
+    LOCKED = 'LOCKED'
+    SETTLED = 'Settled'
+    SETTLED = 'SETTLED'
+    
+
+class RefundTypeEnum(str):
+    MANUAL_REFUND = 'Manual Refund'
+    MANUALREFUND = 'MANUALREFUND'
+    ORDER_LINE_REFUND = 'Order Line Refund'
+    ORDERLINEREFUND = 'ORDERLINEREFUND'
+    
+
+class FulfillmentStatus(str):
+    FULFILLED = 'Fulfilled'
+    FULFILLED = 'FULFILLED'
+    CANCELED = 'Canceled'
+    CANCELED = 'CANCELED'
+    RETURNED = 'Returned'
+    RETURNED = 'RETURNED'
+    DECLINED = 'Declined'
+    DECLINED = 'DECLINED'
+    RETURN_REQUESTED = 'Return requested'
+    RETURN_REQUESTED = 'RETURN_REQUESTED'
+    RETURN_AUTHORIZED = 'Return authorized'
+    RETURN_AUTHORIZED = 'RETURN_AUTHORIZED'
+    RETURN_DECLINED = 'Return declined'
+    RETURN_DECLINED = 'RETURN_DECLINED'
+    RETURN_RECEIVED = 'Return received'
+    RETURN_RECEIVED = 'RETURN_RECEIVED'
+    RETURN_COMPLETE = 'Return complete'
+    RETURN_COMPLETE = 'RETURN_COMPLETE'
+    RETURN_CANCELLED = 'Return cancelled'
+    RETURN_CANCELLED = 'RETURN_CANCELLED'
+    
+
+class SourceFeeEnum(str):
+    AGREEMENT_FEES = 'Agreement Fees'
+    AGREEMENT_FEES = 'AGREEMENT_FEES'
+    MANUAL_ORDER_FEE = 'Manual Order Fee'
+    MANUAL_ORDER_FEE = 'MANUAL_ORDER_FEE'
+    
+
+class OrderPayoutStatusEnum(str):
+    NOT_READY = 'Not ready'
+    NOT_READY = 'NOT_READY'
+    NOT_PAID = 'Not paid'
+    NOT_PAID = 'NOT_PAID'
+    READY_FOR_PAYOUT = 'Ready for payout'
+    READY_FOR_PAYOUT = 'READY_FOR_PAYOUT'
+    PENDING_FINAL_PAYOUT = 'Pending final payout'
+    PENDING_FINAL_PAYOUT = 'PENDING_FINAL_PAYOUT'
+    PAID_OUT = 'Paid out'
+    PAID_OUT = 'PAID_OUT'
+    PARTIALLY_PAID_OUT = 'Partially paid out'
+    PARTIALLY_PAID_OUT = 'PARTIALLY_PAID_OUT'
+    ERROR = 'Error'
+    ERROR = 'ERROR'
+    
+
+class PayoutStatusEnum(str):
+    DRAFT = 'Draft'
+    DRAFT = 'DRAFT'
+    PAID = 'Paid'
+    PAID = 'PAID'
+    ARCHIVED = 'Archived'
+    ARCHIVED = 'ARCHIVED'
+    LOCKED = 'Locked'
+    LOCKED = 'LOCKED'
+    ERROR = 'Error'
+    ERROR = 'ERROR'
+    
+
+class CommissionTypeEnum(str):
+    GROSS_PRICE_COMMISSION = 'Gross Price Commission'
+    MARKETPLACE = 'MARKETPLACE'
+    MARKUP_COMMISSION = 'Markup Commission'
+    WHOLESALE = 'WHOLESALE'
+    ABSOLUTE_PRICE_COMMISSION = 'Absolute Price Commission'
+    DROPSHIPPING = 'DROPSHIPPING'
+    
+
+class MarkupCommissionTypeEnum(str):
+    PERCENTAGE = 'Percentage'
+    PERCENTAGE = 'PERCENTAGE'
+    
+
+class FeeType(str):
+    PERCENTAGE = 'PERCENTAGE'
+    FIXED = 'FIXED'
+    
+
+class FeeScope(str):
+    LINE = 'LINE'
+    TOTAL = 'TOTAL'
+    
+
+class ProductStatus(str):
+    DRAFT = 'Draft'
+    DRAFT = 'DRAFT'
+    ACTIVE = 'Active'
+    ACTIVE = 'ACTIVE'
+    
+
+class ProductSubStatus(str):
+    IN_REVIEW = 'In review'
+    IN_REVIEW = 'IN_REVIEW'
+    DECLINED = 'Declined'
+    DECLINED = 'DECLINED'
+    APPROVED = 'Approved'
+    APPROVED = 'APPROVED'
+    
+
+class LocationKindEnum(str):
+    BUSINESS = 'Business'
+    BUSINESS = 'BUSINESS'
+    RESIDENTIAL = 'Residential'
+    RESIDENTIAL = 'RESIDENTIAL'
+    AUCTION = 'Auction'
+    AUCTION = 'AUCTION'
+    
+
+class ProductAction(str):
+    REPRESENTS_A_PRODUCT_THAT_WAS_DECLINED_MASTER_PRODUCT_STATUS = 'Represents a product that was declined master product status.'
+    DECLINED = 'DECLINED'
+    REPRESENTS_A_PRODUCT_THAT_WAS_APPROVED_FOR_MASTER_PRODUCT_STATUS = 'Represents a product that was approved for master product status.'
+    APPROVED = 'APPROVED'
+    
+
+class DistanceUnitsEnum(str):
+    INCH = 'Inch'
+    INCH = 'INCH'
+    FOOT = 'Foot'
+    FT = 'FT'
+    YARD = 'Yard'
+    YD = 'YD'
+    MILE = 'Mile'
+    ML = 'ML'
+    MILLIMETER = 'Millimeter'
+    MM = 'MM'
+    CENTIMETER = 'Centimeter'
+    CM = 'CM'
+    METER = 'Meter'
+    M = 'M'
+    KILOMETER = 'Kilometer'
+    KM = 'KM'
+    
+
+class CountryCode(str):
+    AF = 'AF'
+    AX = 'AX'
+    AL = 'AL'
+    DZ = 'DZ'
+    AS = 'AS'
+    AD = 'AD'
+    AO = 'AO'
+    AI = 'AI'
+    AQ = 'AQ'
+    AG = 'AG'
+    AR = 'AR'
+    AM = 'AM'
+    AW = 'AW'
+    AU = 'AU'
+    AT = 'AT'
+    AZ = 'AZ'
+    BS = 'BS'
+    BH = 'BH'
+    BD = 'BD'
+    BB = 'BB'
+    BY = 'BY'
+    BE = 'BE'
+    BZ = 'BZ'
+    BJ = 'BJ'
+    BM = 'BM'
+    BT = 'BT'
+    BO = 'BO'
+    BQ = 'BQ'
+    BA = 'BA'
+    BW = 'BW'
+    BV = 'BV'
+    BR = 'BR'
+    IO = 'IO'
+    BN = 'BN'
+    BG = 'BG'
+    BF = 'BF'
+    BI = 'BI'
+    CV = 'CV'
+    KH = 'KH'
+    CM = 'CM'
+    CA = 'CA'
+    KY = 'KY'
+    CF = 'CF'
+    TD = 'TD'
+    CL = 'CL'
+    CN = 'CN'
+    CX = 'CX'
+    CC = 'CC'
+    CO = 'CO'
+    KM = 'KM'
+    CG = 'CG'
+    CD = 'CD'
+    CK = 'CK'
+    CR = 'CR'
+    CI = 'CI'
+    HR = 'HR'
+    CU = 'CU'
+    CW = 'CW'
+    CY = 'CY'
+    CZ = 'CZ'
+    DK = 'DK'
+    DJ = 'DJ'
+    DM = 'DM'
+    DO = 'DO'
+    EC = 'EC'
+    EG = 'EG'
+    SV = 'SV'
+    GQ = 'GQ'
+    ER = 'ER'
+    EE = 'EE'
+    SZ = 'SZ'
+    ET = 'ET'
+    FK = 'FK'
+    FO = 'FO'
+    FJ = 'FJ'
+    FI = 'FI'
+    FR = 'FR'
+    GF = 'GF'
+    PF = 'PF'
+    TF = 'TF'
+    GA = 'GA'
+    GM = 'GM'
+    GE = 'GE'
+    DE = 'DE'
+    GH = 'GH'
+    GI = 'GI'
+    GR = 'GR'
+    GL = 'GL'
+    GD = 'GD'
+    GP = 'GP'
+    GU = 'GU'
+    GT = 'GT'
+    GG = 'GG'
+    GN = 'GN'
+    GW = 'GW'
+    GY = 'GY'
+    HT = 'HT'
+    HM = 'HM'
+    VA = 'VA'
+    HN = 'HN'
+    HK = 'HK'
+    HU = 'HU'
+    IS = 'IS'
+    IN = 'IN'
+    ID = 'ID'
+    IR = 'IR'
+    IQ = 'IQ'
+    IE = 'IE'
+    IM = 'IM'
+    IL = 'IL'
+    IT = 'IT'
+    JM = 'JM'
+    JP = 'JP'
+    JE = 'JE'
+    JO = 'JO'
+    KZ = 'KZ'
+    KE = 'KE'
+    KI = 'KI'
+    KW = 'KW'
+    KG = 'KG'
+    LA = 'LA'
+    LV = 'LV'
+    LB = 'LB'
+    LS = 'LS'
+    LR = 'LR'
+    LY = 'LY'
+    LI = 'LI'
+    LT = 'LT'
+    LU = 'LU'
+    MO = 'MO'
+    MG = 'MG'
+    MW = 'MW'
+    MY = 'MY'
+    MV = 'MV'
+    ML = 'ML'
+    MT = 'MT'
+    MH = 'MH'
+    MQ = 'MQ'
+    MR = 'MR'
+    MU = 'MU'
+    YT = 'YT'
+    MX = 'MX'
+    FM = 'FM'
+    MD = 'MD'
+    MC = 'MC'
+    MN = 'MN'
+    ME = 'ME'
+    MS = 'MS'
+    MA = 'MA'
+    MZ = 'MZ'
+    MM = 'MM'
+    NA = 'NA'
+    NR = 'NR'
+    NP = 'NP'
+    NL = 'NL'
+    NC = 'NC'
+    NZ = 'NZ'
+    NI = 'NI'
+    NE = 'NE'
+    NG = 'NG'
+    NU = 'NU'
+    NF = 'NF'
+    KP = 'KP'
+    MK = 'MK'
+    MP = 'MP'
+    NO = 'NO'
+    OM = 'OM'
+    PK = 'PK'
+    PW = 'PW'
+    PS = 'PS'
+    PA = 'PA'
+    PG = 'PG'
+    PY = 'PY'
+    PE = 'PE'
+    PH = 'PH'
+    PN = 'PN'
+    PL = 'PL'
+    PT = 'PT'
+    PR = 'PR'
+    QA = 'QA'
+    RE = 'RE'
+    RO = 'RO'
+    RU = 'RU'
+    RW = 'RW'
+    BL = 'BL'
+    SH = 'SH'
+    KN = 'KN'
+    LC = 'LC'
+    MF = 'MF'
+    PM = 'PM'
+    VC = 'VC'
+    WS = 'WS'
+    SM = 'SM'
+    ST = 'ST'
+    SA = 'SA'
+    SN = 'SN'
+    RS = 'RS'
+    SC = 'SC'
+    SL = 'SL'
+    SG = 'SG'
+    SX = 'SX'
+    SK = 'SK'
+    SI = 'SI'
+    SB = 'SB'
+    SO = 'SO'
+    ZA = 'ZA'
+    GS = 'GS'
+    KR = 'KR'
+    SS = 'SS'
+    ES = 'ES'
+    LK = 'LK'
+    SD = 'SD'
+    SR = 'SR'
+    SJ = 'SJ'
+    SE = 'SE'
+    CH = 'CH'
+    SY = 'SY'
+    TW = 'TW'
+    TJ = 'TJ'
+    TZ = 'TZ'
+    TH = 'TH'
+    TL = 'TL'
+    TG = 'TG'
+    TK = 'TK'
+    TO = 'TO'
+    TT = 'TT'
+    TN = 'TN'
+    TR = 'TR'
+    TM = 'TM'
+    TC = 'TC'
+    TV = 'TV'
+    UG = 'UG'
+    UA = 'UA'
+    AE = 'AE'
+    GB = 'GB'
+    UM = 'UM'
+    US = 'US'
+    UY = 'UY'
+    UZ = 'UZ'
+    VU = 'VU'
+    VE = 'VE'
+    VN = 'VN'
+    VG = 'VG'
+    VI = 'VI'
+    WF = 'WF'
+    EH = 'EH'
+    YE = 'YE'
+    ZM = 'ZM'
+    ZW = 'ZW'
+    
+
+class StockEventType(str):
+    STOCK_WAS_CREATED = 'Stock was created'
+    STOCK_CREATED = 'STOCK_CREATED'
+    STOCK_WAS_UPDATED = 'Stock was updated'
+    STOCK_UPDATED = 'STOCK_UPDATED'
+    STOCK_WAS_DELETED = 'Stock was deleted'
+    STOCK_DELETED = 'STOCK_DELETED'
+    STOCK_WAS_ALLOCATED = 'Stock was allocated'
+    STOCK_ALLOCATED = 'STOCK_ALLOCATED'
+    STOCK_WAS_DEALLOCATED = 'Stock was deallocated'
+    STOCK_DEALLOCATED = 'STOCK_DEALLOCATED'
+    
+
+class OrderStatusFilter(str):
+    READY_TO_FULFILL = 'READY_TO_FULFILL'
+    READY_TO_CAPTURE = 'READY_TO_CAPTURE'
+    UNFULFILLED = 'UNFULFILLED'
+    PARTIALLY_FULFILLED = 'PARTIALLY_FULFILLED'
+    FULFILLED = 'FULFILLED'
+    DELIVERED = 'DELIVERED'
+    CANCELED = 'CANCELED'
+    
+
+class OrderSourceFilter(str):
+    CHECKOUT = 'CHECKOUT'
+    DRAFT = 'DRAFT'
+    QUOTE = 'QUOTE'
+    MANUAL = 'MANUAL'
+    EXTERNAL = 'EXTERNAL'
+    
+
+class OfferOrderSubStatusFilter(str):
+    OFFER_APPROVED = 'OFFER_APPROVED'
+    OFFER_CANCELLED = 'OFFER_CANCELLED'
+    OFFER_CREATED = 'OFFER_CREATED'
+    OFFER_EXPIRED = 'OFFER_EXPIRED'
+    OFFER_NEGOTIATING = 'OFFER_NEGOTIATING'
+    OFFER_REJECTED = 'OFFER_REJECTED'
+    
+
+class OrderSortField(str):
+    SORT_ORDERS_BY_NUMBER = 'Sort orders by number.'
+    NUMBER = 'NUMBER'
+    SORT_ORDERS_BY_CREATION_DATE = 'Sort orders by creation date.'
+    CREATION_DATE = 'CREATION_DATE'
+    SORT_ORDERS_BY_UPDATE_DATE = 'Sort orders by update date.'
+    UPDATE_DATE = 'UPDATE_DATE'
+    SORT_ORDERS_BY_CUSTOMER = 'Sort orders by customer.'
+    CUSTOMER = 'CUSTOMER'
+    SORT_ORDERS_BY_PAYMENT = 'Sort orders by payment.'
+    PAYMENT = 'PAYMENT'
+    SORT_ORDERS_BY_PAYMENT_DATE = 'Sort orders by payment date.'
+    PAYMENT_DATE = 'PAYMENT_DATE'
+    SORT_ORDERS_BY_FULFILLMENT_STATUS = 'Sort orders by fulfillment status.'
+    FULFILLMENT_STATUS = 'FULFILLMENT_STATUS'
+    SORT_ORDERS_BY_TOTAL = 'Sort orders by total.'
+    TOTAL = 'TOTAL'
+    SORT_ORDERS_BY_PO_NUMBERS = 'Sort orders by po numbers.'
+    PO_NUMBERS = 'PO_NUMBERS'
+    SORT_ORDERS_BY_EXTERNAL_ID = 'Sort orders by external id.'
+    EXTERNAL_ID = 'EXTERNAL_ID'
+    SORT_ORDERS_BY_EXTERNAL_SOURCE = 'Sort orders by external source.'
+    EXTERNAL_SOURCE = 'EXTERNAL_SOURCE'
+    
+
+class CustomerEventsEnum(str):
+    THE_ACCOUNT_WAS_CREATED = 'The account was created'
+    ACCOUNT_CREATED = 'ACCOUNT_CREATED'
+    PASSWORD_RESET_LINK_WAS_SENT_TO_THE_CUSTOMER = 'Password reset link was sent to the customer'
+    PASSWORD_RESET_LINK_SENT = 'PASSWORD_RESET_LINK_SENT'
+    THE_ACCOUNT_PASSWORD_WAS_RESET = 'The account password was reset'
+    PASSWORD_RESET = 'PASSWORD_RESET'
+    THE_USER_REQUESTED_TO_CHANGE_THE_ACCOUNT_EMAIL_ADDRESS = 'The user requested to change the account email address'
+    EMAIL_CHANGED_REQUEST = 'EMAIL_CHANGED_REQUEST'
+    THE_ACCOUNT_PASSWORD_WAS_CHANGED = 'The account password was changed'
+    PASSWORD_CHANGED = 'PASSWORD_CHANGED'
+    THE_ACCOUNT_EMAIL_ADDRESS_WAS_CHANGED = 'The account email address was changed'
+    EMAIL_CHANGED = 'EMAIL_CHANGED'
+    AN_ORDER_WAS_PLACED = 'An order was placed'
+    PLACED_ORDER = 'PLACED_ORDER'
+    A_NOTE_WAS_ADDED = 'A note was added'
+    NOTE_ADDED_TO_ORDER = 'NOTE_ADDED_TO_ORDER'
+    A_DIGITAL_GOOD_WAS_DOWNLOADED = 'A digital good was downloaded'
+    DIGITAL_LINK_DOWNLOADED = 'DIGITAL_LINK_DOWNLOADED'
+    A_CUSTOMER_WAS_DELETED = 'A customer was deleted'
+    CUSTOMER_DELETED = 'CUSTOMER_DELETED'
+    A_CUSTOMER_NAME_WAS_EDITED = 'A customer name was edited'
+    NAME_ASSIGNED = 'NAME_ASSIGNED'
+    A_CUSTOMER_EMAIL_ADDRESS_WAS_EDITED = 'A customer email address was edited'
+    EMAIL_ASSIGNED = 'EMAIL_ASSIGNED'
+    A_NOTE_WAS_ADDED_TO_THE_CUSTOMER = 'A note was added to the customer'
+    NOTE_ADDED = 'NOTE_ADDED'
+    
+
+class WishlistItemSortField(str):
+    SORT_WISHLIST_ITEMS_BY_CREATED_AT = 'Sort wishlist items by created at.'
+    CREATED_AT = 'CREATED_AT'
+    
+
+class WebhookSampleEventTypeEnum(str):
+    AGREEMENT_CREATED = 'AGREEMENT_CREATED'
+    AGREEMENT_DELETED = 'AGREEMENT_DELETED'
+    AGREEMENT_UPDATED = 'AGREEMENT_UPDATED'
+    CATEGORY_CREATED = 'CATEGORY_CREATED'
+    CATEGORY_DELETED = 'CATEGORY_DELETED'
+    CATEGORY_UPDATED = 'CATEGORY_UPDATED'
+    CHECKOUT_CREATED = 'CHECKOUT_CREATED'
+    CHECKOUT_UPDATED = 'CHECKOUT_UPDATED'
+    COLLECTION_CREATED = 'COLLECTION_CREATED'
+    COLLECTION_DELETED = 'COLLECTION_DELETED'
+    COLLECTION_UPDATED = 'COLLECTION_UPDATED'
+    CUSTOMER_CREATED = 'CUSTOMER_CREATED'
+    CUSTOMER_UPDATED = 'CUSTOMER_UPDATED'
+    CUSTOMER_DELETED = 'CUSTOMER_DELETED'
+    FULFILLMENT_CREATED = 'FULFILLMENT_CREATED'
+    INVOICE_DELETED = 'INVOICE_DELETED'
+    INVOICE_REQUESTED = 'INVOICE_REQUESTED'
+    INVOICE_SENT = 'INVOICE_SENT'
+    MICROSITE_CREATED = 'MICROSITE_CREATED'
+    MICROSITE_UPDATED = 'MICROSITE_UPDATED'
+    NAUTICAL_ORDER_CANCELLED = 'NAUTICAL_ORDER_CANCELLED'
+    NAUTICAL_ORDER_CREATED = 'NAUTICAL_ORDER_CREATED'
+    NAUTICAL_ORDER_FULFILLED = 'NAUTICAL_ORDER_FULFILLED'
+    NAUTICAL_ORDER_FULLY_PAID = 'NAUTICAL_ORDER_FULLY_PAID'
+    NAUTICAL_ORDER_UPDATED = 'NAUTICAL_ORDER_UPDATED'
+    ORDER_CANCELLED = 'ORDER_CANCELLED'
+    ORDER_CREATED = 'ORDER_CREATED'
+    ORDER_FULFILLED = 'ORDER_FULFILLED'
+    ORDER_FULLY_PAID = 'ORDER_FULLY_PAID'
+    ORDER_UPDATED = 'ORDER_UPDATED'
+    PAYMENT_CREATED = 'PAYMENT_CREATED'
+    PAYMENT_UPDATED = 'PAYMENT_UPDATED'
+    PAYOUT_CREATED = 'PAYOUT_CREATED'
+    PAYOUT_UPDATED = 'PAYOUT_UPDATED'
+    PAYOUT_DELETED = 'PAYOUT_DELETED'
+    PRICE_BOOK_CREATED = 'PRICE_BOOK_CREATED'
+    PRICE_BOOK_UPDATED = 'PRICE_BOOK_UPDATED'
+    PRODUCT_CREATED = 'PRODUCT_CREATED'
+    PRODUCT_DELETED = 'PRODUCT_DELETED'
+    PRODUCT_UPDATED = 'PRODUCT_UPDATED'
+    REFUND_CREATED = 'REFUND_CREATED'
+    REFUND_DELETED = 'REFUND_DELETED'
+    REFUND_UPDATED = 'REFUND_UPDATED'
+    SELLER_CREATED = 'SELLER_CREATED'
+    SELLER_UPDATED = 'SELLER_UPDATED'
+    SELLER_AGREEMENT_ACKNOWLEDGED = 'SELLER_AGREEMENT_ACKNOWLEDGED'
+    SELLER_AGREEMENT_DECLINED = 'SELLER_AGREEMENT_DECLINED'
+    VARIANT_CREATED = 'VARIANT_CREATED'
+    VARIANT_DELETED = 'VARIANT_DELETED'
+    VARIANT_UPDATED = 'VARIANT_UPDATED'
+    STOCK_CREATED = 'STOCK_CREATED'
+    STOCK_DELETED = 'STOCK_DELETED'
+    STOCK_UPDATED = 'STOCK_UPDATED'
+    STOCK_ALLOCATED = 'STOCK_ALLOCATED'
+    STOCK_DEALLOCATED = 'STOCK_DEALLOCATED'
+    VENDOR_PAYOUT_CREATED = 'VENDOR_PAYOUT_CREATED'
+    VENDOR_PAYOUT_UPDATED = 'VENDOR_PAYOUT_UPDATED'
+    WAREHOUSE_CREATED = 'WAREHOUSE_CREATED'
+    WAREHOUSE_DELETED = 'WAREHOUSE_DELETED'
+    WAREHOUSE_UPDATED = 'WAREHOUSE_UPDATED'
+    
+
+class WebhookDirectionEnum(str):
+    WEBHOOK_HAS_BEEN_RECEIVED = 'Webhook has been received'
+    RECEIVED = 'RECEIVED'
+    WEBHOOK_HAS_BEEN_SENT = 'Webhook has been sent'
+    EMITTED = 'EMITTED'
+    
+
+class GenericWebhookTransactionType(str):
+    A_PAYLOAD_FOR_ORDER_CREATE_WAS_RECEIVED = 'A payload for order create was received'
+    ORDER_CREATE = 'ORDER_CREATE'
+    A_PAYLOAD_FOR_ORDER_UPDATE_WAS_RECEIVED = 'A payload for order update was received'
+    ORDER_UPDATE = 'ORDER_UPDATE'
+    A_PAYLOAD_FOR_ORDER_CANCEL_WAS_RECEIVED = 'A payload for order cancel was received'
+    ORDER_CANCEL = 'ORDER_CANCEL'
+    A_PAYLOAD_FOR_PRODUCT_CREATE_WAS_RECEIVED = 'A payload for product create was received.'
+    PRODUCT_CREATE = 'PRODUCT_CREATE'
+    A_PAYLOAD_FOR_PRODUCT_UPDATE_WAS_RECEIVED = 'A payload for product update was received.'
+    PRODUCT_UPDATE = 'PRODUCT_UPDATE'
+    A_PAYLOAD_FOR_PRODUCT_DELETE_WAS_RECEIVED = 'A payload for product delete was received.'
+    PRODUCT_DELETE = 'PRODUCT_DELETE'
+    A_PAYLOAD_FOR_PRODUCT_INVENTORY_TRACKING_UPDATE_WAS_RECEIVED = 'A payload for product inventory tracking update was received.'
+    INVENTORY_TRACKING_UPDATE = 'INVENTORY_TRACKING_UPDATE'
+    A_PAYLOAD_FOR_STOCK_CREATE_WAS_RECEIVED = 'A payload for stock create was received.'
+    STOCK_CREATE = 'STOCK_CREATE'
+    A_PAYLOAD_FOR_STOCK_UPDATE_WAS_RECEIVED = 'A payload for stock update was received.'
+    STOCK_UPDATE = 'STOCK_UPDATE'
+    A_PAYLOAD_FOR_STOCK_DELETE_WAS_RECEIVED = 'A payload for stock delete was received.'
+    STOCK_DELETE = 'STOCK_DELETE'
+    A_PAYLOAD_FOR_WAREHOUSE_CREATE_WAS_RECEIVED = 'A payload for warehouse create was received.'
+    WAREHOUSE_CREATE = 'WAREHOUSE_CREATE'
+    A_PAYLOAD_FOR_WAREHOUSE_UPDATE_WAS_RECEIVED = 'A payload for warehouse update was received.'
+    WAREHOUSE_UPDATE = 'WAREHOUSE_UPDATE'
+    A_PAYLOAD_FOR_WAREHOUSE_DELETE_WAS_RECEIVED = 'A payload for warehouse delete was received.'
+    WAREHOUSE_DELETE = 'WAREHOUSE_DELETE'
+    A_PAYLOAD_FOR_FULFILLMENT_CREATE_WAS_RECEIVED = 'A payload for fulfillment create was received.'
+    FULFILLMENT_CREATE = 'FULFILLMENT_CREATE'
+    A_PAYLOAD_FOR_FULFILLMENT_UPDATE_WAS_RECEIVED = 'A payload for fulfillment update was received.'
+    FULFILLMENT_UPDATE = 'FULFILLMENT_UPDATE'
+    A_PAYLOD_FOR_CUSTOMER_CREATE_WAS_RECEIVED = 'A paylod for customer create was received'
+    CUSTOMER_CREATE = 'CUSTOMER_CREATE'
+    A_PAYLOAD_FOR_SELLER_CREATE_WAS_RECEIVED = 'A payload for seller create was received'
+    SELLER_CREATE = 'SELLER_CREATE'
+    A_PAYLOAD_FOR_VEHICLES_WAS_RECEIVED = 'A payload for vehicles was received'
+    VEHICLE_PAYLOAD = 'VEHICLE_PAYLOAD'
+    A_PAYLOAD_FOR_ITEM_SHIPMENT_THAT_WAS_RECEIVED = 'A payload for item shipment that was received'
+    ITEM_SHIP_NOTIFY = 'ITEM_SHIP_NOTIFY'
+    
+
+class WebhookJobStatus(str):
+    SUCCESS = 'SUCCESS'
+    FAILED = 'FAILED'
+    PENDING = 'PENDING'
+    DELETED = 'DELETED'
+    
+
+class WebhookJobSource(str):
+    DEFAULT = 'DEFAULT'
+    SHOPIFY = 'SHOPIFY'
+    
+
+class WebhookJobType(str):
+    ORDER_CREATE = 'ORDER_CREATE'
+    ORDER_UPDATE = 'ORDER_UPDATE'
+    
+
+class WebhookJobSortField(str):
+    SORT_WEBHOOK_JOBS_BY_SOURCE = 'Sort webhook jobs by source.'
+    SOURCE = 'SOURCE'
+    SORT_WEBHOOK_JOBS_BY_TYPE = 'Sort webhook jobs by type.'
+    TYPE = 'TYPE'
+    SORT_WEBHOOK_JOBS_BY_STATUS = 'Sort webhook jobs by status.'
+    STATUS = 'STATUS'
+    SORT_WEBHOOK_JOBS_BY_CREATED_AT = 'Sort webhook jobs by created at.'
+    CREATED_AT = 'CREATED_AT'
+    
+
+class WarehouseSortField(str):
+    SORT_WAREHOUSES_BY_NAME = 'Sort warehouses by name.'
+    NAME = 'NAME'
+    SORT_WAREHOUSES_BY_EXTERNAL_ID = 'Sort warehouses by external id.'
+    EXTERNAL_ID = 'EXTERNAL_ID'
+    SORT_WAREHOUSES_BY_EXTERNAL_SOURCE = 'Sort warehouses by external source.'
+    EXTERNAL_SOURCE = 'EXTERNAL_SOURCE'
+    
+
+class ContentSortField(str):
+    SLUG = 'SLUG'
+    CREATED_AT = 'CREATED_AT'
+    UPDATED_AT = 'UPDATED_AT'
+    LOCKED_BY = 'LOCKED_BY'
+    LOCK_EXPIRY = 'LOCK_EXPIRY'
+    IS_PUBLISHED = 'IS_PUBLISHED'
+    
+
+class MediaSortField(str):
+    TITLE = 'TITLE'
+    CREATED_AT = 'CREATED_AT'
+    
+
+class LanguageCodeEnum(str):
+    AR = 'AR'
+    AZ = 'AZ'
+    BG = 'BG'
+    BN = 'BN'
+    CA = 'CA'
+    CS = 'CS'
+    DA = 'DA'
+    DE = 'DE'
+    EL = 'EL'
+    EN = 'EN'
+    ES = 'ES'
+    ES_CO = 'ES_CO'
+    ET = 'ET'
+    FA = 'FA'
+    FI = 'FI'
+    FR = 'FR'
+    HI = 'HI'
+    HU = 'HU'
+    HY = 'HY'
+    ID = 'ID'
+    IS = 'IS'
+    IT = 'IT'
+    JA = 'JA'
+    KA = 'KA'
+    KM = 'KM'
+    KO = 'KO'
+    LT = 'LT'
+    MN = 'MN'
+    MY = 'MY'
+    NB = 'NB'
+    NL = 'NL'
+    PL = 'PL'
+    PT = 'PT'
+    PT_BR = 'PT_BR'
+    RO = 'RO'
+    RU = 'RU'
+    SK = 'SK'
+    SL = 'SL'
+    SQ = 'SQ'
+    SR = 'SR'
+    SV = 'SV'
+    SW = 'SW'
+    TA = 'TA'
+    TH = 'TH'
+    TR = 'TR'
+    UK = 'UK'
+    VI = 'VI'
+    ZH_HANS = 'ZH_HANS'
+    ZH_HANT = 'ZH_HANT'
+    
+
+class PluginConfigurationCategory(str):
+    AUTH = 'Auth'
+    AUTH = 'AUTH'
+    FULFILLMENT = 'Fulfillment'
+    FULFILLMENT = 'FULFILLMENT'
+    ECOMMERCE = 'Ecommerce'
+    ECOMMERCE = 'ECOMMERCE'
+    DATA_CONNECTIVITY = 'Data Connectivity'
+    DATA_CONNECTIVITY = 'DATA_CONNECTIVITY'
+    ORDER_EXTENSIONS = 'Order Extensions'
+    ORDER_EXTENSIONS = 'ORDER_EXTENSIONS'
+    UTILITY = 'Utility'
+    UTILITY = 'UTILITY'
+    TAXES = 'Taxes'
+    TAXES = 'TAXES'
+    MARKETING = 'Marketing'
+    MARKETING = 'MARKETING'
+    LOCATIONS = 'Locations'
+    LOCATIONS = 'LOCATIONS'
+    PAYMENTS = 'Payments'
+    PAYMENTS = 'PAYMENTS'
+    
+
+class ConfigurationTypeFieldEnum(str):
+    STRING = 'STRING'
+    MULTILINE = 'MULTILINE'
+    BOOLEAN = 'BOOLEAN'
+    SECRET = 'SECRET'
+    SECRET_MULTILINE = 'SECRET_MULTILINE'
+    PASSWORD = 'PASSWORD'
+    SINGLE_SELECT = 'SINGLE_SELECT'
+    OUTPUT = 'OUTPUT'
+    
+
+class DomainStatusEnum(str):
+    UNVERIFIED = 'UNVERIFIED'
+    DNS_VERIFIED = 'DNS_VERIFIED'
+    PROVISIONING = 'PROVISIONING'
+    PROVISIONED = 'PROVISIONED'
+    ERROR = 'ERROR'
+    QUEUED_FOR_DELETION = 'QUEUED_FOR_DELETION'
+    DELETING = 'DELETING'
+    DELETED = 'DELETED'
+    
+
+class SellerStatusFilter(str):
+    APPLYING = 'APPLYING'
+    PENDING = 'PENDING'
+    APPROVED = 'APPROVED'
+    DECLINED = 'DECLINED'
+    SUSPENDED = 'SUSPENDED'
+    BANNED = 'BANNED'
+    DEACTIVATED = 'DEACTIVATED'
+    PAUSED = 'PAUSED'
+    
+
+class SellerSortField(str):
+    SORT_SELLERS_BY_COMPANY_NAME = 'Sort sellers by company name.'
+    COMPANY_NAME = 'COMPANY_NAME'
+    SORT_SELLERS_BY_OWNER = 'Sort sellers by owner.'
+    OWNER = 'OWNER'
+    SORT_SELLERS_BY_STATUS = 'Sort sellers by status.'
+    STATUS = 'STATUS'
+    SORT_SELLERS_BY_CREATED = 'Sort sellers by created.'
+    CREATED = 'CREATED'
+    
+
+class ReportingPeriod(str):
+    TODAY = 'TODAY'
+    THIS_MONTH = 'THIS_MONTH'
+    
+
+class RefundSortField(str):
+    SORT_REFUND_BY_NAME = 'Sort refund by name.'
+    NAME = 'NAME'
+    SORT_REFUND_BY_CREATED = 'Sort refund by created.'
+    CREATED = 'CREATED'
+    SORT_REFUND_BY_UPDATED = 'Sort refund by updated.'
+    UPDATED = 'UPDATED'
+    SORT_REFUND_BY_STATUS = 'Sort refund by status.'
+    STATUS = 'STATUS'
+    SORT_REFUND_BY_BUYER = 'Sort refund by buyer.'
+    BUYER = 'BUYER'
+    SORT_REFUND_BY_EXTERNAL_ID = 'Sort refund by external id.'
+    EXTERNAL_ID = 'EXTERNAL_ID'
+    SORT_REFUND_BY_TOKEN = 'Sort refund by token.'
+    TOKEN = 'TOKEN'
+    
+
+class CategorySortField(str):
+    SORT_CATEGORIES_BY_NAME = 'Sort categories by name.'
+    NAME = 'NAME'
+    SORT_CATEGORIES_BY_PRODUCT_COUNT = 'Sort categories by product count.'
+    PRODUCT_COUNT = 'PRODUCT_COUNT'
+    SORT_CATEGORIES_BY_SUBCATEGORY_COUNT = 'Sort categories by subcategory count.'
+    SUBCATEGORY_COUNT = 'SUBCATEGORY_COUNT'
+    SORT_CATEGORIES_BY_EXTERNAL_ID = 'Sort categories by external id.'
+    EXTERNAL_ID = 'EXTERNAL_ID'
+    SORT_CATEGORIES_BY_EXTERNAL_SOURCE = 'Sort categories by external source.'
+    EXTERNAL_SOURCE = 'EXTERNAL_SOURCE'
+    
+
+class CollectionPublished(str):
+    PUBLISHED = 'PUBLISHED'
+    HIDDEN = 'HIDDEN'
+    
+
+class CollectionVisible(str):
+    VISIBLE = 'VISIBLE'
+    HIDDEN = 'HIDDEN'
+    
+
+class CollectionSortField(str):
+    SORT_COLLECTIONS_BY_NAME = 'Sort collections by name.'
+    NAME = 'NAME'
+    SORT_COLLECTIONS_BY_AVAILABILITY = 'Sort collections by availability.'
+    AVAILABILITY = 'AVAILABILITY'
+    SORT_COLLECTIONS_BY_PRODUCT_COUNT = 'Sort collections by product count.'
+    PRODUCT_COUNT = 'PRODUCT_COUNT'
+    SORT_COLLECTIONS_BY_PUBLICATION_DATE = 'Sort collections by publication date.'
+    PUBLICATION_DATE = 'PUBLICATION_DATE'
+    
+
+class ProductTypeEnum(str):
+    DIGITAL = 'DIGITAL'
+    SHIPPABLE = 'SHIPPABLE'
+    
+
+class ProductTypeConfigurable(str):
+    CONFIGURABLE = 'CONFIGURABLE'
+    SIMPLE = 'SIMPLE'
+    
+
+class ProductTypeSortField(str):
+    SORT_PRODUCTS_BY_NAME = 'Sort products by name.'
+    NAME = 'NAME'
+    SORT_PRODUCTS_BY_TYPE = 'Sort products by type.'
+    DIGITAL = 'DIGITAL'
+    SORT_PRODUCTS_BY_SHIPPING = 'Sort products by shipping.'
+    SHIPPING_REQUIRED = 'SHIPPING_REQUIRED'
+    SORT_PRODUCTS_BY_EXTERNAL_ID = 'Sort products by external id.'
+    EXTERNAL_ID = 'EXTERNAL_ID'
+    SORT_PRODUCTS_BY_EXTERNAL_SOURCE = 'Sort products by external source.'
+    EXTERNAL_SOURCE = 'EXTERNAL_SOURCE'
+    
+
+class PriceBookSortField(str):
+    SORT_PRICEBOOK_BY_NAME = 'Sort pricebook by name.'
+    NAME = 'NAME'
+    
+
+class PriceBookVariantSortField(str):
+    SORT_PRICEBOOK_VARIANT_HISTORY_BY_NUMBER = 'Sort pricebook variant history by number.'
+    NUMBER = 'NUMBER'
+    SORT_PRICEBOOK_VARIANT_HISTORY_BY_TYPE = 'Sort pricebook variant history by type.'
+    TYPE = 'TYPE'
+    SORT_PRICEBOOK_VARIANT_HISTORY_BY_PRICE = 'Sort pricebook variant history by price.'
+    PRICE = 'PRICE'
+    SORT_PRICEBOOK_VARIANT_HISTORY_BY_PERCENTAGE = 'Sort pricebook variant history by percentage.'
     PERCENTAGE = 'PERCENTAGE'
     
 
 class PriceBookProductSortField(str):
-    SORT_PRICEBOOK_PRODUCT_HISTORY_BY_NUMBER. = 'Sort pricebook product history by number.'
+    SORT_PRICEBOOK_PRODUCT_HISTORY_BY_NUMBER = 'Sort pricebook product history by number.'
     NUMBER = 'NUMBER'
-    SORT_PRICEBOOK_PRODUCT_HISTORY_BY_TYPE. = 'Sort pricebook product history by type.'
+    SORT_PRICEBOOK_PRODUCT_HISTORY_BY_TYPE = 'Sort pricebook product history by type.'
     TYPE = 'TYPE'
-    SORT_PRICEBOOK_PRODUCT_HISTORY_BY_PRICE. = 'Sort pricebook product history by price.'
+    SORT_PRICEBOOK_PRODUCT_HISTORY_BY_PRICE = 'Sort pricebook product history by price.'
     PRICE = 'PRICE'
-    SORT_PRICEBOOK_PRODUCT_HISTORY_BY_PERCENTAGE. = 'Sort pricebook product history by percentage.'
+    SORT_PRICEBOOK_PRODUCT_HISTORY_BY_PERCENTAGE = 'Sort pricebook product history by percentage.'
     PERCENTAGE = 'PERCENTAGE'
     
 
 class PriceBookProductTypeSortField(str):
-    SORT_PRICEBOOK_PRODUCT_TYPE_HISTORY_BY_NUMBER. = 'Sort pricebook product type history by number.'
+    SORT_PRICEBOOK_PRODUCT_TYPE_HISTORY_BY_NUMBER = 'Sort pricebook product type history by number.'
     NUMBER = 'NUMBER'
-    SORT_PRICEBOOK_PRODUCT_TYPE_HISTORY_BY_TYPE. = 'Sort pricebook product type history by type.'
+    SORT_PRICEBOOK_PRODUCT_TYPE_HISTORY_BY_TYPE = 'Sort pricebook product type history by type.'
     TYPE = 'TYPE'
-    SORT_PRICEBOOK_PRODUCT_TYPE_HISTORY_BY_PRICE. = 'Sort pricebook product type history by price.'
+    SORT_PRICEBOOK_PRODUCT_TYPE_HISTORY_BY_PRICE = 'Sort pricebook product type history by price.'
     PRICE = 'PRICE'
-    SORT_PRICEBOOK_PRODUCT_TYPE_HISTORY_BY_PERCENTAGE. = 'Sort pricebook product type history by percentage.'
+    SORT_PRICEBOOK_PRODUCT_TYPE_HISTORY_BY_PERCENTAGE = 'Sort pricebook product type history by percentage.'
     PERCENTAGE = 'PERCENTAGE'
     
 
@@ -1799,15 +3560,15 @@ class PriceBookVariantHistoryValueType(str):
     
 
 class PriceBookVariantHistorySortField(str):
-    SORT_PRICEBOOK_VARIANT_HISTORY_BY_NUMBER. = 'Sort pricebook variant history by number.'
+    SORT_PRICEBOOK_VARIANT_HISTORY_BY_NUMBER = 'Sort pricebook variant history by number.'
     NUMBER = 'NUMBER'
-    SORT_PRICEBOOK_VARIANT_HISTORY_BY_TYPE. = 'Sort pricebook variant history by type.'
+    SORT_PRICEBOOK_VARIANT_HISTORY_BY_TYPE = 'Sort pricebook variant history by type.'
     TYPE = 'TYPE'
-    SORT_PRICEBOOK_VARIANT_HISTORY_BY_PRICE. = 'Sort pricebook variant history by price.'
+    SORT_PRICEBOOK_VARIANT_HISTORY_BY_PRICE = 'Sort pricebook variant history by price.'
     PRICE = 'PRICE'
-    SORT_PRICEBOOK_VARIANT_HISTORY_BY_PERCENTAGE. = 'Sort pricebook variant history by percentage.'
+    SORT_PRICEBOOK_VARIANT_HISTORY_BY_PERCENTAGE = 'Sort pricebook variant history by percentage.'
     PERCENTAGE = 'PERCENTAGE'
-    SORT_PRICEBOOK_VARIANT_HISTORY_BY_CREATION_DATE. = 'Sort pricebook variant history by creation date.'
+    SORT_PRICEBOOK_VARIANT_HISTORY_BY_CREATION_DATE = 'Sort pricebook variant history by creation date.'
     CREATION_DATE = 'CREATION_DATE'
     
 
@@ -1819,15 +3580,15 @@ class PriceBookProductHistoryValueType(str):
     
 
 class PriceBookProductHistorySortField(str):
-    SORT_PRICEBOOK_PRODUCT_HISTORY_BY_NUMBER. = 'Sort pricebook product history by number.'
+    SORT_PRICEBOOK_PRODUCT_HISTORY_BY_NUMBER = 'Sort pricebook product history by number.'
     NUMBER = 'NUMBER'
-    SORT_PRICEBOOK_PRODUCT_HISTORY_BY_TYPE. = 'Sort pricebook product history by type.'
+    SORT_PRICEBOOK_PRODUCT_HISTORY_BY_TYPE = 'Sort pricebook product history by type.'
     TYPE = 'TYPE'
-    SORT_PRICEBOOK_PRODUCT_HISTORY_BY_PRICE. = 'Sort pricebook product history by price.'
+    SORT_PRICEBOOK_PRODUCT_HISTORY_BY_PRICE = 'Sort pricebook product history by price.'
     PRICE = 'PRICE'
-    SORT_PRICEBOOK_PRODUCT_HISTORY_BY_PERCENTAGE. = 'Sort pricebook product history by percentage.'
+    SORT_PRICEBOOK_PRODUCT_HISTORY_BY_PERCENTAGE = 'Sort pricebook product history by percentage.'
     PERCENTAGE = 'PERCENTAGE'
-    SORT_PRICEBOOK_PRODUCT_HISTORY_BY_CREATION_DATE. = 'Sort pricebook product history by creation date.'
+    SORT_PRICEBOOK_PRODUCT_HISTORY_BY_CREATION_DATE = 'Sort pricebook product history by creation date.'
     CREATION_DATE = 'CREATION_DATE'
     
 
@@ -1839,36 +3600,36 @@ class PriceBookProductTypeHistoryValueType(str):
     
 
 class PriceBookProductTypeHistorySortField(str):
-    SORT_PRICEBOOK_PRODUCT_TYPE_HISTORY_BY_NUMBER. = 'Sort pricebook product type history by number.'
+    SORT_PRICEBOOK_PRODUCT_TYPE_HISTORY_BY_NUMBER = 'Sort pricebook product type history by number.'
     NUMBER = 'NUMBER'
-    SORT_PRICEBOOK_PRODUCT_TYPE_HISTORY_BY_TYPE. = 'Sort pricebook product type history by type.'
+    SORT_PRICEBOOK_PRODUCT_TYPE_HISTORY_BY_TYPE = 'Sort pricebook product type history by type.'
     TYPE = 'TYPE'
-    SORT_PRICEBOOK_PRODUCT_TYPE_HISTORY_BY_PRICE. = 'Sort pricebook product type history by price.'
+    SORT_PRICEBOOK_PRODUCT_TYPE_HISTORY_BY_PRICE = 'Sort pricebook product type history by price.'
     PRICE = 'PRICE'
-    SORT_PRICEBOOK_PRODUCT_TYPE_HISTORY_BY_PERCENTAGE. = 'Sort pricebook product type history by percentage.'
+    SORT_PRICEBOOK_PRODUCT_TYPE_HISTORY_BY_PERCENTAGE = 'Sort pricebook product type history by percentage.'
     PERCENTAGE = 'PERCENTAGE'
-    SORT_PRICEBOOK_PRODUCT_TYPE_HISTORY_BY_CREATION_DATE. = 'Sort pricebook product type history by creation date.'
+    SORT_PRICEBOOK_PRODUCT_TYPE_HISTORY_BY_CREATION_DATE = 'Sort pricebook product type history by creation date.'
     CREATION_DATE = 'CREATION_DATE'
     
 
 class UserSortField(str):
-    SORT_USERS_BY_FIRST_NAME. = 'Sort users by first name.'
+    SORT_USERS_BY_FIRST_NAME = 'Sort users by first name.'
     FIRST_NAME = 'FIRST_NAME'
-    SORT_USERS_BY_LAST_NAME. = 'Sort users by last name.'
+    SORT_USERS_BY_LAST_NAME = 'Sort users by last name.'
     LAST_NAME = 'LAST_NAME'
-    SORT_USERS_BY_EMAIL. = 'Sort users by email.'
+    SORT_USERS_BY_EMAIL = 'Sort users by email.'
     EMAIL = 'EMAIL'
-    SORT_USERS_BY_ORDER_COUNT. = 'Sort users by order count.'
+    SORT_USERS_BY_ORDER_COUNT = 'Sort users by order count.'
     ORDER_COUNT = 'ORDER_COUNT'
-    SORT_USERS_BY_VENDOR. = 'Sort users by vendor.'
+    SORT_USERS_BY_VENDOR = 'Sort users by vendor.'
     VENDOR = 'VENDOR'
-    SORT_USERS_BY_COMPANY_NAME. = 'Sort users by company name.'
+    SORT_USERS_BY_COMPANY_NAME = 'Sort users by company name.'
     COMPANY_NAME = 'COMPANY_NAME'
-    SORT_USERS_BY_IS_ACTIVE. = 'Sort users by is active.'
+    SORT_USERS_BY_IS_ACTIVE = 'Sort users by is active.'
     IS_ACTIVE = 'IS_ACTIVE'
-    SORT_USERS_BY_EXTERNAL_ID. = 'Sort users by external id.'
+    SORT_USERS_BY_EXTERNAL_ID = 'Sort users by external id.'
     EXTERNAL_ID = 'EXTERNAL_ID'
-    SORT_USERS_BY_EXTERNAL_SOURCE. = 'Sort users by external source.'
+    SORT_USERS_BY_EXTERNAL_SOURCE = 'Sort users by external source.'
     EXTERNAL_SOURCE = 'EXTERNAL_SOURCE'
     
 
@@ -1933,14 +3694,14 @@ class CatalogImportOperation(str):
     
 
 class CatalogImportProcessLogRecordSortField(str):
-    SORT_USERS_BY_CREATED_AT. = 'Sort users by created at.'
+    SORT_USERS_BY_CREATED_AT = 'Sort users by created at.'
     CREATED_AT = 'CREATED_AT'
     
 
 class CatalogImportProcessSortField(str):
-    SORT_USERS_BY_CREATED_AT. = 'Sort users by created at.'
+    SORT_USERS_BY_CREATED_AT = 'Sort users by created at.'
     CREATED_AT = 'CREATED_AT'
-    SORT_USERS_BY_FINISHED_AT. = 'Sort users by finished at.'
+    SORT_USERS_BY_FINISHED_AT = 'Sort users by finished at.'
     FINISHED_AT = 'FINISHED_AT'
     
 
@@ -1963,9 +3724,9 @@ class CheckoutEventType(str):
     
 
 class CheckoutEventSortField(str):
-    SORT_CHECKOUT_EVENTS_BY_CREATED_AT. = 'Sort checkout events by created at.'
+    SORT_CHECKOUT_EVENTS_BY_CREATED_AT = 'Sort checkout events by created at.'
     CREATED_AT = 'CREATED_AT'
-    SORT_CHECKOUT_EVENTS_BY_TYPE. = 'Sort checkout events by type.'
+    SORT_CHECKOUT_EVENTS_BY_TYPE = 'Sort checkout events by type.'
     TYPE = 'TYPE'
     
 
@@ -1977,26 +3738,26 @@ class PayoutStatusFilter(str):
     
 
 class PayoutSortField(str):
-    SORT_PAYOUTS_BY_REPORT. = 'Sort payouts by report.'
+    SORT_PAYOUTS_BY_REPORT = 'Sort payouts by report.'
     REPORT = 'REPORT'
-    SORT_PAYOUTS_BY_END_DATE. = 'Sort payouts by end date.'
+    SORT_PAYOUTS_BY_END_DATE = 'Sort payouts by end date.'
     END_DATE = 'END_DATE'
-    SORT_PAYOUTS_BY_CREATED. = 'Sort payouts by created.'
+    SORT_PAYOUTS_BY_CREATED = 'Sort payouts by created.'
     CREATED = 'CREATED'
-    SORT_PAYOUTS_BY_STATUS. = 'Sort payouts by status.'
+    SORT_PAYOUTS_BY_STATUS = 'Sort payouts by status.'
     STATUS = 'STATUS'
     
 
 class PageSortField(str):
-    SORT_PAGES_BY_TITLE. = 'Sort pages by title.'
+    SORT_PAGES_BY_TITLE = 'Sort pages by title.'
     TITLE = 'TITLE'
-    SORT_PAGES_BY_SLUG. = 'Sort pages by slug.'
+    SORT_PAGES_BY_SLUG = 'Sort pages by slug.'
     SLUG = 'SLUG'
-    SORT_PAGES_BY_VISIBILITY. = 'Sort pages by visibility.'
+    SORT_PAGES_BY_VISIBILITY = 'Sort pages by visibility.'
     VISIBILITY = 'VISIBILITY'
-    SORT_PAGES_BY_CREATION_DATE. = 'Sort pages by creation date.'
+    SORT_PAGES_BY_CREATION_DATE = 'Sort pages by creation date.'
     CREATION_DATE = 'CREATION_DATE'
-    SORT_PAGES_BY_PUBLICATION_DATE. = 'Sort pages by publication date.'
+    SORT_PAGES_BY_PUBLICATION_DATE = 'Sort pages by publication date.'
     PUBLICATION_DATE = 'PUBLICATION_DATE'
     
 
@@ -2020,19 +3781,19 @@ class FulfillmentStatusFilter(str):
     
 
 class ReturnFulfillmentSortField(str):
-    SORT_RETURN_FULFILLMENTS_BY_NUMBER. = 'Sort return fulfillments by number.'
+    SORT_RETURN_FULFILLMENTS_BY_NUMBER = 'Sort return fulfillments by number.'
     NUMBER = 'NUMBER'
-    SORT_RETURN_FULFILLMENTS_BY_TRACKING_NUMBER. = 'Sort return fulfillments by tracking number.'
+    SORT_RETURN_FULFILLMENTS_BY_TRACKING_NUMBER = 'Sort return fulfillments by tracking number.'
     TRACKING_NUMBER = 'TRACKING_NUMBER'
-    SORT_RETURN_FULFILLMENTS_BY_CREATION_DATE. = 'Sort return fulfillments by creation date.'
+    SORT_RETURN_FULFILLMENTS_BY_CREATION_DATE = 'Sort return fulfillments by creation date.'
     CREATION_DATE = 'CREATION_DATE'
-    SORT_RETURN_FULFILLMENTS_BY_CUSTOMER. = 'Sort return fulfillments by customer.'
+    SORT_RETURN_FULFILLMENTS_BY_CUSTOMER = 'Sort return fulfillments by customer.'
     CUSTOMER = 'CUSTOMER'
-    SORT_RETURN_FULFILLMENTS_BY_ITEMS. = 'Sort return fulfillments by items.'
+    SORT_RETURN_FULFILLMENTS_BY_ITEMS = 'Sort return fulfillments by items.'
     ITEMS = 'ITEMS'
-    SORT_RETURN_FULFILLMENTS_BY_PRICE. = 'Sort return fulfillments by price.'
+    SORT_RETURN_FULFILLMENTS_BY_PRICE = 'Sort return fulfillments by price.'
     PRICE = 'PRICE'
-    SORT_RETURN_FULFILLMENTS_BY_RETURN_STATUS. = 'Sort return fulfillments by return status.'
+    SORT_RETURN_FULFILLMENTS_BY_RETURN_STATUS = 'Sort return fulfillments by return status.'
     RETURN_STATUS = 'RETURN_STATUS'
     
 
@@ -2042,25 +3803,25 @@ class MicrositePublished(str):
     
 
 class MicrositeSortField(str):
-    SORT_MICROSITES_BY_NAME. = 'Sort microsites by name.'
+    SORT_MICROSITES_BY_NAME = 'Sort microsites by name.'
     NAME = 'NAME'
-    SORT_MICROSITES_BY_AVAILABILITY. = 'Sort microsites by availability.'
+    SORT_MICROSITES_BY_AVAILABILITY = 'Sort microsites by availability.'
     AVAILABILITY = 'AVAILABILITY'
-    SORT_MICROSITES_BY_PRODUCT_COUNT. = 'Sort microsites by product count.'
+    SORT_MICROSITES_BY_PRODUCT_COUNT = 'Sort microsites by product count.'
     PRODUCT_COUNT = 'PRODUCT_COUNT'
-    SORT_MICROSITES_BY_PUBLICATION_DATE. = 'Sort microsites by publication date.'
+    SORT_MICROSITES_BY_PUBLICATION_DATE = 'Sort microsites by publication date.'
     PUBLICATION_DATE = 'PUBLICATION_DATE'
     
 
 class MenuSortField(str):
-    SORT_MENUS_BY_NAME. = 'Sort menus by name.'
+    SORT_MENUS_BY_NAME = 'Sort menus by name.'
     NAME = 'NAME'
-    SORT_MENUS_BY_ITEMS_COUNT. = 'Sort menus by items count.'
+    SORT_MENUS_BY_ITEMS_COUNT = 'Sort menus by items count.'
     ITEMS_COUNT = 'ITEMS_COUNT'
     
 
 class MenuItemsSortField(str):
-    SORT_MENU_ITEMS_BY_NAME. = 'Sort menu items by name.'
+    SORT_MENU_ITEMS_BY_NAME = 'Sort menu items by name.'
     NAME = 'NAME'
     
 
@@ -2430,16 +4191,16 @@ class VariantUniquenessEnum(str):
     
 
 class RevenueAccrualStrategyEnum(str):
-    ACCRUE_REVENUE_TO_THE_MARKETPLACE_AND_SELLERS_WHEN_ORDERS_ARE_FULFILLED. = 'Accrue revenue to the marketplace and sellers when orders are fulfilled.'
+    ACCRUE_REVENUE_TO_THE_MARKETPLACE_AND_SELLERS_WHEN_ORDERS_ARE_FULFILLED = 'Accrue revenue to the marketplace and sellers when orders are fulfilled.'
     FULFILLMENT = 'FULFILLMENT'
-    ACCRUE_ALL_REVENUE_TO_THE_MARKETPLACE_AND_SELLERS_WHEN_ORDERS_ARE_PLACED. = 'Accrue all revenue to the marketplace and sellers when orders are placed.'
+    ACCRUE_ALL_REVENUE_TO_THE_MARKETPLACE_AND_SELLERS_WHEN_ORDERS_ARE_PLACED = 'Accrue all revenue to the marketplace and sellers when orders are placed.'
     ORDER_PLACEMENT = 'ORDER_PLACEMENT'
     
 
 class AvailableShippingStrategyEnum(str):
-    AVAILABLE_SHIPPING_METHODS_PER_SELLER_ARE_CALCULATED_USING_ONLY_THE_LINE_TOTALS_FOR_THE_SELLER. = 'Available shipping methods per seller are calculated using only the line totals for the seller.'
+    AVAILABLE_SHIPPING_METHODS_PER_SELLER_ARE_CALCULATED_USING_ONLY_THE_LINE_TOTALS_FOR_THE_SELLER = 'Available shipping methods per seller are calculated using only the line totals for the seller.'
     SELLER_LINES = 'SELLER_LINES'
-    AVAILABLE_SHIPPING_METHODS_PER_SELLER_ARE_CALCULATED_USING_EVERY_LINE_TOTAL,_NOT_JUST_THE_SELLERS'_LINES. = 'Available shipping methods per seller are calculated using every line total, not just the sellers' lines.'
+    AVAILABLE_SHIPPING_METHODS_PER_SELLER_ARE_CALCULATED_USING_EVERY_LINE_TOTAL,_NOT_JUST_THE_SELLERS'_LINES = 'Available shipping methods per seller are calculated using every line total, not just the sellers' lines.'
     MARKETPLACE_LINES = 'MARKETPLACE_LINES'
     
 
@@ -2614,7 +4375,7 @@ class NotifyEventTypeEnum(str):
     
 
 class EmailEventSortField(str):
-    SORT_RETURN_EMAIL_LOGS_BY_DATE. = 'Sort return email_logs by date.'
+    SORT_RETURN_EMAIL_LOGS_BY_DATE = 'Sort return email_logs by date.'
     DATE = 'DATE'
     
 
@@ -2677,16 +4438,16 @@ class LedgerTypeEnum(str):
     
 
 class JournalEntrySortField(str):
-    SORT_JOURNAL_ENTRIES_BY_DATE. = 'Sort journal entries by date.'
+    SORT_JOURNAL_ENTRIES_BY_DATE = 'Sort journal entries by date.'
     DATE = 'DATE'
-    SORT_JOURNAL_ENTRIES_BY_TYPE. = 'Sort journal entries by type.'
+    SORT_JOURNAL_ENTRIES_BY_TYPE = 'Sort journal entries by type.'
     TYPE = 'TYPE'
     
 
 class LedgerSortField(str):
-    SORT_LEDGERS_BY_BALANCE. = 'Sort ledgers by balance.'
+    SORT_LEDGERS_BY_BALANCE = 'Sort ledgers by balance.'
     BALANCE = 'BALANCE'
-    SORT_LEDGERS_BY_TYPE. = 'Sort ledgers by type.'
+    SORT_LEDGERS_BY_TYPE = 'Sort ledgers by type.'
     TYPE = 'TYPE'
     
 
@@ -2697,15 +4458,15 @@ class DiscountStatusEnum(str):
     
 
 class SaleSortField(str):
-    SORT_SALES_BY_NAME. = 'Sort sales by name.'
+    SORT_SALES_BY_NAME = 'Sort sales by name.'
     NAME = 'NAME'
-    SORT_SALES_BY_START_DATE. = 'Sort sales by start date.'
+    SORT_SALES_BY_START_DATE = 'Sort sales by start date.'
     START_DATE = 'START_DATE'
-    SORT_SALES_BY_END_DATE. = 'Sort sales by end date.'
+    SORT_SALES_BY_END_DATE = 'Sort sales by end date.'
     END_DATE = 'END_DATE'
-    SORT_SALES_BY_VALUE. = 'Sort sales by value.'
+    SORT_SALES_BY_VALUE = 'Sort sales by value.'
     VALUE = 'VALUE'
-    SORT_SALES_BY_TYPE. = 'Sort sales by type.'
+    SORT_SALES_BY_TYPE = 'Sort sales by type.'
     TYPE = 'TYPE'
     
 
@@ -2716,43 +4477,43 @@ class VoucherDiscountType(str):
     
 
 class VoucherSortField(str):
-    SORT_VOUCHERS_BY_CODE. = 'Sort vouchers by code.'
+    SORT_VOUCHERS_BY_CODE = 'Sort vouchers by code.'
     CODE = 'CODE'
-    SORT_VOUCHERS_BY_START_DATE. = 'Sort vouchers by start date.'
+    SORT_VOUCHERS_BY_START_DATE = 'Sort vouchers by start date.'
     START_DATE = 'START_DATE'
-    SORT_VOUCHERS_BY_END_DATE. = 'Sort vouchers by end date.'
+    SORT_VOUCHERS_BY_END_DATE = 'Sort vouchers by end date.'
     END_DATE = 'END_DATE'
-    SORT_VOUCHERS_BY_VALUE. = 'Sort vouchers by value.'
+    SORT_VOUCHERS_BY_VALUE = 'Sort vouchers by value.'
     VALUE = 'VALUE'
-    SORT_VOUCHERS_BY_TYPE. = 'Sort vouchers by type.'
+    SORT_VOUCHERS_BY_TYPE = 'Sort vouchers by type.'
     TYPE = 'TYPE'
-    SORT_VOUCHERS_BY_USAGE_LIMIT. = 'Sort vouchers by usage limit.'
+    SORT_VOUCHERS_BY_USAGE_LIMIT = 'Sort vouchers by usage limit.'
     USAGE_LIMIT = 'USAGE_LIMIT'
-    SORT_VOUCHERS_BY_MINIMUM_SPENT_AMOUNT. = 'Sort vouchers by minimum spent amount.'
+    SORT_VOUCHERS_BY_MINIMUM_SPENT_AMOUNT = 'Sort vouchers by minimum spent amount.'
     MINIMUM_SPENT_AMOUNT = 'MINIMUM_SPENT_AMOUNT'
     
 
 class ExportEventsEnum(str):
-    DATA_EXPORT_WAS_STARTED. = 'Data export was started.'
+    DATA_EXPORT_WAS_STARTED = 'Data export was started.'
     EXPORT_PENDING = 'EXPORT_PENDING'
-    DATA_EXPORT_WAS_COMPLETED_SUCCESSFULLY. = 'Data export was completed successfully.'
+    DATA_EXPORT_WAS_COMPLETED_SUCCESSFULLY = 'Data export was completed successfully.'
     EXPORT_SUCCESS = 'EXPORT_SUCCESS'
-    DATA_EXPORT_FAILED. = 'Data export failed.'
+    DATA_EXPORT_FAILED = 'Data export failed.'
     EXPORT_FAILED = 'EXPORT_FAILED'
-    EXPORT_FILE_WAS_DELETED. = 'Export file was deleted.'
+    EXPORT_FILE_WAS_DELETED = 'Export file was deleted.'
     EXPORT_DELETED = 'EXPORT_DELETED'
-    EMAIL_WITH_LINK_TO_DOWNLOAD_FILE_WAS_SENT_TO_THE_CUSTOMER. = 'Email with link to download file was sent to the customer.'
+    EMAIL_WITH_LINK_TO_DOWNLOAD_FILE_WAS_SENT_TO_THE_CUSTOMER = 'Email with link to download file was sent to the customer.'
     EXPORTED_FILE_SENT = 'EXPORTED_FILE_SENT'
-    EMAIL_WITH_INFO_THAT_EXPORT_FAILED_WAS_SENT_TO_THE_CUSTOMER. = 'Email with info that export failed was sent to the customer.'
+    EMAIL_WITH_INFO_THAT_EXPORT_FAILED_WAS_SENT_TO_THE_CUSTOMER = 'Email with info that export failed was sent to the customer.'
     EXPORT_FAILED_INFO_SENT = 'EXPORT_FAILED_INFO_SENT'
     
 
 class ExportFileSortField(str):
-    SORT_EXPORT_FILE_BY_STATUS. = 'Sort export file by status.'
+    SORT_EXPORT_FILE_BY_STATUS = 'Sort export file by status.'
     STATUS = 'STATUS'
-    SORT_EXPORT_FILE_BY_CREATED_AT. = 'Sort export file by created at.'
+    SORT_EXPORT_FILE_BY_CREATED_AT = 'Sort export file by created at.'
     CREATED_AT = 'CREATED_AT'
-    SORT_EXPORT_FILE_BY_UPDATED_AT. = 'Sort export file by updated at.'
+    SORT_EXPORT_FILE_BY_UPDATED_AT = 'Sort export file by updated at.'
     UPDATED_AT = 'UPDATED_AT'
     
 
@@ -2777,7 +4538,7 @@ class AttributeSortField(str):
     FILTERABLE_IN_DASHBOARD = 'FILTERABLE_IN_DASHBOARD'
     SORT_ATTRIBUTES_BY_THEIR_POSITION_IN_STOREFRONT = 'Sort attributes by their position in storefront'
     STOREFRONT_SEARCH_POSITION = 'STOREFRONT_SEARCH_POSITION'
-    SORT_ATTRIBUTES_BASED_ON_WHETHER_THEY_CAN_BE_DISPLAYED_OR_NOT_IN_A_PRODUCT_GRID. = 'Sort attributes based on whether they can be displayed or not in a product grid.'
+    SORT_ATTRIBUTES_BASED_ON_WHETHER_THEY_CAN_BE_DISPLAYED_OR_NOT_IN_A_PRODUCT_GRID = 'Sort attributes based on whether they can be displayed or not in a product grid.'
     AVAILABLE_IN_GRID = 'AVAILABLE_IN_GRID'
     
 
@@ -2791,27 +4552,27 @@ class CustomFieldTemplateEnum(str):
     
 
 class AppSortField(str):
-    SORT_APPS_BY_NAME. = 'Sort apps by name.'
+    SORT_APPS_BY_NAME = 'Sort apps by name.'
     NAME = 'NAME'
-    SORT_APPS_BY_CREATION_DATE. = 'Sort apps by creation date.'
+    SORT_APPS_BY_CREATION_DATE = 'Sort apps by creation date.'
     CREATION_DATE = 'CREATION_DATE'
     
 
 class AgreementSortField(str):
-    SORT_AGREEMENTS_BY_TITLE. = 'Sort agreements by title.'
+    SORT_AGREEMENTS_BY_TITLE = 'Sort agreements by title.'
     TITLE = 'TITLE'
-    SORT_AGREEMENTS_BY_SLUG. = 'Sort agreements by slug.'
+    SORT_AGREEMENTS_BY_SLUG = 'Sort agreements by slug.'
     SLUG = 'SLUG'
-    SORT_AGREEMENTS_BY_VISIBILITY. = 'Sort agreements by visibility.'
+    SORT_AGREEMENTS_BY_VISIBILITY = 'Sort agreements by visibility.'
     VISIBILITY = 'VISIBILITY'
-    SORT_AGREEMENTS_BY_CREATION_DATE. = 'Sort agreements by creation date.'
+    SORT_AGREEMENTS_BY_CREATION_DATE = 'Sort agreements by creation date.'
     CREATION_DATE = 'CREATION_DATE'
-    SORT_AGREEMENTS_BY_PUBLICATION_DATE. = 'Sort agreements by publication date.'
+    SORT_AGREEMENTS_BY_PUBLICATION_DATE = 'Sort agreements by publication date.'
     PUBLICATION_DATE = 'PUBLICATION_DATE'
     
 
 class PermissionGroupSortField(str):
-    SORT_PERMISSION_GROUP_ACCOUNTS_BY_NAME. = 'Sort permission group accounts by name.'
+    SORT_PERMISSION_GROUP_ACCOUNTS_BY_NAME = 'Sort permission group accounts by name.'
     NAME = 'NAME'
     
 
@@ -3128,15 +4889,15 @@ class DraftOrderInitialStatus(str):
     
 
 class ImportEventsEnum(str):
-    DATA_IMPORT_WAS_STARTED. = 'Data import was started.'
+    DATA_IMPORT_WAS_STARTED = 'Data import was started.'
     IMPORT_PENDING = 'IMPORT_PENDING'
-    DATA_IMPORT_WAS_COMPLETED_SUCCESSFULLY. = 'Data import was completed successfully.'
+    DATA_IMPORT_WAS_COMPLETED_SUCCESSFULLY = 'Data import was completed successfully.'
     IMPORT_SUCCESS = 'IMPORT_SUCCESS'
     IMPORT_FAILED = 'Import Failed'
     IMPORT_FAILED = 'IMPORT_FAILED'
-    DATA_IMPORT_FAILED. = 'Data import failed.'
+    DATA_IMPORT_FAILED = 'Data import failed.'
     IMPORT_DELETED = 'IMPORT_DELETED'
-    IMPORT_FILE_WAS_DELETED. = 'Import file was deleted.'
+    IMPORT_FILE_WAS_DELETED = 'Import file was deleted.'
     IMPORTED_FILE_SENT = 'IMPORTED_FILE_SENT'
     
 
@@ -3204,11 +4965,11 @@ class ExportErrorCode(str):
     
 
 class ExportScope(str):
-    EXPORT_ALL_PRODUCTS. = 'Export all products.'
+    EXPORT_ALL_PRODUCTS = 'Export all products.'
     ALL = 'ALL'
-    EXPORT_PRODUCTS_WITH_GIVEN_IDS. = 'Export products with given ids.'
+    EXPORT_PRODUCTS_WITH_GIVEN_IDS = 'Export products with given ids.'
     IDS = 'IDS'
-    EXPORT_THE_FILTERED_PRODUCTS. = 'Export the filtered products.'
+    EXPORT_THE_FILTERED_PRODUCTS = 'Export the filtered products.'
     FILTER = 'FILTER'
     
 
@@ -3232,9 +4993,9 @@ class ProductFieldEnum(str):
     
 
 class FileTypesEnum(str):
-    PLAIN_CSV_FILE. = 'Plain CSV file.'
+    PLAIN_CSV_FILE = 'Plain CSV file.'
     CSV = 'CSV'
-    EXCEL_XLSX_FILE. = 'Excel XLSX file.'
+    EXCEL_XLSX_FILE = 'Excel XLSX file.'
     XLSX = 'XLSX'
     
 

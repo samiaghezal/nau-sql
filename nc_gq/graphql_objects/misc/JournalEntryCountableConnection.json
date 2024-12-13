@@ -1,9 +1,0 @@
-{
-  "name": "JournalEntryCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[JournalEntryCountableEdge!",
-    "totalCount": "Int"
-  }
-}

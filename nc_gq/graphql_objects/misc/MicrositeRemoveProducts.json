@@ -1,8 +1,0 @@
-{
-  "name": "MicrositeRemoveProducts",
-  "implements": [],
-  "fields": {
-    "microsite": "Microsite",
-    "micrositeErrors": "[ProductError!"
-  }
-}

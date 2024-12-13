@@ -1,8 +1,0 @@
-{
-  "name": "AttributeBulkDelete",
-  "implements": [],
-  "fields": {
-    "count": "Int!",
-    "productErrors": "[ProductError!"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "name": "UserAvatarDelete",
-  "implements": [],
-  "fields": {
-    "user": "User",
-    "accountErrors": "[AccountError!"
-  }
-}

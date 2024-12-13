@@ -1,8 +1,0 @@
-{
-  "name": "VoucherRemoveCatalogues",
-  "implements": [],
-  "fields": {
-    "voucher": "Voucher",
-    "discountErrors": "[DiscountError!"
-  }
-}

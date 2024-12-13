@@ -1,8 +1,0 @@
-{
-  "name": "PriceBookProductTypeCreate",
-  "implements": [],
-  "fields": {
-    "priceBookErrors": "[PriceBookError!",
-    "priceBookProductType": "PriceBookProductType"
-  }
-}

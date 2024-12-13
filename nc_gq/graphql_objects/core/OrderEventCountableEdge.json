@@ -1,8 +1,0 @@
-{
-  "name": "OrderEventCountableEdge",
-  "implements": [],
-  "fields": {
-    "node": "OrderEvent!",
-    "cursor": "String!"
-  }
-}

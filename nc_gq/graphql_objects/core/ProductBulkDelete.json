@@ -1,8 +1,0 @@
-{
-  "name": "ProductBulkDelete",
-  "implements": [],
-  "fields": {
-    "count": "Int!",
-    "productErrors": "[ProductError!"
-  }
-}

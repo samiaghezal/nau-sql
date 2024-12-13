@@ -1,8 +1,0 @@
-{
-  "name": "MetadataDelete",
-  "implements": [],
-  "fields": {
-    "metadataErrors": "[MetadataError!",
-    "item": "ObjectWithMetadata"
-  }
-}

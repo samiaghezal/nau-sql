@@ -1,9 +1,0 @@
-{
-  "name": "StockCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[StockCountableEdge!",
-    "totalCount": "Int"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "name": "CollectionCreate",
-  "implements": [],
-  "fields": {
-    "productErrors": "[ProductError!",
-    "collection": "Collection"
-  }
-}

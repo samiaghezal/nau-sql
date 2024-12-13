@@ -1,9 +1,0 @@
-{
-  "name": "VoucherCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[VoucherCountableEdge!",
-    "totalCount": "Int"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "name": "AttributeCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[AttributeCountableEdge!",
-    "totalCount": "Int"
-  }
-}

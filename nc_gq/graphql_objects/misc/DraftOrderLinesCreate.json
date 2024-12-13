@@ -1,9 +1,0 @@
-{
-  "name": "DraftOrderLinesCreate",
-  "implements": [],
-  "fields": {
-    "order": "Order",
-    "orderLines": "[OrderLine!",
-    "orderErrors": "[OrderError!"
-  }
-}

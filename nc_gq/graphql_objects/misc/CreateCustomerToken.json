@@ -1,9 +1,0 @@
-{
-  "name": "CreateCustomerToken",
-  "implements": [],
-  "fields": {
-    "nauticalToken": "String",
-    "refreshToken": "String",
-    "authErrors": "[AuthError!"
-  }
-}

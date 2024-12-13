@@ -1,8 +1,0 @@
-{
-  "name": "InvoiceCreate",
-  "implements": [],
-  "fields": {
-    "invoiceErrors": "[InvoiceError!",
-    "invoice": "Invoice"
-  }
-}

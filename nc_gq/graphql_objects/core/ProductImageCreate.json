@@ -1,9 +1,0 @@
-{
-  "name": "ProductImageCreate",
-  "implements": [],
-  "fields": {
-    "product": "Product",
-    "image": "ProductImage",
-    "productErrors": "[ProductError!"
-  }
-}

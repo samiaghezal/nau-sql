@@ -1,9 +1,0 @@
-{
-  "name": "ShippingPriceCreate",
-  "implements": [],
-  "fields": {
-    "shippingZone": "ShippingZone",
-    "shippingErrors": "[ShippingError!",
-    "shippingMethod": "ShippingMethod"
-  }
-}

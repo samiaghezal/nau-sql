@@ -1,9 +1,0 @@
-{
-  "name": "OrderDeclineFulfillment",
-  "implements": [],
-  "fields": {
-    "fulfillments": "[Fulfillment!",
-    "order": "Order",
-    "orderErrors": "[OrderError!"
-  }
-}

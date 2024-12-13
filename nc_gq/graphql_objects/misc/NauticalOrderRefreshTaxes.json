@@ -1,8 +1,0 @@
-{
-  "name": "NauticalOrderRefreshTaxes",
-  "implements": [],
-  "fields": {
-    "nauticalOrder": "NauticalOrder",
-    "orderErrors": "[OrderError!"
-  }
-}

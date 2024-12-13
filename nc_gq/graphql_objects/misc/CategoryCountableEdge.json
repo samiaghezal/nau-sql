@@ -1,8 +1,0 @@
-{
-  "name": "CategoryCountableEdge",
-  "implements": [],
-  "fields": {
-    "node": "Category!",
-    "cursor": "String!"
-  }
-}

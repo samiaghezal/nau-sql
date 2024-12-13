@@ -1,8 +1,0 @@
-{
-  "name": "DigitalContentUrlCreate",
-  "implements": [],
-  "fields": {
-    "productErrors": "[ProductError!",
-    "digitalContentUrl": "DigitalContentUrl"
-  }
-}

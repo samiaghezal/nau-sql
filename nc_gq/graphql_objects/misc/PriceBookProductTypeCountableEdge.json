@@ -1,8 +1,0 @@
-{
-  "name": "PriceBookProductTypeCountableEdge",
-  "implements": [],
-  "fields": {
-    "node": "PriceBookProductType!",
-    "cursor": "String!"
-  }
-}

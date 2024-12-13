@@ -1,8 +1,0 @@
-{
-  "name": "InvoiceFinalize",
-  "implements": [],
-  "fields": {
-    "invoiceErrors": "[InvoiceError!",
-    "invoice": "Invoice"
-  }
-}

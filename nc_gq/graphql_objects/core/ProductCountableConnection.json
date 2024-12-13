@@ -1,9 +1,0 @@
-{
-  "name": "ProductCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[ProductCountableEdge!",
-    "totalCount": "Int"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "name": "ShippingPriceBulkDelete",
-  "implements": [],
-  "fields": {
-    "count": "Int!",
-    "shippingErrors": "[ShippingError!"
-  }
-}

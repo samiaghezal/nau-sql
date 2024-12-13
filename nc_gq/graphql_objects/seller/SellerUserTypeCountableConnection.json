@@ -1,9 +1,0 @@
-{
-  "name": "SellerUserTypeCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[SellerUserTypeCountableEdge!",
-    "totalCount": "Int"
-  }
-}

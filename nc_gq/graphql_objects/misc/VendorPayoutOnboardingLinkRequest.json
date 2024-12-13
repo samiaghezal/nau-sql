@@ -1,9 +1,0 @@
-{
-  "name": "VendorPayoutOnboardingLinkRequest",
-  "implements": [],
-  "fields": {
-    "link": "String",
-    "vendor": "Vendor",
-    "pluginsErrors": "[PluginError!"
-  }
-}

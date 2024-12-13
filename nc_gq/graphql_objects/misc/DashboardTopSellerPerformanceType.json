@@ -1,9 +1,0 @@
-{
-  "name": "DashboardTopSellerPerformanceType",
-  "implements": [],
-  "fields": {
-    "filters": "[FilterObjectType!",
-    "current": "[DashboardSellerOrderPerformanceType!",
-    "previous": "[DashboardSellerOrderPerformanceType!"
-  }
-}

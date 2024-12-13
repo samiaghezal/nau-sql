@@ -1,9 +1,0 @@
-{
-  "name": "OrderCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[OrderCountableEdge!",
-    "totalCount": "Int"
-  }
-}

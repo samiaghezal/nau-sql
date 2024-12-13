@@ -1,9 +1,0 @@
-{
-  "name": "UserCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[UserCountableEdge!",
-    "totalCount": "Int"
-  }
-}

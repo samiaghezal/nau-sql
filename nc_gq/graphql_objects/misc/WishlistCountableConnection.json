@@ -1,9 +1,0 @@
-{
-  "name": "WishlistCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[WishlistCountableEdge!",
-    "totalCount": "Int"
-  }
-}

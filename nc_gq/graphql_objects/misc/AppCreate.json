@@ -1,9 +1,0 @@
-{
-  "name": "AppCreate",
-  "implements": [],
-  "fields": {
-    "authToken": "String",
-    "appErrors": "[AppError!",
-    "app": "App"
-  }
-}

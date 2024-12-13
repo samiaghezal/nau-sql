@@ -1,9 +1,0 @@
-{
-  "name": "PaymentCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[PaymentCountableEdge!",
-    "totalCount": "Int"
-  }
-}

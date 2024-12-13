@@ -1,9 +1,0 @@
-{
-  "name": "NauticalDraftOrderLinesCreate",
-  "implements": [],
-  "fields": {
-    "order": "NauticalOrder",
-    "orderLines": "[NauticalOrderLine!",
-    "orderErrors": "[OrderError!"
-  }
-}

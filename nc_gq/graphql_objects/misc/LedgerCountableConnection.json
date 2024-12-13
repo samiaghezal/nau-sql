@@ -1,9 +1,0 @@
-{
-  "name": "LedgerCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[LedgerCountableEdge!",
-    "totalCount": "Int"
-  }
-}

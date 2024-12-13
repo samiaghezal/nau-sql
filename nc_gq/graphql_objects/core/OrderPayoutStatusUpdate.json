@@ -1,8 +1,0 @@
-{
-  "name": "OrderPayoutStatusUpdate",
-  "implements": [],
-  "fields": {
-    "order": "Order",
-    "orderErrors": "[OrderError!"
-  }
-}

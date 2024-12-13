@@ -1,8 +1,0 @@
-{
-  "name": "JournalEntryCorrect",
-  "implements": [],
-  "fields": {
-    "financialErrors": "[FinancialError!",
-    "journalEntry": "JournalEntry"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "name": "AvalaraRequestLogCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[AvalaraRequestLogCountableEdge!",
-    "totalCount": "Int"
-  }
-}

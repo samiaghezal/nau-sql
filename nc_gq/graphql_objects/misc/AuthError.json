@@ -1,9 +1,0 @@
-{
-  "name": "AuthError",
-  "implements": [],
-  "fields": {
-    "field": "String",
-    "message": "String!",
-    "code": "String!"
-  }
-}

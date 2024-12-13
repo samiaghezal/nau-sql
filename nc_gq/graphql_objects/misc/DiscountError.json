@@ -1,9 +1,0 @@
-{
-  "name": "DiscountError",
-  "implements": [],
-  "fields": {
-    "field": "String",
-    "message": "String!",
-    "code": "DiscountErrorCode!"
-  }
-}

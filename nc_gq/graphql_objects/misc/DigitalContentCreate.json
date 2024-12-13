@@ -1,9 +1,0 @@
-{
-  "name": "DigitalContentCreate",
-  "implements": [],
-  "fields": {
-    "variant": "ProductVariant",
-    "content": "DigitalContent",
-    "productErrors": "[ProductError!"
-  }
-}

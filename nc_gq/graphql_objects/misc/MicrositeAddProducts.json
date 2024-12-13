@@ -1,8 +1,0 @@
-{
-  "name": "MicrositeAddProducts",
-  "implements": [],
-  "fields": {
-    "microsite": "Microsite",
-    "micrositeErrors": "[ProductError!"
-  }
-}

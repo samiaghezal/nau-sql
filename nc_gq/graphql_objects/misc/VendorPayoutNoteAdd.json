@@ -1,9 +1,0 @@
-{
-  "name": "VendorPayoutNoteAdd",
-  "implements": [],
-  "fields": {
-    "vendorPayout": "VendorPayout",
-    "event": "VendorPayoutEvent",
-    "payoutErrors": "[PayoutError!"
-  }
-}

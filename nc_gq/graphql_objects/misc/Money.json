@@ -1,8 +1,0 @@
-{
-  "name": "Money",
-  "implements": [],
-  "fields": {
-    "currency": "String!",
-    "baseAmount": "BigInt!"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "name": "CheckoutPaymentCreate",
-  "implements": [],
-  "fields": {
-    "checkout": "Checkout",
-    "payment": "Payment",
-    "paymentErrors": "[PaymentError!"
-  }
-}

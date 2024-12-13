@@ -1,9 +1,0 @@
-{
-  "name": "OrderEventOrderLineObject",
-  "implements": [],
-  "fields": {
-    "quantity": "Int",
-    "orderLine": "OrderLine",
-    "itemName": "String"
-  }
-}

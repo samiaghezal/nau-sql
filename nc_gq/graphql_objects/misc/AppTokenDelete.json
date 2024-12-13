@@ -1,8 +1,0 @@
-{
-  "name": "AppTokenDelete",
-  "implements": [],
-  "fields": {
-    "appErrors": "[AppError!",
-    "appToken": "AppToken"
-  }
-}

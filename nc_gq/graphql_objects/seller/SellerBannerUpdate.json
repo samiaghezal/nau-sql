@@ -1,8 +1,0 @@
-{
-  "name": "SellerBannerUpdate",
-  "implements": [],
-  "fields": {
-    "seller": "Seller",
-    "sellerErrors": "[SellerError!"
-  }
-}

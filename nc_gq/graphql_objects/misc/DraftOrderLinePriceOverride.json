@@ -1,9 +1,0 @@
-{
-  "name": "DraftOrderLinePriceOverride",
-  "implements": [],
-  "fields": {
-    "order": "Order",
-    "orderErrors": "[OrderError!",
-    "orderLine": "OrderLine"
-  }
-}

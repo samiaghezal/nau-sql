@@ -1,8 +1,0 @@
-{
-  "name": "SellerLogoDelete",
-  "implements": [],
-  "fields": {
-    "seller": "Seller",
-    "sellerErrors": "[SellerError!"
-  }
-}

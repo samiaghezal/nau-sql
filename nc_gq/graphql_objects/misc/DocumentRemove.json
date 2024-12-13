@@ -1,8 +1,0 @@
-{
-  "name": "DocumentRemove",
-  "implements": [],
-  "fields": {
-    "instances": "[DocumentTargetInstance!",
-    "documentErrors": "[DocumentError!"
-  }
-}

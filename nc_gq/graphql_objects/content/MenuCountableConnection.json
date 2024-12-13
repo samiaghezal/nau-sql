@@ -1,9 +1,0 @@
-{
-  "name": "MenuCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[MenuCountableEdge!",
-    "totalCount": "Int"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "name": "PayoutCreate",
-  "implements": [],
-  "fields": {
-    "payoutErrors": "[PayoutError!",
-    "payout": "Payout"
-  }
-}

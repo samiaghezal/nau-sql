@@ -1,8 +1,0 @@
-{
-  "name": "SellerOwnerDelete",
-  "implements": [],
-  "fields": {
-    "seller": "Seller",
-    "sellerErrors": "[SellerError!"
-  }
-}

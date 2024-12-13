@@ -1,8 +1,0 @@
-{
-  "name": "GroupCountableEdge",
-  "implements": [],
-  "fields": {
-    "node": "Group!",
-    "cursor": "String!"
-  }
-}

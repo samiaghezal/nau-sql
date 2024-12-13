@@ -1,8 +1,0 @@
-{
-  "name": "UserCountableEdge",
-  "implements": [],
-  "fields": {
-    "node": "User!",
-    "cursor": "String!"
-  }
-}

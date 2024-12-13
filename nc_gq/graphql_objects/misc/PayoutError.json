@@ -1,9 +1,0 @@
-{
-  "name": "PayoutError",
-  "implements": [],
-  "fields": {
-    "field": "String",
-    "message": "String!",
-    "code": "PayoutErrorCode!"
-  }
-}

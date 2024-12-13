@@ -1,8 +1,0 @@
-{
-  "name": "WishlistSetDefault",
-  "implements": [],
-  "fields": {
-    "wishlist": "Wishlist",
-    "wishlistErrors": "[WishlistError!"
-  }
-}

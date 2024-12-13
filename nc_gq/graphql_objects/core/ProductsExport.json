@@ -1,8 +1,0 @@
-{
-  "name": "ProductsExport",
-  "implements": [],
-  "fields": {
-    "exportFile": "ExportFile",
-    "exportErrors": "[ExportError!"
-  }
-}

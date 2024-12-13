@@ -1,8 +1,0 @@
-{
-  "name": "AgreementFeeDelete",
-  "implements": [],
-  "fields": {
-    "agreementErrors": "[AgreementError!",
-    "agreementFees": "AgreementFees"
-  }
-}

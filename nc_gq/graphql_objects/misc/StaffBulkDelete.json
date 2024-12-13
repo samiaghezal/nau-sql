@@ -1,8 +1,0 @@
-{
-  "name": "StaffBulkDelete",
-  "implements": [],
-  "fields": {
-    "count": "Int!",
-    "staffErrors": "[StaffError!"
-  }
-}

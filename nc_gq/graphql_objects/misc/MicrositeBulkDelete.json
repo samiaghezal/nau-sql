@@ -1,8 +1,0 @@
-{
-  "name": "MicrositeBulkDelete",
-  "implements": [],
-  "fields": {
-    "count": "Int!",
-    "micrositeErrors": "[ProductError!"
-  }
-}

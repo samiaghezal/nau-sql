@@ -1,8 +1,0 @@
-{
-  "name": "FulfillmentCountableEdge",
-  "implements": [],
-  "fields": {
-    "node": "Fulfillment!",
-    "cursor": "String!"
-  }
-}

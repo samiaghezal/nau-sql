@@ -1,8 +1,0 @@
-{
-  "name": "VendorPayoutReport",
-  "implements": [],
-  "fields": {
-    "included": "VendorPayoutReportSubset",
-    "excluded": "VendorPayoutReportSubset"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "name": "ShopDomainUpdate",
-  "implements": [],
-  "fields": {
-    "shop": "Shop",
-    "shopErrors": "[ShopError!"
-  }
-}

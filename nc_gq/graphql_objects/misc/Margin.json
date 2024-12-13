@@ -1,8 +1,0 @@
-{
-  "name": "Margin",
-  "implements": [],
-  "fields": {
-    "start": "Int",
-    "stop": "Int"
-  }
-}

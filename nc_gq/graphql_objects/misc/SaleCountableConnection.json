@@ -1,9 +1,0 @@
-{
-  "name": "SaleCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[SaleCountableEdge!",
-    "totalCount": "Int"
-  }
-}

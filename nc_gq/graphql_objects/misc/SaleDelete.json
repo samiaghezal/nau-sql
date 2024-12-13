@@ -1,8 +1,0 @@
-{
-  "name": "SaleDelete",
-  "implements": [],
-  "fields": {
-    "discountErrors": "[DiscountError!",
-    "sale": "Sale"
-  }
-}

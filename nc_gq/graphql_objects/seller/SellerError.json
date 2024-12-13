@@ -1,9 +1,0 @@
-{
-  "name": "SellerError",
-  "implements": [],
-  "fields": {
-    "field": "String",
-    "message": "String!",
-    "code": "SellerErrorCode!"
-  }
-}

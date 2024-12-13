@@ -1,9 +1,0 @@
-{
-  "name": "CatalogImport",
-  "implements": [],
-  "fields": {
-    "ok": "Boolean",
-    "plugin": "ID",
-    "pluginsErrors": "[PluginError!"
-  }
-}

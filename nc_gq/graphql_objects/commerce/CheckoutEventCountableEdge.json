@@ -1,8 +1,0 @@
-{
-  "name": "CheckoutEventCountableEdge",
-  "implements": [],
-  "fields": {
-    "node": "CheckoutEvent!",
-    "cursor": "String!"
-  }
-}

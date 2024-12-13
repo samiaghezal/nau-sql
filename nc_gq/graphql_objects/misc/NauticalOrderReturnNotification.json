@@ -1,9 +1,0 @@
-{
-  "name": "NauticalOrderReturnNotification",
-  "implements": [],
-  "fields": {
-    "order": "NauticalOrder",
-    "event": "NauticalOrderEvent",
-    "orderErrors": "[OrderError!"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "name": "DigitalContentCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[DigitalContentCountableEdge!",
-    "totalCount": "Int"
-  }
-}

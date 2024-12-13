@@ -1,7 +1,0 @@
-{
-  "name": "DashboardEmbeddingToken",
-  "implements": [],
-  "fields": {
-    "token": "String"
-  }
-}

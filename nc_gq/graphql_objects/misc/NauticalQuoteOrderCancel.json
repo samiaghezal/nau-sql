@@ -1,8 +1,0 @@
-{
-  "name": "NauticalQuoteOrderCancel",
-  "implements": [],
-  "fields": {
-    "order": "NauticalOrder",
-    "orderErrors": "[OrderError!"
-  }
-}

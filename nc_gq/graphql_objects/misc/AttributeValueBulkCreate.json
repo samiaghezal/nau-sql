@@ -1,9 +1,0 @@
-{
-  "name": "AttributeValueBulkCreate",
-  "implements": [],
-  "fields": {
-    "count": "Int!",
-    "attributeValues": "[AttributeValue!",
-    "attributeErrors": "[AttributeError!"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "name": "FeatureDelete",
-  "implements": [],
-  "fields": {
-    "product": "Product",
-    "variant": "ProductVariant",
-    "productErrors": "[ProductError!"
-  }
-}

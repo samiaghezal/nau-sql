@@ -1,7 +1,0 @@
-{
-  "name": "AccountRequestDeletion",
-  "implements": [],
-  "fields": {
-    "accountErrors": "[AccountError!"
-  }
-}

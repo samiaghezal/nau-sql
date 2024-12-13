@@ -1,9 +1,0 @@
-{
-  "name": "Coordinates",
-  "implements": [],
-  "fields": {
-    "label": "String",
-    "latitude": "Decimal",
-    "longitude": "Decimal"
-  }
-}

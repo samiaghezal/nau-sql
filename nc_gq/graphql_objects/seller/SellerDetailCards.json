@@ -1,9 +1,0 @@
-{
-  "name": "SellerDetailCards",
-  "implements": [],
-  "fields": {
-    "sellerOrders": "Int",
-    "sellerCommissions": "Money",
-    "sellerSales": "TaxedMoney"
-  }
-}

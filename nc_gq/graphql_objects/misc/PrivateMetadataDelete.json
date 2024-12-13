@@ -1,8 +1,0 @@
-{
-  "name": "PrivateMetadataDelete",
-  "implements": [],
-  "fields": {
-    "metadataErrors": "[MetadataError!",
-    "item": "ObjectWithMetadata"
-  }
-}

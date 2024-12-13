@@ -1,9 +1,0 @@
-{
-  "name": "PriceBookProductTypeCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[PriceBookProductTypeCountableEdge!",
-    "totalCount": "Int"
-  }
-}

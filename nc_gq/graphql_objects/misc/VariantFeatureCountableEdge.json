@@ -1,8 +1,0 @@
-{
-  "name": "VariantFeatureCountableEdge",
-  "implements": [],
-  "fields": {
-    "node": "VariantFeature!",
-    "cursor": "String!"
-  }
-}

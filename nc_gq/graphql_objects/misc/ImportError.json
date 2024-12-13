@@ -1,9 +1,0 @@
-{
-  "name": "ImportError",
-  "implements": [],
-  "fields": {
-    "field": "String",
-    "message": "String!",
-    "code": "ImportErrorCode!"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "name": "PageUpdate",
-  "implements": [],
-  "fields": {
-    "pageErrors": "[PageError!",
-    "page": "Page"
-  }
-}

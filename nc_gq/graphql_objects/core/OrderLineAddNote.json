@@ -1,8 +1,0 @@
-{
-  "name": "OrderLineAddNote",
-  "implements": [],
-  "fields": {
-    "orderErrors": "[OrderError!",
-    "orderLine": "OrderLine"
-  }
-}

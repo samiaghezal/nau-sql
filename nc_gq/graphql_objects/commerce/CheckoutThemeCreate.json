@@ -1,8 +1,0 @@
-{
-  "name": "CheckoutThemeCreate",
-  "implements": [],
-  "fields": {
-    "shop": "Shop",
-    "shopErrors": "[ShopError!"
-  }
-}

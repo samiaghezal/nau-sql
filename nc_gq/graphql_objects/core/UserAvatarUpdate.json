@@ -1,8 +1,0 @@
-{
-  "name": "UserAvatarUpdate",
-  "implements": [],
-  "fields": {
-    "user": "User",
-    "accountErrors": "[AccountError!"
-  }
-}

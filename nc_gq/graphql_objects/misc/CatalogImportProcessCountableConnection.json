@@ -1,9 +1,0 @@
-{
-  "name": "CatalogImportProcessCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[CatalogImportProcessCountableEdge!",
-    "totalCount": "Int"
-  }
-}

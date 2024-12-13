@@ -1,8 +1,0 @@
-{
-  "name": "OrderCancel",
-  "implements": [],
-  "fields": {
-    "order": "Order",
-    "orderErrors": "[OrderError!"
-  }
-}

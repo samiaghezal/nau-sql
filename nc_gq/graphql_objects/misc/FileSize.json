@@ -1,9 +1,0 @@
-{
-  "name": "FileSize",
-  "implements": [],
-  "fields": {
-    "bytes": "BigInt",
-    "kilobytes": "Decimal",
-    "megabytes": "Decimal"
-  }
-}

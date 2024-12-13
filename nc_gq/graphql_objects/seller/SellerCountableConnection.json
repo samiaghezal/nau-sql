@@ -1,9 +1,0 @@
-{
-  "name": "SellerCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[SellerCountableEdge!",
-    "totalCount": "Int"
-  }
-}

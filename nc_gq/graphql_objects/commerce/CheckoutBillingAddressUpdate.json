@@ -1,8 +1,0 @@
-{
-  "name": "CheckoutBillingAddressUpdate",
-  "implements": [],
-  "fields": {
-    "checkout": "Checkout",
-    "checkoutErrors": "[CheckoutError!"
-  }
-}

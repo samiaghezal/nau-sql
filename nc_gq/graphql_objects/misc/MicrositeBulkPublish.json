@@ -1,8 +1,0 @@
-{
-  "name": "MicrositeBulkPublish",
-  "implements": [],
-  "fields": {
-    "count": "Int!",
-    "micrositeErrors": "[ProductError!"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "name": "VoucherBulkDelete",
-  "implements": [],
-  "fields": {
-    "count": "Int!",
-    "discountErrors": "[DiscountError!"
-  }
-}

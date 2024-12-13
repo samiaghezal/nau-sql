@@ -1,8 +1,0 @@
-{
-  "name": "CollectionAddVariants",
-  "implements": [],
-  "fields": {
-    "collection": "Collection",
-    "productErrors": "[ProductError!"
-  }
-}

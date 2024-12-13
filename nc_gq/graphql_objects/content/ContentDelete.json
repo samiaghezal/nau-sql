@@ -1,8 +1,0 @@
-{
-  "name": "ContentDelete",
-  "implements": [],
-  "fields": {
-    "shopErrors": "[ShopError!",
-    "content": "Content"
-  }
-}

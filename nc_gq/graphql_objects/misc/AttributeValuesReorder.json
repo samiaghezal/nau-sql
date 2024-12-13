@@ -1,8 +1,0 @@
-{
-  "name": "AttributeValuesReorder",
-  "implements": [],
-  "fields": {
-    "attribute": "Attribute",
-    "productErrors": "[ProductError!"
-  }
-}

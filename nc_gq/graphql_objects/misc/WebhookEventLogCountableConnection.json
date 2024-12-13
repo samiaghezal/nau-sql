@@ -1,9 +1,0 @@
-{
-  "name": "WebhookEventLogCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[WebhookEventLogCountableEdge!",
-    "totalCount": "Int"
-  }
-}

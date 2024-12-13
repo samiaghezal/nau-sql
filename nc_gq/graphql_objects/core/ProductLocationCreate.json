@@ -1,9 +1,0 @@
-{
-  "name": "ProductLocationCreate",
-  "implements": [],
-  "fields": {
-    "product": "Product",
-    "location": "Location",
-    "productErrors": "[ProductError!"
-  }
-}

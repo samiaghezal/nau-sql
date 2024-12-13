@@ -1,8 +1,0 @@
-{
-  "name": "PageCountableEdge",
-  "implements": [],
-  "fields": {
-    "node": "Page!",
-    "cursor": "String!"
-  }
-}

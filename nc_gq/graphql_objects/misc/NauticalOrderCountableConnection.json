@@ -1,9 +1,0 @@
-{
-  "name": "NauticalOrderCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[NauticalOrderCountableEdge!",
-    "totalCount": "Int"
-  }
-}

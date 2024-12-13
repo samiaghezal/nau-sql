@@ -1,8 +1,0 @@
-{
-  "name": "DraftOrderSetTransactionCurrency",
-  "implements": [],
-  "fields": {
-    "order": "Order",
-    "orderErrors": "[OrderError!"
-  }
-}

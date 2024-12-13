@@ -1,8 +1,0 @@
-{
-  "name": "RefundLineCountableEdge",
-  "implements": [],
-  "fields": {
-    "node": "RefundLine!",
-    "cursor": "String!"
-  }
-}

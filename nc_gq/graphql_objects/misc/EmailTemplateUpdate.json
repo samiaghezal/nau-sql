@@ -1,8 +1,0 @@
-{
-  "name": "EmailTemplateUpdate",
-  "implements": [],
-  "fields": {
-    "emailTemplate": "EmailTemplate",
-    "notificationErrors": "[NotificationError!"
-  }
-}

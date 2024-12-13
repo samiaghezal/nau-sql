@@ -1,7 +1,0 @@
-{
-  "name": "Geolocalization",
-  "implements": [],
-  "fields": {
-    "country": "CountryDisplay"
-  }
-}

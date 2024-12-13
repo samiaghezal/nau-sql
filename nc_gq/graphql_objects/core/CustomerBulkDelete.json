@@ -1,8 +1,0 @@
-{
-  "name": "CustomerBulkDelete",
-  "implements": [],
-  "fields": {
-    "count": "Int!",
-    "accountErrors": "[AccountError!"
-  }
-}

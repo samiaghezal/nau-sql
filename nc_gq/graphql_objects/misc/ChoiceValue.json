@@ -1,8 +1,0 @@
-{
-  "name": "ChoiceValue",
-  "implements": [],
-  "fields": {
-    "raw": "String",
-    "verbose": "String"
-  }
-}

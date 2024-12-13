@@ -1,8 +1,0 @@
-{
-  "name": "NauticalHistoricalOrderCreate",
-  "implements": [],
-  "fields": {
-    "orderErrors": "[OrderError!",
-    "nauticalOrder": "NauticalOrder"
-  }
-}

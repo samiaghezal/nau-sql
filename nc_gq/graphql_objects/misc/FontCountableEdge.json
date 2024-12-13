@@ -1,8 +1,0 @@
-{
-  "name": "FontCountableEdge",
-  "implements": [],
-  "fields": {
-    "node": "Font!",
-    "cursor": "String!"
-  }
-}

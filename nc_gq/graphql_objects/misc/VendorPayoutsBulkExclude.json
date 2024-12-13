@@ -1,8 +1,0 @@
-{
-  "name": "VendorPayoutsBulkExclude",
-  "implements": [],
-  "fields": {
-    "count": "Int!",
-    "payoutErrors": "[PayoutError!"
-  }
-}

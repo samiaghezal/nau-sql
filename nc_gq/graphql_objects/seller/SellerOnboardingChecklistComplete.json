@@ -1,8 +1,0 @@
-{
-  "name": "SellerOnboardingChecklistComplete",
-  "implements": [],
-  "fields": {
-    "checklist": "SellerOnboardingChecklist",
-    "checklistErrors": "[SellerOnboardingChecklistError!"
-  }
-}

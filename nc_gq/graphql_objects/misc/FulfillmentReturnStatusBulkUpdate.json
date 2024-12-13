@@ -1,9 +1,0 @@
-{
-  "name": "FulfillmentReturnStatusBulkUpdate",
-  "implements": [],
-  "fields": {
-    "fulfillment": "Fulfillment",
-    "order": "Order",
-    "orderErrors": "[OrderError!"
-  }
-}

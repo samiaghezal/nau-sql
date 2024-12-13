@@ -1,8 +1,0 @@
-{
-  "name": "AttributeCountableEdge",
-  "implements": [],
-  "fields": {
-    "node": "Attribute!",
-    "cursor": "String!"
-  }
-}

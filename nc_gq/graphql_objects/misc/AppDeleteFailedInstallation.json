@@ -1,8 +1,0 @@
-{
-  "name": "AppDeleteFailedInstallation",
-  "implements": [],
-  "fields": {
-    "appErrors": "[AppError!",
-    "appInstallation": "AppInstallation"
-  }
-}

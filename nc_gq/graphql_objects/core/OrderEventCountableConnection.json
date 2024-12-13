@@ -1,9 +1,0 @@
-{
-  "name": "OrderEventCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[OrderEventCountableEdge!",
-    "totalCount": "Int"
-  }
-}

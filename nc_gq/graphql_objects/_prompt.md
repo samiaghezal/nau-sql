@@ -1,1 +1,0 @@
-without using json fields create django models

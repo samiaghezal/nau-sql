@@ -1,8 +1,0 @@
-{
-  "name": "NauticalDraftOrderLinesBulkDelete",
-  "implements": [],
-  "fields": {
-    "count": "Int!",
-    "orderErrors": "[OrderError!"
-  }
-}

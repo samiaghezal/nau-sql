@@ -1,9 +1,0 @@
-{
-  "name": "SellerDataCreate",
-  "implements": [],
-  "fields": {
-    "ok": "Boolean",
-    "seller": "Seller",
-    "sellerErrors": "[SellerError!"
-  }
-}

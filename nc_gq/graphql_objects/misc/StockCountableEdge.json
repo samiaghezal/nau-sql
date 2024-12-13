@@ -1,8 +1,0 @@
-{
-  "name": "StockCountableEdge",
-  "implements": [],
-  "fields": {
-    "node": "Stock!",
-    "cursor": "String!"
-  }
-}

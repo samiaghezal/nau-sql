@@ -1,8 +1,0 @@
-{
-  "name": "ShopAddressUpdate",
-  "implements": [],
-  "fields": {
-    "shop": "Shop",
-    "shopErrors": "[ShopError!"
-  }
-}

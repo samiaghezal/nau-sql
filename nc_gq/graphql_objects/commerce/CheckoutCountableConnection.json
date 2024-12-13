@@ -1,9 +1,0 @@
-{
-  "name": "CheckoutCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[CheckoutCountableEdge!",
-    "totalCount": "Int"
-  }
-}

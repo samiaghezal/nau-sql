@@ -1,8 +1,0 @@
-{
-  "name": "CollectionRemoveVariants",
-  "implements": [],
-  "fields": {
-    "collection": "Collection",
-    "productErrors": "[ProductError!"
-  }
-}

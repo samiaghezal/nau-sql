@@ -1,9 +1,0 @@
-{
-  "name": "SellerShellCreate",
-  "implements": [],
-  "fields": {
-    "ok": "Boolean",
-    "seller": "Seller",
-    "sellerErrors": "[SellerError!"
-  }
-}

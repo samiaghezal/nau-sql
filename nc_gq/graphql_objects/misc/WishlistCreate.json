@@ -1,8 +1,0 @@
-{
-  "name": "WishlistCreate",
-  "implements": [],
-  "fields": {
-    "wishlistErrors": "[WishlistError!",
-    "wishlist": "Wishlist"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "name": "AppCountableEdge",
-  "implements": [],
-  "fields": {
-    "node": "App!",
-    "cursor": "String!"
-  }
-}

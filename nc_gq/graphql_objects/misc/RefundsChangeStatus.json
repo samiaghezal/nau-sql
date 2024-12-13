@@ -1,8 +1,0 @@
-{
-  "name": "RefundsChangeStatus",
-  "implements": [],
-  "fields": {
-    "count": "Int!",
-    "refundErrors": "[RefundError!"
-  }
-}

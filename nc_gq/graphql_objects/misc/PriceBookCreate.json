@@ -1,8 +1,0 @@
-{
-  "name": "PriceBookCreate",
-  "implements": [],
-  "fields": {
-    "priceBookErrors": "[PriceBookError!",
-    "priceBook": "PriceBook"
-  }
-}

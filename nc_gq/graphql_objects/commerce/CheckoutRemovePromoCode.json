@@ -1,8 +1,0 @@
-{
-  "name": "CheckoutRemovePromoCode",
-  "implements": [],
-  "fields": {
-    "checkout": "Checkout",
-    "checkoutErrors": "[CheckoutError!"
-  }
-}

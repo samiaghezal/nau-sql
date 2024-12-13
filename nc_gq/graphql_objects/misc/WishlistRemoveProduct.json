@@ -1,8 +1,0 @@
-{
-  "name": "WishlistRemoveProduct",
-  "implements": [],
-  "fields": {
-    "wishlist": "[WishlistItem!",
-    "wishlistErrors": "[WishlistError!"
-  }
-}

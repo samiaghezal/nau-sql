@@ -1,8 +1,0 @@
-{
-  "name": "DigitalContentDelete",
-  "implements": [],
-  "fields": {
-    "variant": "ProductVariant",
-    "productErrors": "[ProductError!"
-  }
-}

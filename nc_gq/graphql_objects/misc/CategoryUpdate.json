@@ -1,8 +1,0 @@
-{
-  "name": "CategoryUpdate",
-  "implements": [],
-  "fields": {
-    "productErrors": "[ProductError!",
-    "category": "Category"
-  }
-}

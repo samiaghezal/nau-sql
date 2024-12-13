@@ -1,8 +1,0 @@
-{
-  "name": "StorefrontThemeCreate",
-  "implements": [],
-  "fields": {
-    "shop": "Shop",
-    "shopErrors": "[ShopError!"
-  }
-}

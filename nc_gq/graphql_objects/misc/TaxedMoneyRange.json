@@ -1,8 +1,0 @@
-{
-  "name": "TaxedMoneyRange",
-  "implements": [],
-  "fields": {
-    "start": "TaxedMoney",
-    "stop": "TaxedMoney"
-  }
-}

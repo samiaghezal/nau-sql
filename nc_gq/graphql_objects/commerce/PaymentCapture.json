@@ -1,8 +1,0 @@
-{
-  "name": "PaymentCapture",
-  "implements": [],
-  "fields": {
-    "payment": "Payment",
-    "paymentErrors": "[PaymentError!"
-  }
-}

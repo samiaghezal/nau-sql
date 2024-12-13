@@ -1,8 +1,0 @@
-{
-  "name": "ProductsImport",
-  "implements": [],
-  "fields": {
-    "importFile": "ImportFile",
-    "importErrors": "[ImportError!"
-  }
-}

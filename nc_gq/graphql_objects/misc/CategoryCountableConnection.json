@@ -1,9 +1,0 @@
-{
-  "name": "CategoryCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[CategoryCountableEdge!",
-    "totalCount": "Int"
-  }
-}

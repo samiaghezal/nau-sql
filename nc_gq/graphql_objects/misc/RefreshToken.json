@@ -1,9 +1,0 @@
-{
-  "name": "RefreshToken",
-  "implements": [],
-  "fields": {
-    "token": "String",
-    "user": "User",
-    "accountErrors": "[AccountError!"
-  }
-}

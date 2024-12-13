@@ -1,8 +1,0 @@
-{
-  "name": "AgreementUpdate",
-  "implements": [],
-  "fields": {
-    "agreementErrors": "[AgreementError!",
-    "agreement": "Agreement"
-  }
-}

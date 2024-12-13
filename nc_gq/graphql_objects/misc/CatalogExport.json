@@ -1,9 +1,0 @@
-{
-  "name": "CatalogExport",
-  "implements": [],
-  "fields": {
-    "ok": "Boolean",
-    "plugin": "ID",
-    "pluginsErrors": "[PluginError!"
-  }
-}

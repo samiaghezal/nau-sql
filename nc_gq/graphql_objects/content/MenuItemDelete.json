@@ -1,8 +1,0 @@
-{
-  "name": "MenuItemDelete",
-  "implements": [],
-  "fields": {
-    "menuErrors": "[MenuError!",
-    "menuItem": "MenuItem"
-  }
-}

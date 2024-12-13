@@ -1,8 +1,0 @@
-{
-  "name": "RefundPaymentsUpdate",
-  "implements": [],
-  "fields": {
-    "refund": "Refund",
-    "refundErrors": "[RefundError!"
-  }
-}

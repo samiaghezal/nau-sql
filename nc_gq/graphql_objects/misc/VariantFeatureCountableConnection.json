@@ -1,9 +1,0 @@
-{
-  "name": "VariantFeatureCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[VariantFeatureCountableEdge!",
-    "totalCount": "Int"
-  }
-}

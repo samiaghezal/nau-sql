@@ -1,9 +1,0 @@
-{
-  "name": "NotificationError",
-  "implements": [],
-  "fields": {
-    "field": "String",
-    "message": "String!",
-    "code": "NotificationErrorCode!"
-  }
-}

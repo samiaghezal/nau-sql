@@ -1,9 +1,0 @@
-{
-  "name": "GroupCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[GroupCountableEdge!",
-    "totalCount": "Int"
-  }
-}

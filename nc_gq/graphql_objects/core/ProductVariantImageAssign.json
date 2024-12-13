@@ -1,9 +1,0 @@
-{
-  "name": "ProductVariantImageAssign",
-  "implements": [],
-  "fields": {
-    "productVariant": "ProductVariant",
-    "image": "ProductImage",
-    "productErrors": "[ProductError!"
-  }
-}

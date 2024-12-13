@@ -1,8 +1,0 @@
-{
-  "name": "NauticalConfigurationUpdate",
-  "implements": [],
-  "fields": {
-    "nauticalConfigurationList": "[NauticalConfiguration!",
-    "nauticalConfigurationErrors": "[NauticalConfigurationError!"
-  }
-}

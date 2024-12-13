@@ -1,9 +1,0 @@
-{
-  "name": "PayoutCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[PayoutCountableEdge!",
-    "totalCount": "Int"
-  }
-}

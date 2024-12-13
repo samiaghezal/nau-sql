@@ -1,8 +1,0 @@
-{
-  "name": "MenuCreate",
-  "implements": [],
-  "fields": {
-    "menuErrors": "[MenuError!",
-    "menu": "Menu"
-  }
-}

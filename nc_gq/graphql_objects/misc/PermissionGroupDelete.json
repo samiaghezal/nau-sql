@@ -1,8 +1,0 @@
-{
-  "name": "PermissionGroupDelete",
-  "implements": [],
-  "fields": {
-    "permissionGroupErrors": "[PermissionGroupError!",
-    "group": "Group"
-  }
-}

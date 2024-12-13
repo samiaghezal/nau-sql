@@ -1,8 +1,0 @@
-{
-  "name": "AgreementBulkDelete",
-  "implements": [],
-  "fields": {
-    "count": "Int!",
-    "agreementErrors": "[AgreementError!"
-  }
-}

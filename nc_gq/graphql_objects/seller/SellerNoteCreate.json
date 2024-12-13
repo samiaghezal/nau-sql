@@ -1,9 +1,0 @@
-{
-  "name": "SellerNoteCreate",
-  "implements": [],
-  "fields": {
-    "ok": "Boolean",
-    "note": "String",
-    "sellerErrors": "[SellerError!"
-  }
-}

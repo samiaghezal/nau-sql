@@ -1,8 +1,0 @@
-{
-  "name": "DraftOrderDelete",
-  "implements": [],
-  "fields": {
-    "orderErrors": "[OrderError!",
-    "order": "Order"
-  }
-}

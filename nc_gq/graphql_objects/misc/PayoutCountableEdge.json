@@ -1,8 +1,0 @@
-{
-  "name": "PayoutCountableEdge",
-  "implements": [],
-  "fields": {
-    "node": "Payout!",
-    "cursor": "String!"
-  }
-}

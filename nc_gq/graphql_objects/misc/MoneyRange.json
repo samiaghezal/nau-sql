@@ -1,8 +1,0 @@
-{
-  "name": "MoneyRange",
-  "implements": [],
-  "fields": {
-    "start": "Money",
-    "stop": "Money"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "name": "PriceBookProductHistoryCountableEdge",
-  "implements": [],
-  "fields": {
-    "node": "PriceBookProductHistory!",
-    "cursor": "String!"
-  }
-}

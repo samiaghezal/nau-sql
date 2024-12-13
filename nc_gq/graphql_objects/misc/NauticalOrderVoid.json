@@ -1,8 +1,0 @@
-{
-  "name": "NauticalOrderVoid",
-  "implements": [],
-  "fields": {
-    "order": "NauticalOrder",
-    "orderErrors": "[OrderError!"
-  }
-}

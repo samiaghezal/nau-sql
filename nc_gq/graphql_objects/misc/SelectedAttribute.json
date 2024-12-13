@@ -1,9 +1,0 @@
-{
-  "name": "SelectedAttribute",
-  "implements": [],
-  "fields": {
-    "attribute": "Attribute!",
-    "values": "[AttributeValue!",
-    "templated": "Boolean"
-  }
-}

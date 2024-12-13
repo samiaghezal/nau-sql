@@ -1,8 +1,0 @@
-{
-  "name": "MarketplaceConfigurationUpdate",
-  "implements": [],
-  "fields": {
-    "marketplaceConfiguration": "MarketplaceConfiguration",
-    "marketplaceConfigurationErrors": "[MarketplaceConfigurationError!"
-  }
-}

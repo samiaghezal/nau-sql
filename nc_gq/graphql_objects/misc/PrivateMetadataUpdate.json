@@ -1,8 +1,0 @@
-{
-  "name": "PrivateMetadataUpdate",
-  "implements": [],
-  "fields": {
-    "metadataErrors": "[MetadataError!",
-    "item": "ObjectWithMetadata"
-  }
-}

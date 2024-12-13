@@ -1,9 +1,0 @@
-{
-  "name": "NauticalOrderPaymentCreate",
-  "implements": [],
-  "fields": {
-    "order": "NauticalOrder",
-    "payment": "Payment",
-    "paymentErrors": "[PaymentError!"
-  }
-}

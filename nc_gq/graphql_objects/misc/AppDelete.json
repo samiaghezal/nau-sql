@@ -1,8 +1,0 @@
-{
-  "name": "AppDelete",
-  "implements": [],
-  "fields": {
-    "appErrors": "[AppError!",
-    "app": "App"
-  }
-}

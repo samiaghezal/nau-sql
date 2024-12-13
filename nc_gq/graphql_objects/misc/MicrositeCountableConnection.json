@@ -1,9 +1,0 @@
-{
-  "name": "MicrositeCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[MicrositeCountableEdge!",
-    "totalCount": "Int"
-  }
-}

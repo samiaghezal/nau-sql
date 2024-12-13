@@ -1,9 +1,0 @@
-{
-  "name": "ProductImageReorder",
-  "implements": [],
-  "fields": {
-    "product": "Product",
-    "images": "[ProductImage!",
-    "productErrors": "[ProductError!"
-  }
-}

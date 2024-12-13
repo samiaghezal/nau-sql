@@ -1,9 +1,0 @@
-{
-  "name": "TypeformFormAttachment",
-  "implements": [],
-  "fields": {
-    "type": "String",
-    "href": "String",
-    "properties": "TypeformFormProperties"
-  }
-}

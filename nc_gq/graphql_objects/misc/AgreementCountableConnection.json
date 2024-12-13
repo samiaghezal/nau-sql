@@ -1,9 +1,0 @@
-{
-  "name": "AgreementCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[AgreementCountableEdge!",
-    "totalCount": "Int"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "name": "NauticalDraftOrderSetTransactionCurrency",
-  "implements": [],
-  "fields": {
-    "nauticalOrder": "NauticalOrder",
-    "orderErrors": "[OrderError!"
-  }
-}

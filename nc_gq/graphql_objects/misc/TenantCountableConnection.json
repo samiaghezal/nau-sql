@@ -1,9 +1,0 @@
-{
-  "name": "TenantCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[TenantCountableEdge!",
-    "totalCount": "Int"
-  }
-}

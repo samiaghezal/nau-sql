@@ -1,9 +1,0 @@
-{
-  "name": "CatalogImportProcessLogRecordCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[CatalogImportProcessLogRecordCountableEdge!",
-    "totalCount": "Int"
-  }
-}

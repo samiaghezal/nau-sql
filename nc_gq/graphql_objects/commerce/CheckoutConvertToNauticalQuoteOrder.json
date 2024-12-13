@@ -1,8 +1,0 @@
-{
-  "name": "CheckoutConvertToNauticalQuoteOrder",
-  "implements": [],
-  "fields": {
-    "order": "NauticalOrder",
-    "checkoutErrors": "[CheckoutError!"
-  }
-}

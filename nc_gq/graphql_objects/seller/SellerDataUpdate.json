@@ -1,9 +1,0 @@
-{
-  "name": "SellerDataUpdate",
-  "implements": [],
-  "fields": {
-    "ok": "Boolean",
-    "seller": "Seller",
-    "sellerErrors": "[SellerError!"
-  }
-}

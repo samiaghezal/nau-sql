@@ -1,8 +1,0 @@
-{
-  "name": "CollectionCountableEdge",
-  "implements": [],
-  "fields": {
-    "node": "Collection!",
-    "cursor": "String!"
-  }
-}

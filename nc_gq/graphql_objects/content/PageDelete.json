@@ -1,8 +1,0 @@
-{
-  "name": "PageDelete",
-  "implements": [],
-  "fields": {
-    "pageErrors": "[PageError!",
-    "page": "Page"
-  }
-}

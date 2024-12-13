@@ -1,9 +1,0 @@
-{
-  "name": "SellerUserMappingCreate",
-  "implements": [],
-  "fields": {
-    "ok": "Boolean",
-    "sellerUser": "SellerUserType",
-    "sellerErrors": "[SellerError!"
-  }
-}

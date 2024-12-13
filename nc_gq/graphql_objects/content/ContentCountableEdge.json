@@ -1,8 +1,0 @@
-{
-  "name": "ContentCountableEdge",
-  "implements": [],
-  "fields": {
-    "node": "Content!",
-    "cursor": "String!"
-  }
-}

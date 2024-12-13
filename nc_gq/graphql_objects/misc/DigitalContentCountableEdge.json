@@ -1,8 +1,0 @@
-{
-  "name": "DigitalContentCountableEdge",
-  "implements": [],
-  "fields": {
-    "node": "DigitalContent!",
-    "cursor": "String!"
-  }
-}

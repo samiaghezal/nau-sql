@@ -1,8 +1,0 @@
-{
-  "name": "OrderBulkCancel",
-  "implements": [],
-  "fields": {
-    "count": "Int!",
-    "orderErrors": "[OrderError!"
-  }
-}

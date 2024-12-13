@@ -1,8 +1,0 @@
-{
-  "name": "TenantUpdate",
-  "implements": [],
-  "fields": {
-    "tenant": "Tenant",
-    "tenantErrors": "[TenantError!"
-  }
-}

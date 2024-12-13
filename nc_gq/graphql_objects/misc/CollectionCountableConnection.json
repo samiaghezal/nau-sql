@@ -1,9 +1,0 @@
-{
-  "name": "CollectionCountableConnection",
-  "implements": [],
-  "fields": {
-    "pageInfo": "PageInfo!",
-    "edges": "[CollectionCountableEdge!",
-    "totalCount": "Int"
-  }
-}

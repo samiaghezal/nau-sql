@@ -1,8 +1,0 @@
-{
-  "name": "ContentDiscard",
-  "implements": [],
-  "fields": {
-    "content": "Content",
-    "shopErrors": "[ShopError!"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "name": "FeatureCreate",
-  "implements": [],
-  "fields": {
-    "feature": "Feature",
-    "productErrors": "[ProductError!"
-  }
-}

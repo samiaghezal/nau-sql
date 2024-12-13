@@ -1,8 +1,0 @@
-{
-  "name": "MenuItemCountableEdge",
-  "implements": [],
-  "fields": {
-    "node": "MenuItem!",
-    "cursor": "String!"
-  }
-}

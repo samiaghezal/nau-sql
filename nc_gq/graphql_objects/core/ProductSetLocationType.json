@@ -1,9 +1,0 @@
-{
-  "name": "ProductSetLocationType",
-  "implements": [],
-  "fields": {
-    "product": "Product",
-    "location": "Location",
-    "productErrors": "[ProductError!"
-  }
-}

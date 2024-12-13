@@ -1,9 +1,0 @@
-{
-  "name": "PageError",
-  "implements": [],
-  "fields": {
-    "field": "String",
-    "message": "String!",
-    "code": "PageErrorCode!"
-  }
-}
